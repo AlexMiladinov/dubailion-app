@@ -252,5 +252,89 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 4,
+    title: 'Legion Clash 2: Rise of Empires',
+    imageUrl: '/assets/Legion Clash 2.jpg',
+    description: 'The epic strategy battle returns with more factions, deeper gameplay, and greater rewards',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Legion Clash 2: Rise of Empires',
+        description: 'The epic strategy battle returns with more factions, deeper gameplay, and greater rewards',
+        story: `<p>Legion Clash 2 expands the battlefield with four mighty factions vying for supremacy. Will you side with the Solar Empire, Lunar Republic, Storm Federation, or Crystal Alliance?</p>
+        <p>Your engagement shapes the war like never before - comments summon elite units, likes trigger powerful abilities, and gifts unleash devastating special attacks. Every action counts in this evolving conflict.</p>
+        <p>Master the enhanced card system to build unstoppable armies. Combine faction abilities, unlock legendary heroes, and lead your forces to victory. Top contributors earn exclusive commander titles and share in the spoils of war.</p>
+        <p>The more intense the battle becomes, the greater your impact on the outcome. Choose wisely, strategize carefully, and watch your decisions unfold in real-time.</p>
+        <p>Build your empire. Command your legions. Will you rise to become the ultimate ruler?</p>`
+      },
+      ar: {
+        title: 'صراع الفيلق 2: صعود الإمبراطوريات',
+        description: 'تعود معركة الاستراتيجية الملحمية مع المزيد من الفصائل، وأسلوب لعب أعمق، ومكافآت أكبر',
+        story: `<p>يوسع صراع الفيلق 2 ساحة المعركة مع أربع فصائل قوية تتنافس على السيادة. هل ستنحاز إلى الإمبراطورية الشمسية، جمهورية القمر، اتحاد العاصفة، أم تحالف الكريستال؟</p>
+        <p>مشاركتك تشكل الحرب كما لم يحدث من قبل - التعليقات تستدعي وحدات النخبة، الإعجابات تطلق قدرات قوية، والهدايا تطلق هجمات خاصة مدمرة. كل إجراء له أهمية في هذا الصراع المتطور.</p>
+        <p>أتقن نظام البطاقات المحسن لبناء جيوش لا تقهر. اجمع بين قدرات الفصائل، افتح الأبطال الأسطوريين، وقد قواتك إلى النصر. يحصل كبار المساهمين على ألقاب قائد حصرية ويشاركون في غنائم الحرب.</p>
+        <p>كلما ازدادت حدة المعركة، ازداد تأثيرك على النتيجة. اختر بحكمة، خطط بعناية، وشاهد قراراتك تتكشف في الوقت الفعلي.</p>
+        <p>ابنِ إمبراطوريتك. قُد فيالقك. هل سترتقي لتصبح الحاكم الأعلى؟</p>`
+      },
+      de: {
+        title: 'Legion Clash 2: Aufstieg der Imperien',
+        description: 'Die epische Strategieschlacht kehrt zurück mit mehr Fraktionen, tieferem Gameplay und größeren Belohnungen',
+        story: `<p>Legion Clash 2 erweitert das Schlachtfeld mit vier mächtigen Fraktionen, die um die Vorherrschaft kämpfen. Werden Sie sich dem Sonnenimperium, der Mondrepublik, der Sturmföderation oder der Kristallallianz anschließen?</p>
+        <p>Ihr Engagement formt den Krieg wie nie zuvor - Kommentare beschwören Eliteeinheiten, Likes lösen mächtige Fähigkeiten aus und Geschenke entfesseln verheerende Spezialangriffe. Jede Aktion zählt in diesem sich entwickelnden Konflikt.</p>
+        <p>Meistern Sie das verbesserte Kartensystem, um unaufhaltsame Armeen aufzubauen. Kombinieren Sie Fraktionsfähigkeiten, schalten Sie legendäre Helden frei und führen Sie Ihre Streitkräfte zum Sieg. Top-Beitragende erhalten exklusive Kommandeurstitel und teilen sich die Kriegsbeute.</p>
+        <p>Je intensiver die Schlacht wird, desto größer wird Ihr Einfluss auf den Ausgang. Wählen Sie weise, planen Sie sorgfältig und beobachten Sie, wie sich Ihre Entscheidungen in Echtzeit entfalten.</p>
+        <p>Bauen Sie Ihr Imperium auf. Befehligen Sie Ihre Legionen. Werden Sie aufsteigen, um der ultimative Herrscher zu werden?</p>`
+      },
+      ru: {
+        title: 'Legion Clash 2: Восхождение Империй',
+        description: 'Эпическая стратегическая битва возвращается с большим количеством фракций, более глубоким геймплеем и большими наградами',
+        story: `<p>Legion Clash 2 расширяет поле битвы с четырьмя могущественными фракциями, борющимися за превосходство. Присоединитесь ли вы к Солнечной Империи, Лунной Республике, Штормовой Федерации или Кристальному Альянсу?</p>
+        <p>Ваше участие формирует войну как никогда раньше - комментарии призывают элитные отряды, лайки активируют мощные способности, а подарки высвобождают разрушительные специальные атаки. Каждое действие имеет значение в этом развивающемся конфликте.</p>
+        <p>Освойте улучшенную систему карт, чтобы создать непобедимые армии. Комбинируйте способности фракций, разблокируйте легендарных героев и ведите свои войска к победе. Лучшие участники получают эксклюзивные титулы командиров и делят военные трофеи.</p>
+        <p>Чем интенсивнее становится битва, тем больше ваше влияние на её исход. Выбирайте мудро, планируйте тщательно и наблюдайте, как ваши решения воплощаются в реальном времени.</p>
+        <p>Постройте свою империю. Командуйте легионами. Сможете ли вы подняться, чтобы стать верховным правителем?</p>`
+      },
+      fr: {
+        title: 'Legion Clash 2 : L\'Ascension des Empires',
+        description: 'La bataille stratégique épique revient avec plus de factions, un gameplay plus profond et de plus grandes récompenses',
+        story: `<p>Legion Clash 2 élargit le champ de bataille avec quatre puissantes factions en lice pour la suprématie. Rejoindrez-vous l'Empire Solaire, la République Lunaire, la Fédération des Tempêtes ou l'Alliance de Cristal ?</p>
+        <p>Votre engagement façonne la guerre comme jamais auparavant - les commentaires invoquent des unités d'élite, les likes déclenchent de puissantes capacités et les cadeaux libèrent des attaques spéciales dévastatrices. Chaque action compte dans ce conflit en évolution.</p>
+        <p>Maîtrisez le système de cartes amélioré pour construire des armées inarrêtables. Combinez les capacités des factions, débloquez des héros légendaires et menez vos forces à la victoire. Les meilleurs contributeurs gagnent des titres exclusifs de commandant et partagent le butin de guerre.</p>
+        <p>Plus la bataille devient intense, plus votre impact sur le résultat est grand. Choisissez sagement, stratégisez avec soin et regardez vos décisions se dérouler en temps réel.</p>
+        <p>Construisez votre empire. Commandez vos légions. Vous élèverez-vous pour devenir le souverain ultime ?</p>`
+      },
+      zh: {
+        title: '军团冲突2：帝国崛起',
+        description: '史诗级战略对决回归，带来更多阵营、更深层的游戏玩法和更丰厚的奖励',
+        story: `<p>军团冲突2扩展了战场，四大强大阵营争夺霸权。你会选择加入太阳帝国、月球共和国、风暴联邦还是水晶联盟？</p>
+        <p>你的参与以前所未有的方式影响战争 - 评论召唤精英部队，点赞触发强大技能，礼物释放毁灭性特殊攻击。在这场不断演变的冲突中，每个行动都至关重要。</p>
+        <p>掌握升级后的卡牌系统来建立无敌军队。结合阵营能力，解锁传奇英雄，率领军队走向胜利。顶级贡献者获得专属指挥官头衔并分享战争战利品。</p>
+        <p>战斗越激烈，你对结果的影响就越大。明智选择，谨慎策划，实时观察你的决策展开。</p>
+        <p>建立你的帝国。统帅你的军团。你能否崛起成为终极统治者？</p>`
+      },
+      vi: {
+        title: 'Xung Đột Quân Đoàn 2: Đế Chế Trỗi Dậy',
+        description: 'Trận chiến chiến lược hoành tráng trở lại với nhiều phe phái hơn, lối chơi sâu sắc hơn và phần thưởng lớn hơn',
+        story: `<p>Xung Đột Quân Đoàn 2 mở rộng chiến trường với bốn phe phái hùng mạnh tranh giành quyền thống trị. Bạn sẽ về phe Đế Chế Mặt Trời, Cộng Hòa Mặt Trăng, Liên Bang Bão Tố hay Liên Minh Pha Lê?</p>
+        <p>Sự tham gia của bạn định hình cuộc chiến như chưa từng có - bình luận triệu hồi đơn vị tinh nhuệ, lượt thích kích hoạt khả năng mạnh mẽ, và quà tặng giải phóng đòn tấn công đặc biệt tàn phá. Mỗi hành động đều có ý nghĩa trong cuộc xung đột không ngừng phát triển này.</p>
+        <p>Làm chủ hệ thống thẻ bài nâng cao để xây dựng đội quân bất khả chiến bại. Kết hợp khả năng phe phái, mở khóa anh hùng huyền thoại và dẫn dắt quân đội đến chiến thắng. Những người đóng góp hàng đầu nhận được danh hiệu chỉ huy độc quyền và chia sẻ chiến lợi phẩm.</p>
+        <p>Trận chiến càng trở nên dữ dội, ảnh hưởng của bạn đến kết quả càng lớn. Lựa chọn khôn ngoan, lập chiến lược cẩn thận và theo dõi quyết định của bạn diễn ra trong thời gian thực.</p>
+        <p>Xây dựng đế chế của bạn. Chỉ huy quân đoàn của bạn. Bạn có thể vươn lên để trở thành người cai trị tối cao?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
