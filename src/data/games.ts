@@ -505,5 +505,89 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 7,
+    title: 'Island Rush: Livestream Tower Defense Chaos',
+    imageUrl: '/assets/Island Rush_ Livestream Tower Defense Chaos.jpg',
+    description: 'A dynamic tower defense where viewers help defend tropical islands from invaders',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Island Rush: Livestream Tower Defense Chaos',
+        description: 'A dynamic tower defense where viewers help defend tropical islands from invaders',
+        story: `<p>Island Rush puts you in command of paradise's last line of defense. Join the Tidal Guardians or the Storm Sentinels!</p>
+        <p>Every viewer interaction strengthens your defenses - comments deploy defensive towers, likes upgrade existing structures, and gifts unleash devastating island powers. Real teamwork creates real protection.</p>
+        <p>Master your defense cards to create impenetrable fortifications, unlock legendary towers, and protect paradise. Your strategic choices determine survival, with top defenders earning exclusive defender titles and tropical rewards.</p>
+        <p>As waves intensify, your defensive capabilities grow. Choose your towers, plan your strategy, and watch your defenses hold the line in real-time.</p>
+        <p>Protect paradise. Repel invaders. Can you weather the storm of endless attacks?</p>`
+      },
+      ar: {
+        title: 'اندفاع الجزيرة: فوضى الدفاع عن البرج المباشر',
+        description: 'دفاع عن البرج ديناميكي حيث يساعد المشاهدون في الدفاع عن الجزر الاستوائية من الغزاة',
+        story: `<p>يضعك اندفاع الجزيرة في قيادة خط الدفاع الأخير عن الجنة. انضم إلى حراس المد أو حراس العاصفة!</p>
+        <p>كل تفاعل من المشاهدين يقوي دفاعاتك - التعليقات تنشر أبراج دفاعية، الإعجابات تطور المنشآت القائمة، والهدايا تطلق قوى الجزيرة المدمرة. العمل الجماعي الحقيقي يخلق حماية حقيقية.</p>
+        <p>أتقن بطاقات الدفاع الخاصة بك لإنشاء تحصينات لا يمكن اختراقها، وفتح الأبراج الأسطورية، وحماية الجنة. خياراتك الاستراتيجية تحدد البقاء، ويحصل كبار المدافعين على ألقاب مدافع حصرية ومكافآت استوائية.</p>
+        <p>مع تكثيف الموجات، تنمو قدراتك الدفاعية. اختر أبراجك، خطط استراتيجيتك، وشاهد دفاعاتك تصمد في الوقت الفعلي.</p>
+        <p>احمِ الجنة. اصد الغزاة. هل يمكنك تحمل عاصفة الهجمات اللانهائية؟</p>`
+      },
+      de: {
+        title: 'Inselansturm: Livestream Turmverteidigung Chaos',
+        description: 'Eine dynamische Turmverteidigung, bei der Zuschauer tropische Inseln vor Eindringlingen schützen',
+        story: `<p>Inselansturm stellt dich an die Spitze der letzten Verteidigungslinie des Paradieses. Schließe dich den Gezeitenwächtern oder den Sturmwächtern an!</p>
+        <p>Jede Zuschauerinteraktion stärkt deine Verteidigung - Kommentare setzen Verteidigungstürme ein, Likes verbessern bestehende Strukturen und Geschenke entfesseln verheerende Inselkräfte. Echte Teamarbeit schafft echten Schutz.</p>
+        <p>Meistere deine Verteidigungskarten, um undurchdringliche Befestigungen zu errichten, legendäre Türme freizuschalten und das Paradies zu schützen. Deine strategischen Entscheidungen bestimmen das Überleben, wobei Top-Verteidiger exklusive Verteidigertitel und tropische Belohnungen erhalten.</p>
+        <p>Mit zunehmender Intensität der Wellen wachsen deine Verteidigungsfähigkeiten. Wähle deine Türme, plane deine Strategie und beobachte, wie deine Verteidigung in Echtzeit standhält.</p>
+        <p>Beschütze das Paradies. Wehre Eindringlinge ab. Kannst du dem Sturm endloser Angriffe standhalten?</p>`
+      },
+      ru: {
+        title: 'Островной Натиск: Хаос Защиты Башен в Прямом Эфире',
+        description: 'Динамическая защита башен, где зрители помогают защищать тропические острова от захватчиков',
+        story: `<p>Островной Натиск ставит вас во главе последней линии обороны рая. Присоединяйтесь к Приливным Стражам или Штормовым Часовым!</p>
+        <p>Каждое взаимодействие зрителей усиливает вашу защиту - комментарии развертывают оборонительные башни, лайки улучшают существующие структуры, а подарки высвобождают разрушительные силы острова. Реальная командная работа создает реальную защиту.</p>
+        <p>Освойте свои карты защиты, чтобы создать непроницаемые укрепления, разблокировать легендарные башни и защитить рай. Ваши стратегические решения определяют выживание, а лучшие защитники получают эксклюзивные титулы защитников и тропические награды.</p>
+        <p>По мере усиления волн растут ваши оборонительные возможности. Выбирайте башни, планируйте стратегию и наблюдайте, как ваша защита держит строй в реальном времени.</p>
+        <p>Защитите рай. Отразите захватчиков. Сможете ли вы выдержать шторм бесконечных атак?</p>`
+      },
+      fr: {
+        title: 'Ruée vers l\'Île : Chaos de Défense de Tours en Direct',
+        description: 'Une défense de tours dynamique où les spectateurs aident à défendre les îles tropicales contre les envahisseurs',
+        story: `<p>Ruée vers l'Île vous place aux commandes de la dernière ligne de défense du paradis. Rejoignez les Gardiens des Marées ou les Sentinelles des Tempêtes !</p>
+        <p>Chaque interaction des spectateurs renforce vos défenses - les commentaires déploient des tours défensives, les likes améliorent les structures existantes et les cadeaux libèrent des pouvoirs insulaires dévastateurs. Un véritable travail d'équipe crée une véritable protection.</p>
+        <p>Maîtrisez vos cartes de défense pour créer des fortifications impénétrables, débloquer des tours légendaires et protéger le paradis. Vos choix stratégiques déterminent la survie, les meilleurs défenseurs gagnant des titres exclusifs de défenseur et des récompenses tropicales.</p>
+        <p>À mesure que les vagues s'intensifient, vos capacités défensives augmentent. Choisissez vos tours, planifiez votre stratégie et regardez vos défenses tenir la ligne en temps réel.</p>
+        <p>Protégez le paradis. Repoussez les envahisseurs. Pouvez-vous résister à la tempête d'attaques sans fin ?</p>`
+      },
+      zh: {
+        title: '岛屿冲锋：直播塔防混战',
+        description: '一个动态的塔防游戏，观众帮助保卫热带岛屿免受入侵者侵害',
+        story: `<p>岛屿冲锋让你指挥天堂的最后防线。加入潮汐守卫或风暴哨兵！</p>
+        <p>每个观众互动都能加强你的防御 - 评论部署防御塔，点赞升级现有建筑，礼物释放毁灭性的岛屿力量。真实的团队合作创造真实的保护。</p>
+        <p>掌握你的防御卡牌来创建牢不可破的防御工事，解锁传奇防御塔，保护天堂。你的战略选择决定生存，顶级防御者获得专属防御者头衔和热带奖励。</p>
+        <p>随着波次加剧，你的防御能力也在增长。选择你的防御塔，规划你的策略，实时观看你的防御坚守阵地。</p>
+        <p>保护天堂。击退入侵者。你能经受住无尽攻击的风暴吗？</p>`
+      },
+      vi: {
+        title: 'Tấn Công Đảo: Hỗn Loạn Phòng Thủ Tháp Trực Tiếp',
+        description: 'Một trò chơi phòng thủ tháp năng động nơi người xem giúp bảo vệ các đảo nhiệt đới khỏi kẻ xâm lược',
+        story: `<p>Tấn Công Đảo đặt bạn chỉ huy tuyến phòng thủ cuối cùng của thiên đường. Tham gia Vệ Binh Thủy Triều hoặc Lính Canh Bão!</p>
+        <p>Mỗi tương tác của người xem đều tăng cường phòng thủ của bạn - bình luận triển khai tháp phòng thủ, lượt thích nâng cấp công trình hiện có, và quà tặng giải phóng sức mạnh hủy diệt của đảo. Làm việc nhóm thực sự tạo ra bảo vệ thực sự.</p>
+        <p>Làm chủ các thẻ phòng thủ của bạn để tạo ra các công sự không thể xâm phạm, mở khóa các tháp huyền thoại và bảo vệ thiên đường. Lựa chọn chiến lược của bạn quyết định sự sống còn, với những người phòng thủ hàng đầu nhận được danh hiệu người bảo vệ độc quyền và phần thưởng nhiệt đới.</p>
+        <p>Khi các đợt tấn công trở nên mạnh mẽ hơn, khả năng phòng thủ của bạn cũng tăng theo. Chọn tháp của bạn, lên kế hoạch chiến lược và theo dõi phòng thủ của bạn giữ vững phòng tuyến trong thời gian thực.</p>
+        <p>Bảo vệ thiên đường. Đẩy lùi kẻ xâm lược. Bạn có thể chống chọi với cơn bão tấn công bất tận không?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
