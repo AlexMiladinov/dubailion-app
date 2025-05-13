@@ -113,7 +113,6 @@ export const games: Game[] = [
       }
     }
   },
-  // Games 3-8 would be here...
   {
     id: 9,
     title: 'Coloring Heroes: Paint. Power Up. Protect the World',
@@ -278,6 +277,63 @@ export const games: Game[] = [
       recommended: {
         os: 'Windows 10 (64-bit) or Android 10.0+',
         processor: 'Intel Core i5-7400 or AMD Ryzen 3 1300X',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 12,
+    title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+    imageUrl: '/assets/Cheese Battle_ The Ultimate Cat vs. Mouse Showdown.jpg',
+    description: 'A fast-paced battle game where cats and mice compete for cheese supremacy',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+        description: 'A fast-paced battle game where cats and mice compete for cheese supremacy',
+        story: `<p>In <strong>Cheese Battle</strong>, players enter a whimsical world where cats and mice engage in strategic warfare over precious cheese resources. Stream viewers can support either faction, dropping power-ups and creating chaos in this delightfully chaotic competition.</p>`
+      },
+      de: {
+        title: 'Käse-Schlacht: Das ultimative Katze-gegen-Maus-Duell',
+        description: 'Ein schnelles Kampfspiel, in dem Katzen und Mäuse um die Käse-Vorherrschaft kämpfen',
+        story: `<p>In <strong>Käse-Schlacht</strong> betreten die Spieler eine skurrile Welt, in der Katzen und Mäuse einen strategischen Krieg um wertvolle Käseressourcen führen. Stream-Zuschauer können jede Fraktion unterstützen und Power-ups fallen lassen.</p>`
+      },
+      fr: {
+        title: 'Bataille de Fromage: L\'Ultime Affrontement Chat contre Souris',
+        description: 'Un jeu de combat rapide où chats et souris s\'affrontent pour la suprématie du fromage',
+        story: `<p>Dans <strong>Bataille de Fromage</strong>, les joueurs entrent dans un monde fantaisiste où chats et souris s'engagent dans une guerre stratégique pour des ressources précieuses de fromage. Les spectateurs peuvent soutenir chaque faction.</p>`
+      },
+      ru: {
+        title: 'Битва за Сыр: Решающее Противостояние Кошек и Мышей',
+        description: 'Динамичная боевая игра, где кошки и мыши сражаются за превосходство в мире сыра',
+        story: `<p>В <strong>Битве за Сыр</strong> игроки попадают в причудливый мир, где кошки и мыши ведут стратегическую войну за ценные сырные ресурсы. Зрители стрима могут поддерживать любую фракцию.</p>`
+      },
+      zh: {
+        title: '奶酪大战：猫鼠终极对决',
+        description: '一款快节奏的战斗游戏，猫和老鼠为奶酪霸权而战',
+        story: `<p>在<strong>奶酪大战</strong>中，玩家进入一个奇幻世界，猫和老鼠为珍贵的奶酪资源展开战略战争。直播观众可以支持任意阵营，投放道具制造混乱。</p>`
+      },
+      ar: {
+        title: 'معركة الجبن: المواجهة النهائية بين القط والفأر',
+        description: 'لعبة قتال سري
+عة حيث تتنافس القطط والفئران على السيادة في عالم الجبن',
+        story: `<p>في <strong>معركة الجبن</strong>، يدخل اللاعبون عالماً غريباً حيث تخوض القطط والفئران حرباً استراتيجية على موارد الجبن الثمينة. يمكن لمشاهدي البث دعم أي من الفصيلين.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Phô Mai: Cuộc Đối Đầu Tối Thượng Giữa Mèo và Chuột',
+        description: 'Trò chơi chiến đấu nhịp độ nhanh nơi mèo và chuột tranh giành quyền thống trị phô mai',
+        story: `<p>Trong <strong>Đại Chiến Phô Mai</strong>, người chơi bước vào thế giới kỳ quặc nơi mèo và chuột tham gia vào cuộc chiến chiến lược giành nguồn tài nguyên phô mai quý giá. Người xem stream có thể ủng hộ bất kỳ phe nào.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit)',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-6400 or AMD Ryzen 3 1200',
         memory: '8 GB RAM'
       }
     }
