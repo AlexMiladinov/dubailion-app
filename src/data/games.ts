@@ -151,7 +151,7 @@ export const games: Game[] = [
         description: 'Trận chiến chiến lược thời gian thực hoành tráng nơi người xem định hình kết quả',
         story: `<p>Xung Đột Quân Đoàn đặt bạn vào trung tâm của chiến trường hoành tráng, nơi chiến lược gặp gỡ tương tác trực tiếp. Bạn sẽ tham gia Lữ đoàn Bình minh hay Liên minh Hoàng hôn?</p>
         <p>Mỗi bình luận, lượt thích và quà tặng bạn gửi đều giải phóng các đơn vị và khả năng mạnh mẽ. Chỉ huy quân đội, thi triển phép thuật và thay đổi cục diện trận chiến bằng sự hỗ trợ của bạn.</p>
-        <p>Sử dụng thẻ chiến đấu một cách khôn ngoan để mở khóa các chỉ huy huyền thoại và đơn vị tinh nhuệ. Đóng góp của bạn thúc đẩy nỗ lực chiến tranh, những người ủng hộ hàng đầu nhận được danh hiệu và phần thưởng độc đáo.</p>
+        <p>Sử dụng thẻ chiến đấu một cách khôn ngoan để mở khóa các chỉ huy huyền thoại và đơn vị tinh nhuệ. Đóng góp của bạn thúc đẩy nỗ lực chiến tranh, với những người ủng hộ hàng đầu nhận được danh hiệu và phần thưởng độc đáo.</p>
         <p>Khi xung đột leo thang, ảnh hưởng của bạn cũng tăng theo. Chọn phe trung thành, lên kế hoạch chiến lược và theo dõi trận chiến diễn ra trong thời gian thực.</p>
         <p>Tập hợp lực lượng của bạn. Giành chiến thắng. Bạn có thể chiến thắng trong cuộc đụng độ hoành tráng này không?</p>`
       }
@@ -322,6 +322,90 @@ export const games: Game[] = [
         <p>Làm chủ hệ thống thẻ bài nâng cao để xây dựng đội quân bất khả chiến bại. Kết hợp khả năng phe phái, mở khóa anh hùng huyền thoại và dẫn dắt quân đội đến chiến thắng. Những người đóng góp hàng đầu nhận được danh hiệu chỉ huy độc quyền và chia sẻ chiến lợi phẩm.</p>
         <p>Trận chiến càng trở nên dữ dội, ảnh hưởng của bạn đến kết quả càng lớn. Lựa chọn khôn ngoan, lập chiến lược cẩn thận và theo dõi quyết định của bạn diễn ra trong thời gian thực.</p>
         <p>Xây dựng đế chế của bạn. Chỉ huy quân đoàn của bạn. Bạn có thể vươn lên để trở thành người cai trị tối cao?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 5,
+    title: 'Unified Kingdom: Forge Your Dynasty',
+    imageUrl: '/assets/Unified Kingdom.jpg',
+    description: 'Build and expand your kingdom while viewers shape its destiny',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Unified Kingdom: Forge Your Dynasty',
+        description: 'Build and expand your kingdom while viewers shape its destiny',
+        story: `<p>Unified Kingdom places you at the helm of an emerging dynasty. Will you lead the Prosperity Alliance or join the Conquest Coalition?</p>
+        <p>Every viewer interaction influences your realm - comments recruit citizens, likes develop infrastructure, and gifts unlock powerful kingdom upgrades. Real support builds real empires.</p>
+        <p>Master the kingdom cards to establish trade routes, form alliances, and expand your influence. Your decisions shape the fate of nations, with top supporters earning noble titles and royal privileges.</p>
+        <p>As your kingdom grows, so does your legacy. Choose your path, implement your vision, and watch your dynasty flourish in real-time.</p>
+        <p>Build your legacy. Unite the kingdoms. Will you become the greatest ruler of all time?</p>`
+      },
+      ar: {
+        title: 'المملكة الموحدة: اصنع سلالتك',
+        description: 'ابنِ وَوَسِّع مملكتك بينما يشكل المشاهدون مصيرها',
+        story: `<p>تضعك المملكة الموحدة على رأس سلالة ناشئة. هل ستقود تحالف الازدهار أم تنضم إلى ائتلاف الفتح؟</p>
+        <p>كل تفاعل من المشاهدين يؤثر على مملكتك - التعليقات تجند المواطنين، الإعجابات تطور البنية التحتية، والهدايا تفتح ترقيات قوية للمملكة. الدعم الحقيقي يبني إمبراطوريات حقيقية.</p>
+        <p>أتقن بطاقات المملكة لإنشاء طرق تجارية، تشكيل تحالفات، وتوسيع نفوذك. قراراتك تشكل مصير الأمم، ويحصل كبار الداعمين على ألقاب نبيلة وامتيازات ملكية.</p>
+        <p>مع نمو مملكتك، يزداد إرثك. اختر مسارك، نفذ رؤيتك، وشاهد سلالتك تزدهر في الوقت الفعلي.</p>
+        <p>ابنِ إرثك. وَحِّد الممالك. هل ستصبح أعظم حاكم على مر العصور؟</p>`
+      },
+      de: {
+        title: 'Vereinigtes Königreich: Schmiede deine Dynastie',
+        description: 'Baue und erweitere dein Königreich, während Zuschauer sein Schicksal bestimmen',
+        story: `<p>Unified Kingdom stellt dich an die Spitze einer aufstrebenden Dynastie. Wirst du die Wohlstandsallianz anführen oder dich der Eroberungskoalition anschließen?</p>
+        <p>Jede Zuschauerinteraktion beeinflusst dein Reich - Kommentare rekrutieren Bürger, Likes entwickeln Infrastruktur und Geschenke schalten mächtige Königreich-Upgrades frei. Echte Unterstützung baut echte Imperien.</p>
+        <p>Meistere die Königreichskarten, um Handelsrouten zu etablieren, Allianzen zu bilden und deinen Einfluss zu erweitern. Deine Entscheidungen prägen das Schicksal der Nationen, wobei Top-Unterstützer Adelstitel und königliche Privilegien erhalten.</p>
+        <p>Mit dem Wachstum deines Königreichs wächst auch dein Vermächtnis. Wähle deinen Weg, setze deine Vision um und beobachte, wie deine Dynastie in Echtzeit gedeiht.</p>
+        <p>Baue dein Vermächtnis auf. Vereine die Königreiche. Wirst du zum größten Herrscher aller Zeiten?</p>`
+      },
+      ru: {
+        title: 'Объединённое Королевство: Создай Свою Династию',
+        description: 'Строй и расширяй своё королевство, пока зрители определяют его судьбу',
+        story: `<p>Объединённое Королевство ставит вас во главе зарождающейся династии. Возглавите ли вы Альянс Процветания или присоединитесь к Коалиции Завоевания?</p>
+        <p>Каждое взаимодействие зрителей влияет на ваше царство - комментарии вербуют граждан, лайки развивают инфраструктуру, а подарки открывают мощные улучшения королевства. Реальная поддержка строит реальные империи.</p>
+        <p>Освойте карты королевства, чтобы установить торговые пути, сформировать альянсы и расширить своё влияние. Ваши решения определяют судьбу наций, а лучшие сторонники получают дворянские титулы и королевские привилегии.</p>
+        <p>По мере роста вашего королевства растёт и ваше наследие. Выберите свой путь, реализуйте своё видение и наблюдайте, как ваша династия процветает в реальном времени.</p>
+        <p>Создайте своё наследие. Объедините королевства. Станете ли вы величайшим правителем всех времён?</p>`
+      },
+      fr: {
+        title: 'Royaume Unifié : Forgez Votre Dynastie',
+        description: 'Construisez et étendez votre royaume pendant que les spectateurs façonnent son destin',
+        story: `<p>Royaume Unifié vous place à la tête d'une dynastie émergente. Dirigerez-vous l'Alliance de la Prospérité ou rejoindrez-vous la Coalition de la Conquête ?</p>
+        <p>Chaque interaction des spectateurs influence votre royaume - les commentaires recrutent des citoyens, les likes développent l'infrastructure et les cadeaux débloquent de puissantes améliorations du royaume. Un véritable soutien construit de véritables empires.</p>
+        <p>Maîtrisez les cartes du royaume pour établir des routes commerciales, former des alliances et étendre votre influence. Vos décisions façonnent le destin des nations, les meilleurs supporters gagnant des titres de noblesse et des privilèges royaux.</p>
+        <p>À mesure que votre royaume grandit, votre héritage s'accroît. Choisissez votre voie, mettez en œuvre votre vision et regardez votre dynastie s'épanouir en temps réel.</p>
+        <p>Construisez votre héritage. Unifiez les royaumes. Deviendrez-vous le plus grand souverain de tous les temps ?</p>`
+      },
+      zh: {
+        title: '统一王国：铸造你的王朝',
+        description: '建设和扩展你的王国，让观众塑造其命运',
+        story: `<p>统一王国让你成为新兴王朝的掌舵者。你是要领导繁荣联盟还是加入征服联盟？</p>
+        <p>每个观众互动都会影响你的领域 - 评论招募市民，点赞发展基础设施，礼物解锁强大的王国升级。真实支持建立真实帝国。</p>
+        <p>掌握王国卡牌来建立贸易路线，组建联盟，扩大影响力。你的决定塑造国家命运，顶级支持者获得贵族头衔和皇家特权。</p>
+        <p>随着王国的成长，你的遗产也在增长。选择你的道路，实现你的愿景，实时观看你的王朝繁荣发展。</p>
+        <p>建立你的遗产。统一王国。你能成为有史以来最伟大的统治者吗？</p>`
+      },
+      vi: {
+        title: 'Vương Quốc Thống Nhất: Xây Dựng Triều Đại',
+        description: 'Xây dựng và mở rộng vương quốc của bạn trong khi người xem định hình số phận của nó',
+        story: `<p>Vương Quốc Thống Nhất đặt bạn vào vị trí lãnh đạo của một triều đại đang lên. Bạn sẽ lãnh đạo Liên Minh Thịnh Vượng hay tham gia Liên Minh Chinh Phục?</p>
+        <p>Mỗi tương tác của người xem đều ảnh hưởng đến vương quốc của bạn - bình luận tuyển mộ công dân, lượt thích phát triển cơ sở hạ tầng, và quà tặng mở khóa các nâng cấp vương quốc mạnh mẽ. Hỗ trợ thực sự xây dựng đế chế thực sự.</p>
+        <p>Làm chủ các thẻ vương quốc để thiết lập tuyến đường thương mại, hình thành liên minh và mở rộng ảnh hưởng của bạn. Quyết định của bạn định hình số phận các quốc gia, với những người ủng hộ hàng đầu nhận được tước hiệu quý tộc và đặc quyền hoàng gia.</p>
+        <p>Khi vương quốc của bạn phát triển, di sản của bạn cũng tăng theo. Chọn con đường của bạn, thực hiện tầm nhìn của bạn và theo dõi triều đại của bạn phát triển trong thời gian thực.</p>
+        <p>Xây dựng di sản của bạn. Thống nhất các vương quốc. Bạn có thể trở thành vị vua vĩ đại nhất mọi thời đại không?</p>`
       }
     },
     systemRequirements: {
