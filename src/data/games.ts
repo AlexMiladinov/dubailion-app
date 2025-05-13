@@ -112,5 +112,61 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 5,
+    title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
+    imageUrl: '/assets/Call Me Da Sheng_ Shape the Fate of the Monkey King.jpg',
+    description: 'Will you help the Monkey King escape, or stop him in his tracks?',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
+        description: 'Will you help the Monkey King escape, or stop him in his tracks?',
+        story: `<p>Take part in an interactive adventure where viewers decide the fate of the legendary Monkey King. Choose to either aid his daring escape from celestial imprisonment or join the heavenly forces trying to maintain order. Every viewer's decision shapes the story!</p>`
+      },
+      de: {
+        title: 'Nennt Mich Da Sheng: Bestimme das Schicksal des Affenkönigs',
+        description: 'Wirst du dem Affenkönig bei der Flucht helfen oder ihn aufhalten?',
+        story: `<p>Nimm teil an einem interaktiven Abenteuer, bei dem die Zuschauer über das Schicksal des legendären Affenkönigs entscheiden. Hilf bei seiner waghalsigen Flucht aus der himmlischen Gefangenschaft oder schließe dich den himmlischen Kräften an.</p>`
+      },
+      fr: {
+        title: 'Appelez-Moi Da Sheng: Façonnez le Destin du Roi Singe',
+        description: 'Aiderez-vous le Roi Singe à s\'échapper, ou l\'arrêterez-vous dans sa course?',
+        story: `<p>Participez à une aventure interactive où les spectateurs décident du destin du légendaire Roi Singe. Choisissez d'aider à son audacieuse évasion de l'emprisonnement céleste ou rejoignez les forces célestes.</p>`
+      },
+      ru: {
+        title: 'Зови Меня Да Шэн: Определи Судьбу Короля Обезьян',
+        description: 'Поможешь ли ты Королю Обезьян сбежать или остановишь его?',
+        story: `<p>Примите участие в интерактивном приключении, где зрители решают судьбу легендарного Короля Обезьян. Выберите: помочь ему совершить дерзкий побег из небесного заточения или присоединиться к небесным силам.</p>`
+      },
+      zh: {
+        title: '唤我大圣：决定齐天大圣的命运',
+        description: '你是要帮助齐天大圣逃脱，还是要阻止他的脚步？',
+        story: `<p>参与这场互动冒险，观众将决定传奇齐天大圣的命运。选择是协助他从天庭的囚禁中大胆逃脱，还是加入维护秩序的天兵天将。每个观众的决定都将塑造故事的走向！</p>`
+      },
+      ar: {
+        title: 'نادوني دا شنغ: شكّل مصير ملك القرود',
+        description: 'هل ستساعد ملك القرود على الهروب، أم ستوقفه في مساره؟',
+        story: `<p>شارك في مغامرة تفاعلية حيث يقرر المشاهدون مصير ملك القرود الأسطوري. اختر إما مساعدته في الهروب الجريء من السجن السماوي أو الانضمام إلى القوات السماوية.</p>`
+      },
+      vi: {
+        title: 'Gọi Ta Là Đại Thánh: Định Đoạt Số Phận của Tề Thiên Đại Thánh',
+        description: 'Bạn sẽ giúp Tề Thiên Đại Thánh trốn thoát, hay ngăn chặn ông ấy?',
+        story: `<p>Tham gia cuộc phiêu lưu tương tác nơi người xem quyết định số phận của Tề Thiên Đại Thánh huyền thoại. Lựa chọn giúp đỡ cuộc đào tẩu táo bạo khỏi ngục thất thiên đình hoặc gia nhập lực lượng thiên binh.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-7400 or AMD Ryzen 3 3100',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700 or AMD Ryzen 5 3600',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
