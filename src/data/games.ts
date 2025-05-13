@@ -280,5 +280,62 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 6,
+    title: 'League of Monsters: Command. Conquer. Survive.',
+    imageUrl: '/assets/League of Monsters_ Command. Conquer. Survive..jpg',
+    description: 'A monster-collecting battle game where stream viewers can influence monster evolution and battles',
+    platform: 'PC / Mobile',
+    translations: {
+      en: {
+        title: 'League of Monsters: Command. Conquer. Survive.',
+        description: 'A monster-collecting battle game where stream viewers can influence monster evolution and battles',
+        story: `<p>In <strong>League of Monsters</strong>, players collect and train unique creatures while stream viewers can influence their evolution and abilities. Through viewer interactions, monsters can gain new powers, evolve in unexpected ways, and turn the tide of battle.</p>`
+      },
+      de: {
+        title: 'Monster Liga: Befehligen. Erobern. Überleben.',
+        description: 'Ein Monster-Sammel-Kampfspiel, bei dem Stream-Zuschauer die Monster-Evolution und Kämpfe beeinflussen können',
+        story: `<p>In <strong>Monster Liga</strong> sammeln und trainieren Spieler einzigartige Kreaturen, während Stream-Zuschauer ihre Entwicklung und Fähigkeiten beeinflussen können. Durch Zuschauerinteraktionen können Monster neue Kräfte erlangen, sich unerwartet entwickeln und das Kampfgeschehen wenden.</p>`
+      },
+      fr: {
+        title: 'Ligue des Monstres: Commander. Conquérir. Survivre.',
+        description: 'Un jeu de combat et de collection de monstres où les spectateurs peuvent influencer l\'évolution et les batailles',
+        story: `<p>Dans <strong>Ligue des Monstres</strong>, les joueurs collectionnent et entraînent des créatures uniques tandis que les spectateurs peuvent influencer leur évolution et leurs capacités. Grâce aux interactions des spectateurs, les monstres peuvent gagner de nouveaux pouvoirs, évoluer de manière inattendue et renverser le cours de la bataille.</p>`
+      },
+      ru: {
+        title: 'Лига Монстров: Командуй. Покоряй. Выживай.',
+        description: 'Игра о сборе монстров и сражениях, где зрители могут влиять на эволюцию монстров и битвы',
+        story: `<p>В <strong>Лиге Монстров</strong> игроки собирают и тренируют уникальных существ, а зрители могут влиять на их эволюцию и способности. Благодаря взаимодействию со зрителями монстры могут получать новые силы, неожиданно эволюционировать и менять ход битвы.</p>`
+      },
+      zh: {
+        title: '怪物联盟：指挥·征服·生存',
+        description: '一款收集怪物对战游戏，观众可以影响怪物进化和战斗',
+        story: `<p>在<strong>怪物联盟</strong>中，玩家收集和训练独特的生物，而直播观众可以影响它们的进化和能力。通过观众互动，怪物可以获得新的力量，以意想不到的方式进化，并改变战局。</p>`
+      },
+      ar: {
+        title: 'رابطة الوحوش: قيادة. غزو. بقاء.',
+        description: 'لعبة جمع ومعارك الوحوش حيث يمكن للمشاهدين التأثير على تطور الوحوش والمعارك',
+        story: `<p>في <strong>رابطة الوحوش</strong>، يجمع اللاعبون ويدربون مخلوقات فريدة بينما يمكن للمشاهدين التأثير على تطورها وقدراتها. من خلال تفاعلات المشاهدين، يمكن للوحوش اكتساب قوى جديدة والتطور بطرق غير متوقعة وتغيير مجرى المعركة.</p>`
+      },
+      vi: {
+        title: 'Liên Minh Quái Vật: Chỉ Huy. Chinh Phục. Sinh Tồn.',
+        description: 'Trò chơi thu thập và chiến đấu quái vật nơi người xem có thể ảnh hưởng đến sự tiến hóa và trận chiến',
+        story: `<p>Trong <strong>Liên Minh Quái Vật</strong>, người chơi thu thập và huấn luyện những sinh vật độc đáo trong khi người xem có thể ảnh hưởng đến sự tiến hóa và khả năng của chúng. Thông qua t
+ương tác của người xem, quái vật có thể đạt được sức mạnh mới, tiến hóa theo những cách bất ngờ và thay đổi cục diện trận chiến.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit) or Android 8.0+',
+        processor: 'Intel Core i3-6100 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit) or Android 10.0+',
+        processor: 'Intel Core i5-7400 or AMD Ryzen 3 1300X',
+        memory: '8 GB RAM'
+      }
+    }
   }
 ];
