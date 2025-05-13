@@ -2,339 +2,58 @@ import { Game } from '../types';
 
 export const games: Game[] = [
   {
-    id: 1,
-    title: 'Battle of Heroes: Stream, Compete, Conquer',
-    imageUrl: '/assets/Battle of Heroes_ Stream, Compete, Conquer.jpg',
-    description: 'A high-intensity PvP game built for gamers who live to compete, customize, and conquer',
-    platform: 'PC',
+    id: 3,
+    title: 'Brawl of the Westward Journey: Clash for the Golden Staff!',
+    imageUrl: '/assets/Brawl of the Westward Journey_ Clash for the Golden Staff!.jpg',
+    description: 'A strategic tug-of-war for dominance, featuring the Monkey King and Heavenly Court factions',
+    platform: 'Mobile',
     translations: {
       en: {
-        title: 'Battle of Heroes: Stream, Compete, Conquer',
-        description: 'A high-intensity PvP game built for gamers who live to compete, customize, and conquer',
-        story: `<p><strong>Battle of the Heroes</strong> is a live-streaming PvP game inspired by the Three Kingdoms era, where viewers actively join the fight. With just a comment or like, fans choose sides, summon warriors, legendary generals and shape the outcome live.</p>`
+        title: 'Brawl of the Westward Journey: Clash for the Golden Staff!',
+        description: 'A strategic tug-of-war for dominance, featuring the Monkey King and Heavenly Court factions',
+        story: `<p>Join an epic battle between the Monkey King's rebels and the Heavenly Court's forces in this strategic mobile game. Stream viewers can support their chosen faction, summoning mythical warriors and unleashing powerful abilities that turn the tide of battle.</p>`
       },
       de: {
-        title: 'Kampf der Helden: Streamen, Wettkämpfen, Erobern',
-        description: 'Ein intensives PvP-Spiel für Gamer, die für den Wettkampf leben',
-        story: `<p><strong>Kampf der Helden</strong> ist ein Live-Streaming-PvP-Spiel, inspiriert von der Zeit der Drei Königreiche, bei dem Zuschauer aktiv am Kampf teilnehmen.</p>`
+        title: 'Kampf der Westlichen Reise: Konflikt um den Goldenen Stab!',
+        description: 'Ein strategisches Tauziehen um die Vorherrschaft mit den Fraktionen des Affenkönigs und des Himmlischen Hofes',
+        story: `<p>Nehmen Sie teil an einer epischen Schlacht zwischen den Rebellen des Affenkönigs und den Streitkräften des Himmlischen Hofes. Stream-Zuschauer können ihre gewählte Fraktion unterstützen.</p>`
       },
       fr: {
-        title: 'Bataille des Héros: Stream, Compétition, Conquête',
-        description: 'Un jeu PvP haute intensité conçu pour les joueurs qui vivent pour la compétition',
-        story: `<p><strong>Bataille des Héros</strong> est un jeu PvP en streaming en direct inspiré de l'ère des Trois Royaumes, où les spectateurs participent activement au combat.</p>`
+        title: 'Mêlée du Voyage vers l\'Ouest: Combat pour le Bâton d\'Or!',
+        description: 'Un bras de fer stratégique pour la domination, mettant en vedette le Roi Singe et la Cour Céleste',
+        story: `<p>Rejoignez une bataille épique entre les rebelles du Roi Singe et les forces de la Cour Céleste. Les spectateurs peuvent soutenir leur faction choisie.</p>`
       },
       ru: {
-        title: 'Битва Героев: Стрим, Соревнование, Завоевание',
-        description: 'Высокоинтенсивная PvP игра для геймеров, живущих соревнованиями',
-        story: `<p><strong>Битва Героев</strong> - это PvP игра с прямой трансляцией, вдохновленная эпохой Трёх Королевств, где зрители активно участвуют в сражении.</p>`
+        title: 'Битва Западного Путешествия: Схватка за Золотой Посох!',
+        description: 'Стратегическое противостояние за господство между фракциями Короля Обезьян и Небесного Двора',
+        story: `<p>Присоединитесь к эпической битве между повстанцами Короля Обезьян и силами Небесного Двора. Зрители стрима могут поддерживать выбранную фракцию.</p>`
       },
       zh: {
-        title: '英雄之战：直播、竞技、征服',
-        description: '为热爱竞技的玩家打造的高强度PvP游戏',
-        story: `<p><strong>英雄之战</strong>是一款受三国时代启发的直播PvP游戏，观众可以积极参与战斗。</p>`
+        title: '西游争霸：金箍棒之战！',
+        description: '一场以齐天大圣和天庭阵营为主的战略拔河游戏',
+        story: `<p>在这款策略手游中加入齐天大圣叛军与天庭势力之间的史诗战斗。直播观众可以支持他们选择的阵营，召唤神话战士并释放强大的技能来扭转战局。</p>`
       },
       ar: {
-        title: 'معركة الأبطال: بث مباشر، منافسة، فتح',
-        description: 'لعبة قتال عالية الحدة مصممة للاعبين الذين يعيشون للمنافسة',
-        story: `<p><strong>معركة الأبطال</strong> هي لعبة قتال مباشرة مستوحاة من عصر الممالك الثلاثة، حيث ينضم المشاهدون بنشاط إلى المعركة.</p>`
+        title: 'معركة الرحلة الغربية: صراع على العصا الذهبية!',
+        description: 'لعبة شد حبل استراتيجية للسيطرة، تضم فصائل ملك القرود والمحكمة السماوية',
+        story: `<p>انضم إلى معركة ملحمية بين متمردي ملك القرود وقوات المحكمة السماوية. يمكن لمشاهدي البث دعم الفصيل الذي يختارونه.</p>`
       },
       vi: {
-        title: 'Trận Chiến Anh Hùng: Stream, Thi Đấu, Chinh Phục',
-        description: 'Trò chơi PvP cường độ cao dành cho game thủ đam mê thi đấu',
-        story: `<p><strong>Trận Chiến Anh Hùng</strong> là trò chơi PvP trực tiếp lấy cảm hứng từ thời Tam Quốc, nơi người xem tích cực tham gia vào trận chiến.</p>`
+        title: 'Đại Chiến Tây Du: Tranh Đoạt Gậy Như Ý!',
+        description: 'Trò chơi kéo co chiến thuật giành quyền thống trị, với các phe phái Tề Thiên Đại Thánh và Thiên Đình',
+        story: `<p>Tham gia trận chiến hoành tráng giữa phe nổi loạn của Tề Thiên Đại Thánh và lực lượng Thiên Đình. Người xem stream có thể ủng hộ phe phái họ chọn.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 7/8/10 (64-bit)',
-        processor: 'Intel Core i5 11th generation or higher',
+        os: 'Android 8.0+ or iOS 12.0+',
+        processor: 'Snapdragon 665 or equivalent',
+        memory: '3 GB RAM'
+      },
+      recommended: {
+        os: 'Android 10.0+ or iOS 14.0+',
+        processor: 'Snapdragon 732G or equivalent',
         memory: '4 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10 (64-bit)',
-        processor: 'Intel Core i7-8700K / AMD Ryzen 5 3600',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 2,
-    title: 'Block Rush: Gift-Powered Strategy Showdown',
-    imageUrl: '/assets/Block Rush_ Gift-Powered Strategy Showdown.jpg',
-    description: 'A strategic defense game where players summon and upgrade units through in-game gifts',
-    platform: 'PC',
-    translations: {
-      en: {
-        title: 'Block Rush: Gift-Powered Strategy Showdown',
-        description: 'A strategic defense game where players summon and upgrade units through in-game gifts',
-        story: `<p>In Block Rush, players engage in a strategic defense game where they summon and upgrade units using in-game gifts. The objective is to outlast opponents by strategically placing defensive and offensive units.</p>`
-      },
-      de: {
-        title: 'Block Rush: Geschenkgetriebenes Strategieduell',
-        description: 'Ein strategisches Verteidigungsspiel, in dem Spieler Einheiten durch In-Game-Geschenke beschwören und verbessern',
-        story: `<p>In Block Rush nehmen die Spieler an einem strategischen Verteidigungsspiel teil, bei dem sie Einheiten durch In-Game-Geschenke beschwören und verbessern. Das Ziel ist es, Gegner durch strategische Platzierung von Verteidigungs- und Angriffseinheiten zu überdauern.</p>`
-      },
-      fr: {
-        title: 'Block Rush: Confrontation Stratégique Alimentée par les Cadeaux',
-        description: 'Un jeu de défense stratégique où les joueurs invoquent et améliorent des unités grâce aux cadeaux en jeu',
-        story: `<p>Dans Block Rush, les joueurs participent à un jeu de défense stratégique où ils invoquent et améliorent des unités en utilisant des cadeaux en jeu. L'objectif est de survivre aux adversaires en plaçant stratégiquement des unités défensives et offensives.</p>`
-      },
-      ru: {
-        title: 'Block Rush: Стратегическая Битва с Подарками',
-        description: 'Стратегическая игра в жанре защиты, где игроки призывают и улучшают юнитов с помощью внутриигровых подарков',
-        story: `<p>В Block Rush игроки участвуют в стратегической оборонительной игре, где они призывают и улучшают юнитов с помощью внутриигровых подарков. Цель - пережить противников, стратегически размещая оборонительные и наступательные юниты.</p>`
-      },
-      zh: {
-        title: '方块冲锋：礼物驱动的策略对决',
-        description: '一款策略防御游戏，玩家通过游戏内礼物召唤和升级单位',
-        story: `<p>在方块冲锋中，玩家参与策略防御游戏，通过游戏内礼物召唤和升级单位。目标是通过战略性地放置防御和进攻单位来战胜对手。</p>`
-      },
-      ar: {
-        title: 'بلوك راش: معركة استراتيجية مدعومة بالهدايا',
-        description: 'لعبة دفاع استراتيجية حيث يستدعي اللاعبون ويطورون الوحدات من خلال الهدايا داخل اللعبة',
-        story: `<p>في بلوك راش، يشارك اللاعبون في لعبة دفاع استراتيجية حيث يستدعون ويطورون الوحدات باستخدام الهدايا داخل اللعبة. الهدف هو البقاء أطول من الخصوم من خلال وضع وحدات دفاعية وهجومية بشكل استراتيجي.</p>`
-      },
-      vi: {
-        title: 'Block Rush: Đối Đầu Chiến Lược Bằng Quà Tặng',
-        description: 'Trò chơi phòng thủ chiến lược nơi người chơi triệu hồi và nâng cấp đơn vị thông qua quà tặng trong game',
-        story: `<p>Trong Block Rush, người chơi tham gia vào trò chơi phòng thủ chiến lược nơi họ triệu hồi và nâng cấp đơn vị bằng quà tặng trong game. Mục tiêu là tồn tại lâu hơn đối thủ bằng cách đặt các đơn vị phòng thủ và tấn công một cách chiến lược.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 10 (64-bit)',
-        processor: 'Intel Core i5-4400E or AMD FX-6300',
-        memory: '16 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10/11 (64-bit)',
-        processor: 'Intel Core i7-610 or AMD Ryzen 5 3600X',
-        memory: '32 GB RAM'
-      }
-    }
-  },
-  {
-    id: 9,
-    title: 'Coloring Heroes: Paint. Power Up. Protect the World',
-    imageUrl: '/assets/Coloring Heroes_ Paint. Power Up. Protect the World.jpg',
-    description: 'A creative action game where viewers help color heroes to unlock their powers',
-    platform: 'PC / Mobile',
-    translations: {
-      en: {
-        title: 'Coloring Heroes: Paint. Power Up. Protect the World',
-        description: 'A creative action game where viewers help color heroes to unlock their powers',
-        story: `<p>In <strong>Coloring Heroes</strong>, players control blank-canvas heroes who gain powers based on how viewers color them. Each color combination unlocks unique abilities and transformations, creating endless possibilities for heroic adventures.</p>`
-      },
-      de: {
-        title: 'Helden Ausmalen: Malen. Aufladen. Die Welt beschützen',
-        description: 'Ein kreatives Actionspiel, bei dem Zuschauer Helden ausmalen, um ihre Kräfte freizuschalten',
-        story: `<p>In <strong>Helden Ausmalen</strong> steuern Spieler leere Leinwand-Helden, die Kräfte basierend auf der Farbgebung der Zuschauer erhalten. Jede Farbkombination schaltet einzigartige Fähigkeiten frei.</p>`
-      },
-      fr: {
-        title: 'Héros à Colorier: Peindre. Renforcer. Protéger le Monde',
-        description: 'Un jeu d\'action créatif où les spectateurs aident à colorier les héros pour débloquer leurs pouvoirs',
-        story: `<p>Dans <strong>Héros à Colorier</strong>, les joueurs contrôlent des héros vierges qui gagnent des pouvoirs selon la façon dont les spectateurs les colorient. Chaque combinaison de couleurs débloque des capacités uniques.</p>`
-      },
-      ru: {
-        title: 'Раскраска Героев: Рисуй. Усиливайся. Защищай Мир',
-        description: 'Креативная экшн-игра, где зрители помогают раскрашивать героев, чтобы разблокировать их силы',
-        story: `<p>В <strong>Раскраске Героев</strong> игроки управляют героями-холстами, которые получают силы в зависимости от того, как зрители их раскрашивают. Каждая цветовая комбинация открывает уникальные способности.</p>`
-      },
-      zh: {
-        title: '英雄上色：绘画、强化、保护世界',
-        description: '一款创意动作游戏，观众通过为英雄上色来解锁他们的力量',
-        story: `<p>在<strong>英雄上色</strong>中，玩家控制空白画布英雄，根据观众的上色获得力量。每种颜色组合都能解锁独特的能力和变身。</p>`
-      },
-      ar: {
-        title: 'تلوين الأبطال: ارسم. قوِّ. احمِ العالم',
-        description: 'لعبة حركة إبداعية حيث يساعد المشاهدون في تلوين الأبطال لفتح قواهم',
-        story: `<p>في <strong>تلوين الأبطال</strong>، يتحكم اللاعبون في أبطال لوحة فارغة يكتسبون قوى بناءً على كيفية تلوين المشاهدين لهم. كل مجموعة ألوان تفتح قدرات فريدة.</p>`
-      },
-      vi: {
-        title: 'Tô Màu Anh Hùng: Vẽ. Tăng Sức Mạnh. Bảo Vệ Thế Giới',
-        description: 'Trò chơi hành động sáng tạo nơi người xem giúp tô màu các anh hùng để mở khóa sức mạnh',
-        story: `<p>Trong <strong>Tô Màu Anh Hùng</strong>, người chơi điều khiển các anh hùng canvas trống, họ nhận được sức mạnh dựa trên cách người xem tô màu cho họ. Mỗi kết hợp màu sắc mở khóa các khả năng độc đáo.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 7/8/10 (64-bit) or Android 8.0+',
-        processor: 'Intel Core i3-6100 or AMD FX-4350',
-        memory: '4 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10 (64-bit) or Android 10.0+',
-        processor: 'Intel Core i5-7400 or AMD Ryzen 3 1300X',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 10,
-    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
-    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
-    description: 'An intense fighting game where stream viewers power up fighters and influence epic battles',
-    platform: 'PC / Mobile',
-    translations: {
-      en: {
-        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
-        description: 'An intense fighting game where stream viewers power up fighters and influence epic battles',
-        story: `<p>In <strong>Dragon Ball Duel</strong>, players step into the shoes of legendary warriors while stream viewers contribute their energy to power up special moves and transformations. Every viewer interaction charges the Spirit Bomb meter, unlocks new forms, and shapes the outcome of each explosive battle.</p>`
-      },
-      de: {
-        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
-        description: 'Ein intensives Kampfspiel, bei dem Stream-Zuschauer Kämpfer verstärken und epische Schlachten beeinflussen',
-        story: `<p>In <strong>Dragon Ball Duell</strong> schlüpfen Spieler in die Rolle legendärer Krieger, während Stream-Zuschauer ihre Energie beisteuern, um Spezialattacken und Transformationen zu verstärken. Jede Zuschauerinteraktion lädt den Genkidama-Meter auf und schaltet neue Formen frei.</p>`
-      },
-      fr: {
-        title: 'Dragon Ball Duel: Une Nouvelle Ère de Combat Dragon Ball Arrive',
-        description: 'Un jeu de combat intense où les spectateurs du stream renforcent les combattants et influencent les batailles épiques',
-        story: `<p>Dans <strong>Dragon Ball Duel</strong>, les joueurs incarnent des guerriers légendaires tandis que les spectateurs contribuent leur énergie pour alimenter les attaques spéciales et les transformations. Chaque interaction des spectateurs charge le compteur du Genkidama et débloque de nouvelles formes.</p>`
-      },
-      ru: {
-        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball',
-        description: 'Интенсивная боевая игра, где зрители стрима усиливают бойцов и влияют на эпические битвы',
-        story: `<p>В <strong>Dragon Ball Дуэль</strong> игроки становятся легендарными воинами, а зрители стрима вносят свою энергию для усиления специальных приёмов и трансформаций. Каждое взаимодействие зрителей заряжает счётчик Генки Дамы и открывает новые формы.</p>`
-      },
-      zh: {
-        title: '龙珠对决：龙珠战斗的新纪元',
-        description: '一款激烈的格斗游戏，观众可以为战士充能并影响史诗级战斗',
-        story: `<p>在<strong>龙珠对决</strong>中，玩家化身传奇战士，而直播观众贡献能量来强化必杀技和变身。每个观众互动都会为元气弹计量表充能，解锁新的形态，塑造每场爆炸性战斗的结果。</p>`
-      },
-      ar: {
-        title: 'دراغون بول ديول: حقبة جديدة من قتال دراغون بول',
-        description: 'لعبة قتال مكثفة حيث يقوم مشاهدو البث بتقوية المقاتلين والتأثير على المعارك الملحمية',
-        story: `<p>في <strong>دراغون بول ديول</strong>، يتقمص اللاعبون أدوار المحاربين الأسطوريين بينما يساهم المشاهدون بطاقتهم لتقوية الحركات الخاصة والتحولات. كل تفاعل من المشاهدين يشحن مقياس قنبلة الروح ويفتح أشكالاً جديدة.</p>`
-      },
-      vi: {
-        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới Của Trận Chiến Dragon Ball',
-        description: 'Trò chơi đối kháng căng thẳng nơi người xem stream tăng sức mạnh cho các chiến binh và ảnh hưởng đến các trận chiến hoành tráng',
-        story: `<p>Trong <strong>Dragon Ball Đối Đầu</strong>, người chơi hóa thân thành các chiến binh huyền thoại trong khi người xem stream đóng góp năng lượng để tăng sức mạnh cho các đòn đặc biệt và biến hình. Mỗi tương tác của người xem sẽ nạp năng lượng cho Genki-dama và mở khóa các hình thái mới.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 7/8/10 (64-bit) or Android 9.0+',
-        processor: 'Intel Core i5-4460 or AMD FX-6300',
-        memory: '6 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10 (64-bit) or Android 11.0+',
-        processor: 'Intel Core i7-7700 or AMD Ryzen 5 2600',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 11,
-    title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
-    imageUrl: '/assets/Call Me Da Sheng_ Shape the Fate of the Monkey King.jpg',
-    description: 'An interactive Journey to the West adventure where viewers help guide the Monkey King through challenges and battles',
-    platform: 'PC / Mobile',
-    translations: {
-      en: {
-        title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
-        description: 'An interactive Journey to the West adventure where viewers help guide the Monkey King through challenges and battles',
-        story: `<p>In <strong>Call Me Da Sheng</strong>, players embody the legendary Monkey King while stream viewers influence his journey through ancient China. Through viewer interactions, the Monkey King can unlock new abilities, discover hidden paths, and face increasingly challenging mythical adversaries in this unique blend of action and audience participation.</p>`
-      },
-      de: {
-        title: 'Nennt mich Da Sheng: Gestalte das Schicksal des Affenkönigs',
-        description: 'Ein interaktives Die Reise nach Westen-Abenteuer, bei dem Zuschauer den Affenkönig durch Herausforderungen und Kämpfe führen',
-        story: `<p>In <strong>Nennt mich Da Sheng</strong> verkörpern Spieler den legendären Affenkönig, während Stream-Zuschauer seine Reise durch das alte China beeinflussen. Durch Zuschauerinteraktionen kann der Affenkönig neue Fähigkeiten freischalten und sich mythischen Gegnern stellen.</p>`
-      },
-      fr: {
-        title: 'Appelez-moi Da Sheng: Façonnez le Destin du Roi Singe',
-        description: 'Une aventure interactive du Voyage vers l\'Ouest où les spectateurs aident à guider le Roi Singe à travers défis et batailles',
-        story: `<p>Dans <strong>Appelez-moi Da Sheng</strong>, les joueurs incarnent le légendaire Roi Singe tandis que les spectateurs influencent son voyage à travers la Chine ancienne. Les interactions des spectateurs permettent au Roi Singe de débloquer de nouvelles capacités et d'affronter des adversaires mythiques.</p>`
-      },
-      ru: {
-        title: 'Зовите Меня Да Шэн: Определи Судьбу Короля Обезьян',
-        description: 'Интерактивное приключение по мотивам Путешествия на Запад, где зрители помогают направлять Короля Обезьян через испытания и битвы',
-        story: `<p>В <strong>Зовите Меня Да Шэн</strong> игроки воплощают легендарного Короля Обезьян, а зрители влияют на его путешествие по древнему Китаю. Благодаря взаимодействию со зрителями, Король Обезьян может открывать новые способности и сражаться с мифическими противниками.</p>`
-      },
-      zh: {
-        title: '叫我大圣：决定齐天大圣的命运',
-        description: '一场互动的西游记冒险，观众帮助指引齐天大圣度过挑战和战斗',
-        story: `<p>在<strong>叫我大圣</strong>中，玩家化身传奇齐天大圣，而直播观众影响他穿越古代中国的旅程。通过观众互动，齐天大圣可以解锁新能力，发现隐藏路径，面对越来越具挑战性的神话对手。</p>`
-      },
-      ar: {
-        title: 'نادوني دا شنغ: شكّل مصير ملك القرود',
-        description: 'مغامرة تفاعلية في رحلة إلى الغرب حيث يساعد المشاهدون في توجيه ملك القرود عبر التحديات والمعارك',
-        story: `<p>في <strong>نادوني دا شنغ</strong>، يتجسد اللاعبون في شخصية ملك القرود الأسطوري بينما يؤثر المشاهدون على رحلته عبر الصين القديمة. من خلال تفاعلات المشاهدين، يمكن لملك القرود فتح قدرات جديدة واكتشاف مسارات خفية ومواجهة خصوم أسطوريين.</p>`
-      },
-      vi: {
-        title: 'Gọi Ta Là Đại Thánh: Định Hình Số Phận Của Tề Thiên Đại Thánh',
-        description: 'Cuộc phiêu lưu Tây Du Ký tương tác nơi người xem giúp dẫn dắt Tề Thiên Đại Thánh vượt qua thử thách và trận chiến',
-        story: `<p>Trong <strong>Gọi Ta Là Đại Thánh</strong>, người chơi nhập vai Tề Thiên Đại Thánh huyền thoại trong khi người xem stream ảnh hưởng đến hành trình của anh ta qua Trung Quốc cổ đại. Thông qua tương tác của người xem, Tề Thiên có thể mở khóa khả năng mới và đối mặt với những đối thủ thần thoại.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 7/8/10 (64-bit) or Android 8.0+',
-        processor: 'Intel Core i3-6100 or AMD FX-4350',
-        memory: '4 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10 (64-bit) or Android 10.0+',
-        processor: 'Intel Core i5-7400 or AMD Ryzen 3 1300X',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 12,
-    title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
-    imageUrl: '/assets/Cheese Battle_ The Ultimate Cat vs. Mouse Showdown.jpg',
-    description: 'A fast-paced battle game where cats and mice compete for cheese supremacy',
-    platform: 'PC',
-    translations: {
-      en: {
-        title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
-        description: 'A fast-paced battle game where cats and mice compete for cheese supremacy',
-        story: `<p>In <strong>Cheese Battle</strong>, players enter a whimsical world where cats and mice engage in strategic warfare over precious cheese resources. Stream viewers can support either faction, dropping power-ups and creating chaos in this delightfully chaotic competition.</p>`
-      },
-      de: {
-        title: 'Käse-Schlacht: Das ultimative Katze-gegen-Maus-Duell',
-        description: 'Ein schnelles Kampfspiel, in dem Katzen und Mäuse um die Käse-Vorherrschaft kämpfen',
-        story: `<p>In <strong>Käse-Schlacht</strong> betreten die Spieler eine skurrile Welt, in der Katzen und Mäuse einen strategischen Krieg um wertvolle Käseressourcen führen. Stream-Zuschauer können jede Fraktion unterstützen und Power-ups fallen lassen.</p>`
-      },
-      fr: {
-        title: 'Bataille de Fromage: L\'Ultime Affrontement Chat contre Souris',
-        description: 'Un jeu de combat rapide où chats et souris s\'affrontent pour la suprématie du fromage',
-        story: `<p>Dans <strong>Bataille de Fromage</strong>, les joueurs entrent dans un monde fantaisiste où chats et souris s'engagent dans une guerre stratégique pour des ressources précieuses de fromage. Les spectateurs peuvent soutenir chaque faction.</p>`
-      },
-      ru: {
-        title: 'Битва за Сыр: Решающее Противостояние Кошек и Мышей',
-        description: 'Динамичная боевая игра, где кошки и мыши сражаются за превосходство в мире сыра',
-        story: `<p>В <strong>Битве за Сыр</strong> игроки попадают в причудливый мир, где кошки и мыши ведут стратегическую войну за ценные сырные ресурсы. Зрители стрима могут поддерживать любую фракцию.</p>`
-      },
-      zh: {
-        title: '奶酪大战：猫鼠终极对决',
-        description: '一款快节奏的战斗游戏，猫和老鼠为奶酪霸权而战',
-        story: `<p>在<strong>奶酪大战</strong>中，玩家进入一个奇幻世界，猫和老鼠为珍贵的奶酪资源展开战略战争。直播观众可以支持任意阵营，投放道具制造混乱。</p>`
-      },
-      ar: {
-        title: 'معركة الجبن: المواجهة النهائية بين القط والفأر',
-        description: 'لعبة قتال سري
-عة حيث تتنافس القطط والفئران على السيادة في عالم الجبن',
-        story: `<p>في <strong>معركة الجبن</strong>، يدخل اللاعبون عالماً غريباً حيث تخوض القطط والفئران حرباً استراتيجية على موارد الجبن الثمينة. يمكن لمشاهدي البث دعم أي من الفصيلين.</p>`
-      },
-      vi: {
-        title: 'Đại Chiến Phô Mai: Cuộc Đối Đầu Tối Thượng Giữa Mèo và Chuột',
-        description: 'Trò chơi chiến đấu nhịp độ nhanh nơi mèo và chuột tranh giành quyền thống trị phô mai',
-        story: `<p>Trong <strong>Đại Chiến Phô Mai</strong>, người chơi bước vào thế giới kỳ quặc nơi mèo và chuột tham gia vào cuộc chiến chiến lược giành nguồn tài nguyên phô mai quý giá. Người xem stream có thể ủng hộ bất kỳ phe nào.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 7/8/10 (64-bit)',
-        processor: 'Intel Core i3-3220 or AMD FX-4350',
-        memory: '4 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10 (64-bit)',
-        processor: 'Intel Core i5-6400 or AMD Ryzen 3 1200',
-        memory: '8 GB RAM'
       }
     }
   }
