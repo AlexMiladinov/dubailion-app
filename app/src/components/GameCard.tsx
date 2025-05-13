@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Game } from '../types';
 import { Stamp as Steam, Presentation as Playstation, Inbox as Xbox, Smartphone } from 'lucide-react';
 
@@ -9,10 +10,14 @@ interface GameCardProps {
   index: number;
 }
 
-const MAX_DESCRIPTION_LENGTH = 85; // Length of the example text
+const MAX_DESCRIPTION_LENGTH = 85;
 
 const GameCard: React.FC<GameCardProps> = ({ game, index }) => {
   const navigate = useNavigate();
+  const { i18n } = useTranslation();
+  const currentLang = i18n.language as keyof Game['translations'];
+
+  const translation = game.translations[currentLang] || game.translations.en;
 
   const getPlatformIcon = (platform: string) => {
     if (platform.includes('PC')) return <Steam className="h-5 w-5" />;
@@ -40,13 +45,13 @@ const GameCard: React.FC<GameCardProps> = ({ game, index }) => {
       <div className="h-48 overflow-hidden">
         <img
           src={game.imageUrl}
-          alt={game.title}
+          alt={translation.title}
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
         />
       </div>
       <div className="p-4 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold mb-2 font-display">{game.title}</h3>
-        <p className="text-secondary-300 mb-4">{truncateDescription(game.description)}</p>
+        <h3 className="text-xl font-bold mb-2 font-display">{translation.title}</h3>
+        <p className="text-secondary-300 mb-4">{truncateDescription(translation.description)}</p>
         <div className="mt-auto">
           <div className="flex items-center text-sm text-secondary-400">
             <div className="flex items-center mr-2">
@@ -60,4 +65,4 @@ const GameCard: React.FC<GameCardProps> = ({ game, index }) => {
   );
 };
 
-export default GameCard; 
+export default GameCard;

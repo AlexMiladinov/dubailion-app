@@ -1,10 +1,24 @@
+export interface GameTranslation {
+  title: string;
+  description: string;
+  story: string;
+}
+
 export interface Game {
   id: number;
   title: string;
   imageUrl: string;
   description: string;
   platform: string;
-  story: string;
+  translations: {
+    en: GameTranslation;
+    de: GameTranslation;
+    fr: GameTranslation;
+    ru: GameTranslation;
+    zh: GameTranslation;
+    ar: GameTranslation;
+    vi: GameTranslation;
+  };
   systemRequirements: {
     minimum: {
       os: string;
@@ -27,6 +41,7 @@ export interface SocialLink {
 
 export interface RedeemFormData {
   tiktokUsername: string;
+  gameName: string;
   cardSerialNumber: string;
   cvv: string;
 }
