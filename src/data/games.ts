@@ -397,43 +397,43 @@ export const games: Game[] = [
     id: 8,
     title: 'Honor of Kings: Command Legends. Conquer the Arena',
     imageUrl: '/assets/Honor of Kings_ Command Legends. Conquer the Arena.jpg',
-    description: 'A legendary MOBA where stream viewers can influence hero abilities and arena events',
+    description: 'A legendary MOBA where stream viewers can influence hero abilities and battlefield conditions',
     platform: 'PC / Mobile',
     translations: {
       en: {
         title: 'Honor of Kings: Command Legends. Conquer the Arena',
-        description: 'A legendary MOBA where stream viewers can influence hero abilities and arena events',
-        story: `<p>In <strong>Honor of Kings</strong>, players step into the roles of legendary heroes while stream viewers shape the battlefield. Through interactive commands and support, viewers can enhance hero abilities, trigger arena events, and create epic moments that will be remembered in the annals of battle.</p>`
+        description: 'A legendary MOBA where stream viewers can influence hero abilities and battlefield conditions',
+        story: `<p>In <strong>Honor of Kings</strong>, players step into the roles of legendary heroes while stream viewers actively shape the battlefield. Through viewer interactions, heroes can gain enhanced abilities, unlock special skins, and trigger dynamic events that transform the arena into an ever-evolving battleground of strategy and skill.</p>`
       },
       de: {
         title: 'Ehre der Könige: Befehlige Legenden. Erobere die Arena',
-        description: 'Ein legendäres MOBA, in dem Stream-Zuschauer Heldenfähigkeiten und Arena-Events beeinflussen können',
-        story: `<p>In <strong>Ehre der Könige</strong> schlüpfen Spieler in die Rollen legendärer Helden, während Stream-Zuschauer das Schlachtfeld gestalten. Durch interaktive Befehle und Unterstützung können Zuschauer Heldenfähigkeiten verstärken, Arena-Events auslösen und epische Momente erschaffen.</p>`
+        description: 'Ein legendäres MOBA, in dem Stream-Zuschauer Heldenfähigkeiten und Schlachtfeldbedingungen beeinflussen können',
+        story: `<p>In <strong>Ehre der Könige</strong> schlüpfen Spieler in die Rollen legendärer Helden, während Stream-Zuschauer das Schlachtfeld aktiv gestalten. Durch Zuschauerinteraktionen können Helden verbesserte Fähigkeiten erhalten, spezielle Skins freischalten und dynamische Ereignisse auslösen.</p>`
       },
       fr: {
         title: 'Honneur des Rois: Commandez les Légendes. Conquérez l\'Arène',
-        description: 'Un MOBA légendaire où les spectateurs peuvent influencer les capacités des héros et les événements de l\'arène',
-        story: `<p>Dans <strong>Honneur des Rois</strong>, les joueurs incarnent des héros légendaires tandis que les spectateurs façonnent le champ de bataille. Grâce aux commandes interactives et au soutien, les spectateurs peuvent améliorer les capacités des héros et déclencher des événements d\'arène.</p>`
+        description: 'Un MOBA légendaire où les spectateurs peuvent influencer les capacités des héros et les conditions du champ de bataille',
+        story: `<p>Dans <strong>Honneur des Rois</strong>, les joueurs incarnent des héros légendaires tandis que les spectateurs façonnent activement le champ de bataille. Grâce aux interactions des spectateurs, les héros peuvent obtenir des capacités améliorées et déclencher des événements dynamiques.</p>`
       },
       ru: {
         title: 'Честь Королей: Командуй Легендами. Покори Арену',
-        description: 'Легендарная MOBA, где зрители могут влиять на способности героев и события на арене',
-        story: `<p>В <strong>Чести Королей</strong> игроки становятся легендарными героями, а зрители формируют поле боя. С помощью интерактивных команд и поддержки зрители могут усиливать способности героев и запускать события на арене.</p>`
+        description: 'Легендарная MOBA, где зрители стрима могут влиять на способности героев и условия на поле боя',
+        story: `<p>В <strong>Чести Королей</strong> игроки становятся легендарными героями, а зрители стрима активно формируют поле боя. Благодаря взаимодействию со зрителями герои могут получать улучшенные способности и вызывать динамические события.</p>`
       },
       zh: {
-        title: '王者荣耀：统领传奇·征服竞技场',
-        description: '一款传奇MOBA游戏，观众可以影响英雄能力和竞技场事件',
-        story: `<p>在<strong>王者荣耀</strong>中，玩家扮演传奇英雄，而直播观众则塑造战场。通过互动命令和支持，观众可以增强英雄能力，触发竞技场事件，创造史诗时刻。</p>`
+        title: '王者荣耀：指挥传奇·征服竞技场',
+        description: '一款传奇MOBA游戏，观众可以影响英雄能力和战场环境',
+        story: `<p>在<strong>王者荣耀</strong>中，玩家扮演传奇英雄，而直播观众积极塑造战场。通过观众互动，英雄可以获得增强能力，解锁特殊皮肤，并触发改变竞技场的动态事件。</p>`
       },
       ar: {
         title: 'شرف الملوك: قيادة الأساطير. غزو الساحة',
-        description: 'لعبة موبا أسطورية حيث يمكن للمشاهدين التأثير على قدرات الأبطال وأحداث الساحة',
-        story: `<p>في <strong>شرف الملوك</strong>، يتقمص اللاعبون أدوار الأبطال الأسطوريين بينما يشكل المشاهدون ساحة المعركة. من خلال الأوامر التفاعلية والدعم، يمكن للمشاهدين تعزيز قدرات الأبطال وإطلاق أحداث الساحة.</p>`
+        description: 'لعبة موبا أسطورية حيث يمكن للمشاهدين التأثير على قدرات الأبطال وظروف ساحة المعركة',
+        story: `<p>في <strong>شرف الملوك</strong>، يتقمص اللاعبون أدوار الأبطال الأسطوريين بينما يقوم المشاهدون بتشكيل ساحة المعركة بنشاط. من خلال تفاعلات المشاهدين، يمكن للأبطال اكتساب قدرات معززة وفتح مظاهر خاصة وإطلاق أحداث ديناميكية.</p>`
       },
       vi: {
-        title: 'Vinh Quang Đế Vương: Thống Lĩnh Huyền Thoại. Chinh Phục Đấu Trường',
-        description: 'Trò chơi MOBA huyền thoại nơi người xem có thể ảnh hưởng đến khả năng của tướng và sự kiện đấu trường',
-        story: `<p>Trong <strong>Vinh Quang Đế Vương</strong>, người chơi hóa thân thành những vị tướng huyền thoại trong khi người xem định hình chiến trường. Thông qua lệnh tương tác và hỗ trợ, người xem có thể tăng cường khả năng của tướng và kích hoạt các sự kiện đấu trường.</p>`
+        title: 'Vinh Quang Đế Vương: Chỉ Huy Huyền Thoại. Chinh Phục Đấu Trường',
+        description: 'Trò chơi MOBA huyền thoại nơi người xem có thể ảnh hưởng đến khả năng của tướng và điều kiện chiến trường',
+        story: `<p>Trong <strong>Vinh Quang Đế Vương</strong>, người chơi nhập vai các tướng huyền thoại trong khi người xem stream tích cực định hình chiến trường. Thông qua tương tác của người xem, các tướng có thể đạt được khả năng nâng cao, mở khóa trang phục đặc biệt và kích hoạt các sự kiện động.</p>`
       }
     },
     systemRequirements: {
