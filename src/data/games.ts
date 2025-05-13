@@ -259,7 +259,7 @@ export const games: Game[] = [
       },
       ar: {
         title: 'معركة الممالك الثلاثة: حرب الفصائل في الوقت الحقيقي',
-        description: 'لعبة استراتيجية مكثفة في الوقت الحقيقي تدور أحداثها في عصر الممالك الثلاثة حيث يمكن للمشاهدين الانضمام إلى فصائل مختلفة',
+        description: 'ساحة قتال مستوحاة من ماينكرافت حيث يمكن للمشاهدين استدعاء الوحوش وإطلاق الأحداث والتأثير على البيئة',
         story: `<p>في <strong>معركة الممالك الثلاثة</strong>، يقود اللاعبون الجيوش في ساحة معركة ديناميكية حيث يمكن لمشاهدي البث المباشر إعلان الولاء لفصائل مختلفة وإرسال التعزيزات والتأثير على مجرى الحرب.</p>`
       },
       vi: {
@@ -301,27 +301,27 @@ export const games: Game[] = [
       fr: {
         title: 'Ligue des Monstres: Commander. Conquérir. Survivre.',
         description: 'Un jeu de combat et de collection de monstres où les spectateurs peuvent influencer l\'évolution et les batailles',
-        story: `<p>Dans <strong>Ligue des Monstres</strong>, les joueurs collectionnent et entraînent des créatures uniques tandis que les spectateurs peuvent influencer leur évolution et leurs capacités. Grâce aux interactions des spectateurs, les monstres peuvent gagner de nouveaux pouvoirs, évoluer de manière inattendue et renverser le cours de la bataille.</p>`
+        story: `<p>Dans <strong>Ligue des Monstres</strong>, les joueurs collectionnent et entraînent des créatures uniques tandis que les spectateurs peuvent influencer leur évolution et leurs capacités. Les spectateurs peuvent accorder des bonus de puissance temporaires et déclencher des transformations spéciales.</p>`
       },
       ru: {
         title: 'Лига Монстров: Командуй. Покоряй. Выживай.',
         description: 'Игра о сборе монстров и сражениях, где зрители могут влиять на эволюцию монстров и битвы',
-        story: `<p>В <strong>Лиге Монстров</strong> игроки собирают и тренируют уникальных существ, а зрители могут влиять на их эволюцию и способности. Благодаря взаимодействию со зрителями монстры могут получать новые силы, неожиданно эволюционировать и менять ход битвы.</p>`
+        story: `<p>В <strong>Лиге Монстров</strong> игроки собирают и тренируют уникальных существ, а зрители могут влиять на их эволюцию и способности. Зрители могут давать временные усиления и запускать особые трансформации.</p>`
       },
       zh: {
         title: '怪物联盟：指挥·征服·生存',
-        description: '一款收集怪物对战游戏，观众可以影响怪物进化和战斗',
-        story: `<p>在<strong>怪物联盟</strong>中，玩家收集和训练独特的生物，而直播观众可以影响它们的进化和能力。通过观众互动，怪物可以获得新的力量，以意想不到的方式进化，并改变战局。</p>`
+        description: '一款收集怪物对战游戏，观众可以强化战士并影响战斗结果',
+        story: `<p>在<strong>怪物联盟</strong>中，玩家进行激烈的战斗，而直播观众贡献能量来强化战士。观众可以授予临时力量提升，触发特殊变身，甚至召唤传奇战士改变战局。</p>`
       },
       ar: {
         title: 'رابطة الوحوش: قيادة. غزو. بقاء.',
-        description: 'لعبة جمع ومعارك الوحوش حيث يمكن للمشاهدين التأثير على تطور الوحوش والمعارك',
-        story: `<p>في <strong>رابطة الوحوش</strong>، يجمع اللاعبون ويدربون مخلوقات فريدة بينما يمكن للمشاهدين التأثير على تطورها وقدراتها. من خلال تفاعلات المشاهدين، يمكن للوحوش اكتساب قوى جديدة والتطور بطرق غير متوقعة وتغيير مجرى المعركة.</p>`
+        description: 'لعبة قتال مليئة بالحركة حيث يمكن للمشاهدين تقوية المقاتلين والتأثير على نتائج المعارك',
+        story: `<p>في <strong>رابطة الوحوش</strong>، ينخرط اللاعبون في معارك متفجرة بينما يساهم المشاهدون بطاقتهم لتقوية المقاتلين. يمكن للمشاهدين منح تعزيزات قوة مؤقتة وإطلاق تحولات خاصة.</p>`
       },
       vi: {
         title: 'Liên Minh Quái Vật: Chỉ Huy. Chinh Phục. Sinh Tồn.',
-        description: 'Trò chơi thu thập và chiến đấu quái vật nơi người xem có thể ảnh hưởng đến sự tiến hóa và trận chiến',
-        story: `<p>Trong <strong>Liên Minh Quái Vật</strong>, người chơi thu thập và huấn luyện những sinh vật độc đáo trong khi người xem có thể ảnh hưởng đến sự tiến hóa và khả năng của chúng. Thông qua tương tác của người xem, quái vật có thể đạt được sức mạnh mới, tiến hóa theo những cách bất ngờ và thay đổi cục diện trận chiến.</p>`
+        description: 'Trò chơi đối kháng đầy hành động nơi người xem có thể tăng sức mạnh cho các chiến binh và ảnh hưởng đến kết quả trận đấu',
+        story: `<p>Trong <strong>Liên Minh Quái Vật</strong>, người chơi tham gia các trận chiến bùng nổ trong khi người xem đóng góp năng lượng để tăng sức mạnh cho các chiến binh. Người xem có thể trao tăng sức mạnh tạm thời và kích hoạt các biến đổi đặc biệt.</p>`
       }
     },
     systemRequirements: {
@@ -502,6 +502,62 @@ export const games: Game[] = [
         os: 'Windows 10 (64-bit)',
         processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
         memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 10,
+    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
+    description: 'An action-packed fighting game where stream viewers can influence monster evolution and battles',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+        description: 'An action-packed fighting game where stream viewers can power up fighters and influence battle outcomes',
+        story: `<p>In <strong>Dragon Ball Duel</strong>, players engage in explosive battles while stream viewers contribute their energy to power up fighters. Through chat interactions and donations, viewers can grant fighters temporary power boosts, trigger special transformations, and even summon legendary warriors to turn the tide of battle in an instant.</p>`
+      },
+      de: {
+        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
+        description: 'Ein actiongeladenes Kampfspiel, in dem Stream-Zuschauer Kämpfer verstärken und Kampfergebnisse beeinflussen können',
+        story: `<p>In <strong>Dragon Ball Duell</strong> liefern sich Spieler explosive Kämpfe, während Stream-Zuschauer ihre Energie beisteuern, um Kämpfer zu verstärken. Durch Chat-Interaktionen und Spenden können Zuschauer temporäre Kraftschübe gewähren und spezielle Transformationen auslösen.</p>`
+      },
+      fr: {
+        title: 'Dragon Ball Duel: Une Nouvelle Ère de Combat Dragon Ball Vous Attend',
+        description: 'Un jeu de combat plein d\'action où les spectateurs peuvent renforcer les combattants et influencer l\'issue des batailles',
+        story: `<p>Dans <strong>Dragon Ball Duel</strong>, les joueurs participent à des batailles explosives tandis que les spectateurs contribuent leur énergie pour renforcer les combattants. Les spectateurs peuvent accorder des bonus de puissance temporaires et déclencher des transformations spéciales.</p>`
+      },
+      ru: {
+        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball',
+        description: 'Динамичная боевая игра, где зрители могут усиливать бойцов и влиять на исход битв',
+        story: `<p>В <strong>Dragon Ball Дуэли</strong> игроки участвуют в взрывных сражениях, а зрители вносят свою энергию для усиления бойцов. Зрители могут давать временные усиления и запускать особые трансформации.</p>`
+      },
+      zh: {
+        title: '龙珠决斗：龙珠战斗的新纪元',
+        description: '一款动作激烈的格斗游戏，观众可以强化战士并影响战斗结果',
+        story: `<p>在<strong>龙珠决斗</strong>中，玩家进行激烈的战斗，而直播观众贡献能量来强化战士。观众可以授予临时力量提升，触发特殊变身，甚至召唤传奇战士改变战局。</p>`
+      },
+      ar: {
+        title: 'نزال دراغون بول: حقبة جديدة من قتال دراغون بول في انتظارك',
+        description: 'لعبة قتال مليئة بالحركة حيث يمكن للمشاهدين تقوية المقاتلين والتأثير على نتائج المعارك',
+        story: `<p>في <strong>نزال دراغون بول</strong>، ينخرط اللاعبون في معارك متفجرة بينما يساهم المشاهدون بطاقتهم لتقوية المقاتلين. يمكن للمشاهدين منح تعزيزات قوة مؤقتة وإطلاق تحولات خاصة.</p>`
+      },
+      vi: {
+        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới Của Trận Chiến Dragon Ball',
+        description: 'Trò chơi đối kháng đầy hành động nơi người xem có thể tăng sức mạnh cho các chiến binh và ảnh hưởng đến kết quả trận đấu',
+        story: `<p>Trong <strong>Dragon Ball Đối Đầu</strong>, người chơi tham gia các trận chiến bùng nổ trong khi người xem đóng góp năng lượng để tăng sức mạnh cho các chiến binh. Người xem có thể trao tăng sức mạnh tạm thời và kích hoạt các biến đổi đặc biệt.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 8/10 (64-bit)',
+        processor: 'Intel Core i5-4460 or AMD FX-8350',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 (64-bit)',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 3700X',
+        memory: '16 GB RAM'
       }
     }
   }
