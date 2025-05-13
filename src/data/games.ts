@@ -448,5 +448,61 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 9,
+    title: 'Minecraft Arena: Survive the Chaos, Rule the Arena',
+    imageUrl: '/assets/Minecraft Arena_ Survive the Chaos, Rule the Arena.jpg',
+    description: 'A Minecraft-inspired battle arena where viewers can spawn mobs, trigger events, and influence the environment',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Minecraft Arena: Survive the Chaos, Rule the Arena',
+        description: 'A Minecraft-inspired battle arena where viewers can spawn mobs, trigger events, and influence the environment',
+        story: `<p>In <strong>Minecraft Arena</strong>, players battle for survival in a dynamic, block-based world where stream viewers actively shape the environment. Through chat commands and donations, viewers can spawn hostile mobs, trigger weather events, and even reshape the terrain, creating an ever-changing battlefield that tests players' adaptability and skill.</p>`
+      },
+      de: {
+        title: 'Minecraft Arena: Überlebe das Chaos, Beherrsche die Arena',
+        description: 'Eine von Minecraft inspirierte Kampfarena, in der Zuschauer Monster spawnen, Ereignisse auslösen und die Umgebung beeinflussen können',
+        story: `<p>In der <strong>Minecraft Arena</strong> kämpfen Spieler in einer dynamischen, blockbasierten Welt ums Überleben, während Stream-Zuschauer die Umgebung aktiv gestalten. Durch Chat-Befehle und Spenden können Zuschauer feindliche Kreaturen erschaffen, Wetterereignisse auslösen und sogar das Gelände umformen.</p>`
+      },
+      fr: {
+        title: 'Arène Minecraft: Survivez au Chaos, Régnez sur l\'Arène',
+        description: 'Une arène de combat inspirée de Minecraft où les spectateurs peuvent faire apparaître des monstres, déclencher des événements et influencer l\'environnement',
+        story: `<p>Dans <strong>Arène Minecraft</strong>, les joueurs se battent pour leur survie dans un monde dynamique basé sur des blocs où les spectateurs façonnent activement l'environnement. Les spectateurs peuvent faire apparaître des monstres hostiles, déclencher des événements météorologiques et même remodeler le terrain.</p>`
+      },
+      ru: {
+        title: 'Minecraft Арена: Выживи в Хаосе, Правь Ареной',
+        description: 'Боевая арена в стиле Minecraft, где зрители могут призывать мобов, запускать события и влиять на окружение',
+        story: `<p>В <strong>Minecraft Арене</strong> игроки сражаются за выживание в динамичном блочном мире, где зрители стрима активно формируют окружение. Зрители могут призывать враждебных мобов, запускать погодные явления и даже изменять ландшафт.</p>`
+      },
+      zh: {
+        title: '我的世界竞技场：在混沌中生存，统治竞技场',
+        description: '一个受我的世界启发的战斗竞技场，观众可以生成怪物、触发事件并影响环境',
+        story: `<p>在<strong>我的世界竞技场</strong>中，玩家在动态的方块世界中为生存而战，直播观众积极塑造环境。观众可以生成敌对生物、触发天气事件，甚至重塑地形。</p>`
+      },
+      ar: {
+        title: 'ساحة ماينكرافت: النجاة من الفوضى، حكم الساحة',
+        description: 'ساحة قتال مستوحاة من ماينكرافت حيث يمكن للمشاهدين استدعاء الوحوش وإطلاق الأحداث والتأثير على البيئة',
+        story: `<p>في <strong>ساحة ماينكرافت</strong>، يقاتل اللاعبون من أجل البقاء في عالم ديناميكي قائم على المكعبات حيث يقوم المشاهدون بتشكيل البيئة بنشاط. يمكن للمشاهدين استدعاء وحوش معادية وإطلاق أحداث جوية وحتى إعادة تشكيل التضاريس.</p>`
+      },
+      vi: {
+        title: 'Đấu Trường Minecraft: Sống Sót Trong Hỗn Loạn, Thống Trị Đấu Trường',
+        description: 'Đấu trường chiến đấu lấy cảm hứng từ Minecraft nơi người xem có thể sinh ra quái vật, kích hoạt sự kiện và ảnh hưởng đến môi trường',
+        story: `<p>Trong <strong>Đấu Trường Minecraft</strong>, người chơi chiến đấu để sinh tồn trong một thế giới khối động nơi người xem stream tích cực định hình môi trường. Người xem có thể sinh ra quái vật thù địch, kích hoạt các sự kiện thời tiết và thậm chí định hình lại địa hình.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit)',
+        processor: 'Intel Core i3-3210 or AMD A8-7600',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      }
+    }
   }
 ];
