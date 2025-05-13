@@ -106,7 +106,7 @@ export const games: Game[] = [
         description: 'معركة استراتيجية في الوقت الفعلي حيث يشكل المشاهدون النتيجة',
         story: `<p>يضعك صراع الفيلق في قلب ساحة معركة ملحمية حيث تلتقي الاستراتيجية بالتفاعل المباشر. هل ستنضم إلى لواء الفجر أم تحالف الغسق؟</p>
         <p>كل تعليق، إعجاب، وهدية ترسلها تطلق وحدات وقدرات قوية. قم بقيادة الجيوش، إلقاء التعويذات، وتغيير مجرى المعركة بدعمك.</p>
-        <p>استخدم بطاقات المعركة بحكمة لفتح القادة الأسطوريين والوحدات النخبة. مساهماتك تغذي جهود الحرب، ويحصل كبار الداعمين على ألقاب ومكافآت فريدة.</p>
+        <p>استخدم بطاقات المعركة بحكمة لفتح القادة الأسطوريين والوحدات النخبة. مساهماتك تغذي جهود الحرب، ويحصل كبار المساهمين على ألقاب ومكافآت فريدة.</p>
         <p>مع تصاعد الصراع، يزداد تأثيرك. اختر ولاءك، خطط استراتيجيتك، وشاهد المعركة تتكشف في الوقت الفعلي.</p>
         <p>احشد قواتك. احصل على النصر. هل يمكنك الخروج منتصراً من هذا الصدام الملحمي؟</p>`
       },
@@ -406,6 +406,91 @@ export const games: Game[] = [
         <p>Làm chủ các thẻ vương quốc để thiết lập tuyến đường thương mại, hình thành liên minh và mở rộng ảnh hưởng của bạn. Quyết định của bạn định hình số phận các quốc gia, với những người ủng hộ hàng đầu nhận được tước hiệu quý tộc và đặc quyền hoàng gia.</p>
         <p>Khi vương quốc của bạn phát triển, di sản của bạn cũng tăng theo. Chọn con đường của bạn, thực hiện tầm nhìn của bạn và theo dõi triều đại của bạn phát triển trong thời gian thực.</p>
         <p>Xây dựng di sản của bạn. Thống nhất các vương quốc. Bạn có thể trở thành vị vua vĩ đại nhất mọi thời đại không?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 6,
+    title: 'Color War: Paint Your Path to Victory',
+    imageUrl: '/assets/Color War.jpg',
+    description: 'A vibrant battle where viewers paint the battlefield to claim territory',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Color War: Paint Your Path to Victory',
+        description: 'A vibrant battle where viewers paint the battlefield to claim territory',
+        story: `<p>Color War transforms warfare into an explosive artistic showdown. Choose between the Rainbow Raiders or the Neon Knights!</p>
+        <p>Every viewer interaction adds splashes of color to the battlefield - comments spray paint, likes create color bombs, and gifts unleash spectacular chromatic explosions. Real participation creates real art.</p>
+        <p>Master your color cards to mix powerful combinations, unlock special patterns, and dominate the canvas. Your artistic choices influence territory control, with top contributors earning unique artist titles and exclusive color palettes.</p>
+        <p>As the battle intensifies, your artistic influence grows. Pick your palette, plan your masterpiece, and watch your creativity unfold in real-time.</p>
+        <p>Paint your legacy. Claim your territory. Will you become the ultimate color commander?</p>`
+      },
+      ar: {
+        title: 'حرب الألوان: ارسم طريقك نحو النصر',
+        description: 'معركة نابضة بالحياة حيث يرسم المشاهدون ساحة المعركة للمطالبة بالأراضي',
+        story: `<p>تحول حرب الألوان القتال إلى مواجهة فنية متفجرة. اختر بين غزاة قوس قزح أو فرسان النيون!</p>
+        <p>كل تفاعل من المشاهدين يضيف رشات من الألوان إلى ساحة المعركة - التعليقات ترش الطلاء، الإعجابات تخلق قنابل ملونة، والهدايا تطلق انفجارات لونية مذهلة. المشاركة الحقيقية تخلق فناً حقيقياً.</p>
+        <p>استخدم بطاقات الألوان الخاصة بك لمزج تركيبات قوية، وفتح أنماط خ
+اصة، والسيطرة على اللوحة. خياراتك الفنية تؤثر على السيطرة على الأراضي، ويحصل كبار المساهمين على ألقاب فنية فريدة ولوحات ألوان حصرية.</p>
+        <p>مع اشتداد المعركة، يزداد تأثيرك الفني. اختر لوحة ألوانك، خطط لتحفتك الفنية، وشاهد إبداعك يتكشف في الوقت الفعلي.</p>
+        <p>ارسم إرثك. اطالب بأرضك. هل ستصبح قائد الألوان الأعظم؟</p>`
+      },
+      de: {
+        title: 'Farbenkrieg: Male deinen Weg zum Sieg',
+        description: 'Eine lebendige Schlacht, in der Zuschauer das Schlachtfeld bemalen, um Territorium zu beanspruchen',
+        story: `<p>Farbenkrieg verwandelt Kriegsführung in einen explosiven künstlerischen Showdown. Wähle zwischen den Regenbogen-Räubern oder den Neon-Rittern!</p>
+        <p>Jede Zuschauerinteraktion fügt dem Schlachtfeld Farbspritzer hinzu - Kommentare sprühen Farbe, Likes erzeugen Farbbomben und Geschenke entfesseln spektakuläre chromatische Explosionen. Echte Teilnahme schafft echte Kunst.</p>
+        <p>Beherrsche deine Farbkarten, um mächtige Kombinationen zu mischen, spezielle Muster freizuschalten und die Leinwand zu dominieren. Deine künstlerischen Entscheidungen beeinflussen die Gebietskontrolle, wobei Top-Beitragende einzigartige Künstlertitel und exklusive Farbpaletten erhalten.</p>
+        <p>Je intensiver die Schlacht wird, desto größer wird dein künstlerischer Einfluss. Wähle deine Palette, plane dein Meisterwerk und beobachte, wie sich deine Kreativität in Echtzeit entfaltet.</p>
+        <p>Male dein Vermächtnis. Beanspruche dein Territorium. Wirst du zum ultimativen Farbenkommandeur?</p>`
+      },
+      ru: {
+        title: 'Война Красок: Нарисуй Свой Путь к Победе',
+        description: 'Яркая битва, где зрители раскрашивают поле боя, чтобы захватить территорию',
+        story: `<p>Война Красок превращает сражение в взрывное художественное противостояние. Выберите между Радужными Рейдерами или Неоновыми Рыцарями!</p>
+        <p>Каждое взаимодействие зрителей добавляет брызги цвета на поле боя - комментарии распыляют краску, лайки создают цветные бомбы, а подарки высвобождают впечатляющие хроматические взрывы. Реальное участие создает реальное искусство.</p>
+        <p>Освойте свои цветовые карты, чтобы создавать мощные комбинации, разблокировать особые узоры и доминировать на холсте. Ваш художественный выбор влияет на контроль территории, а лучшие участники получают уникальные титулы художников и эксклюзивные цветовые палитры.</p>
+        <p>По мере усиления битвы растет ваше художественное влияние. Выберите свою палитру, спланируйте свой шедевр и наблюдайте, как ваше творчество разворачивается в реальном времени.</p>
+        <p>Нарисуйте свое наследие. Заявите права на свою территорию. Станете ли вы величайшим командующим красок?</p>`
+      },
+      fr: {
+        title: 'Guerre des Couleurs : Peignez Votre Chemin vers la Victoire',
+        description: 'Une bataille vibrante où les spectateurs peignent le champ de bataille pour revendiquer le territoire',
+        story: `<p>Guerre des Couleurs transforme la guerre en un affrontement artistique explosif. Choisissez entre les Raiders Arc-en-ciel ou les Chevaliers Néon !</p>
+        <p>Chaque interaction des spectateurs ajoute des éclaboussures de couleur au champ de bataille - les commentaires pulvérisent de la peinture, les likes créent des bombes de couleur et les cadeaux libèrent des explosions chromatiques spectaculaires. Une participation réelle crée un art réel.</p>
+        <p>Maîtrisez vos cartes de couleur pour mélanger des combinaisons puissantes, débloquer des motifs spéciaux et dominer la toile. Vos choix artistiques influencent le contrôle du territoire, les meilleurs contributeurs gagnant des titres d'artiste uniques et des palettes de couleurs exclusives.</p>
+        <p>À mesure que la bataille s'intensifie, votre influence artistique grandit. Choisissez votre palette, planifiez votre chef-d'œuvre et regardez votre créativité se déployer en temps réel.</p>
+        <p>Peignez votre héritage. Revendiquez votre territoire. Deviendrez-vous le commandant des couleurs ultime ?</p>`
+      },
+      zh: {
+        title: '色彩战争：绘制胜利之路',
+        description: '一场观众通过绘制战场来争夺领地的充满活力的战斗',
+        story: `<p>色彩战争将战争转变为爆炸性的艺术对决。在彩虹突击队和霓虹骑士之间做出选择！</p>
+        <p>每个观众互动都为战场增添色彩 - 评论喷洒颜料，点赞创造色彩炸弹，礼物释放壮观的色彩爆炸。真实参与创造真实艺术。</p>
+        <p>掌握你的色彩卡牌来混合强大组合，解锁特殊图案，主宰画布。你的艺术选择影响领土控制，顶级贡献者获得独特的艺术家头衔和专属调色板。</p>
+        <p>随着战斗加剧，你的艺术影响力也在增长。选择你的调色板，规划你的杰作，实时观看你的创意展开。</p>
+        <p>绘制你的遗产。宣称你的领地。你能成为终极色彩指挥官吗？</p>`
+      },
+      vi: {
+        title: 'Chiến Tranh Sắc Màu: Vẽ Nên Con Đường Chiến Thắng',
+        description: 'Một trận chiến sôi động nơi người xem vẽ chiến trường để giành lãnh thổ',
+        story: `<p>Chiến Tranh Sắc Màu biến cuộc chiến thành một màn đối đầu nghệ thuật bùng nổ. Chọn giữa Đội Quân Cầu Vồng hoặc Hiệp Sĩ Neon!</p>
+        <p>Mỗi tương tác của người xem đều thêm những vệt màu vào chiến trường - bình luận phun sơn, lượt thích tạo bom màu, và quà tặng giải phóng những vụ nổ sắc màu ngoạn mục. Sự tham gia thực sự tạo nên nghệ thuật thực sự.</p>
+        <p>Làm chủ các thẻ màu của bạn để pha trộn những kết hợp mạnh mẽ, mở khóa các mẫu đặc biệt và thống trị bức tranh. Lựa chọn nghệ thuật của bạn ảnh hưởng đến việc kiểm soát lãnh thổ, với những người đóng góp hàng đầu nhận được danh hiệu nghệ sĩ độc đáo và bảng màu độc quyền.</p>
+        <p>Khi trận chiến trở nên gay cấn, ảnh hưởng nghệ thuật của bạn cũng tăng theo. Chọn bảng màu của bạn, lên kế hoạch cho kiệt tác và theo dõi sự sáng tạo của bạn phát triển trong thời gian thực.</p>
+        <p>Vẽ nên di sản của bạn. Giành lấy lãnh thổ của bạn. Bạn có thể trở thành chỉ huy sắc màu tối thượng không?</p>`
       }
     },
     systemRequirements: {
