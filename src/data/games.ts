@@ -168,5 +168,89 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 3,
+    title: 'Speed Racing: Ultimate Street Challenge',
+    imageUrl: '/assets/Speed Racing.jpg',
+    description: 'High-octane street racing where viewers boost their favorite racers',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Speed Racing: Ultimate Street Challenge',
+        description: 'High-octane street racing where viewers boost their favorite racers',
+        story: `<p>Speed Racing throws you into the heart of underground street racing culture. Choose between the Midnight Runners or the Daybreak Drifters!</p>
+        <p>Every viewer interaction powers up the racers - comments fuel nitro boosts, likes unlock special maneuvers, and gifts provide game-changing power-ups. Real support creates real speed.</p>
+        <p>Collect and upgrade your racing cards to unlock legendary vehicles and expert drivers. Your support determines who leads the pack, with top fans earning exclusive titles and racing rewards.</p>
+        <p>As the races intensify, your influence grows stronger. Pick your crew, plan your strategy, and watch the action unfold at breakneck speed.</p>
+        <p>Rev your engines. Hit the streets. Can you handle the heat of underground racing?</p>`
+      },
+      ar: {
+        title: 'سباق السرعة: تحدي الشوارع النهائي',
+        description: 'سباقات شوارع عالية الأوكتان حيث يعزز المشاهدون متسابقيهم المفضلين',
+        story: `<p>يضعك سباق السرعة في قلب ثقافة سباقات الشوارع السرية. اختر بين عدائي منتصف الليل أو منجرفي الفجر!</p>
+        <p>كل تفاعل من المشاهدين يقوي المتسابقين - التعليقات تغذي معززات النيترو، الإعجابات تفتح مناورات خاصة، والهدايا توفر تعزيزات تغير مجرى اللعبة. الدعم الحقيقي يخلق سرعة حقيقية.</p>
+        <p>اجمع وطور بطاقات السباق لفتح المركبات الأسطورية والسائقين المحترفين. دعمك يحدد من يقود المجموعة، ويحصل أفضل المشجعين على ألقاب حصرية ومكافآت سباق.</p>
+        <p>مع اشتداد السباقات، يزداد تأثيرك قوة. اختر فريقك، خطط استراتيجيتك، وشاهد الأحداث تتكشف بسرعة مذهلة.</p>
+        <p>شغل محركاتك. انطلق إلى الشوارع. هل يمكنك تحمل حرارة السباقات السرية؟</p>`
+      },
+      de: {
+        title: 'Speed Racing: Ultimative Straßen-Challenge',
+        description: 'Hochoktaniges Straßenrennen, bei dem Zuschauer ihre Lieblingsfahrer unterstützen',
+        story: `<p>Speed Racing versetzt dich mitten in die Underground-Straßenrennkultur. Wähle zwischen den Midnight Runners oder den Daybreak Drifters!</p>
+        <p>Jede Zuschauerinteraktion verstärkt die Fahrer - Kommentare befeuern Nitro-Boosts, Likes schalten Spezialmanöver frei und Geschenke bieten spielverändernde Power-ups. Echte Unterstützung schafft echte Geschwindigkeit.</p>
+        <p>Sammle und verbessere deine Rennkarten, um legendäre Fahrzeuge und Expertenfahrer freizuschalten. Deine Unterstützung bestimmt, wer das Feld anführt, wobei Top-Fans exklusive Titel und Rennbelohnungen erhalten.</p>
+        <p>Je intensiver die Rennen werden, desto stärker wird dein Einfluss. Wähle deine Crew, plane deine Strategie und erlebe die Action in halsbrecherischer Geschwindigkeit.</p>
+        <p>Lass die Motoren aufheulen. Ab auf die Straßen. Kannst du mit der Hitze des Underground-Racing umgehen?</p>`
+      },
+      ru: {
+        title: 'Speed Racing: Главный Вызов Улиц',
+        description: 'Высокооктановые уличные гонки, где зрители поддерживают своих любимых гонщиков',
+        story: `<p>Speed Racing погружает вас в самое сердце культуры подпольных уличных гонок. Выбирайте между Полуночными Гонщиками или Дрифтерами Рассвета!</p>
+        <p>Каждое взаимодействие зрителей усиливает гонщиков - комментарии заряжают нитро-ускорение, лайки открывают специальные маневры, а подарки предоставляют меняющие игру усиления. Реальная поддержка создает реальную скорость.</p>
+        <p>Собирайте и улучшайте свои гоночные карты, чтобы разблокировать легендарные автомобили и опытных водителей. Ваша поддержка определяет, кто возглавит пелотон, а лучшие фанаты получают эксклюзивные титулы и гоночные награды.</p>
+        <p>По мере усиления гонок растет и ваше влияние. Выберите свою команду, спланируйте стратегию и наблюдайте за развитием событий на головокружительной скорости.</p>
+        <p>Заводите двигатели. Выходите на улицы. Сможете ли вы выдержать накал подпольных гонок?</p>`
+      },
+      fr: {
+        title: 'Speed Racing : Défi Ultime des Rues',
+        description: 'Course de rue à haute octane où les spectateurs boostent leurs pilotes préférés',
+        story: `<p>Speed Racing vous plonge au cœur de la culture des courses de rue clandestines. Choisissez entre les Coureurs de Minuit ou les Drifters de l'Aube !</p>
+        <p>Chaque interaction des spectateurs renforce les pilotes - les commentaires alimentent les boosts de nitro, les likes débloquent des manœuvres spéciales et les cadeaux fournissent des power-ups qui changent la donne. Un vrai soutien crée une vraie vitesse.</p>
+        <p>Collectionnez et améliorez vos cartes de course pour débloquer des véhicules légendaires et des pilotes experts. Votre soutien détermine qui mène la course, les meilleurs fans gagnant des titres exclusifs et des récompenses de course.</p>
+        <p>À mesure que les courses s'intensifient, votre influence grandit. Choisissez votre équipe, planifiez votre stratégie et regardez l'action se dérouler à une vitesse vertigineuse.</p>
+        <p>Faites vrombir vos moteurs. Prenez la rue. Pouvez-vous supporter la chaleur des courses clandestines ?</p>`
+      },
+      zh: {
+        title: '极速赛车：终极街头挑战',
+        description: '高能街头竞速，观众为最爱的赛车手加油助威',
+        story: `<p>极速赛车将你带入地下街头赛车文化的核心。在午夜奔驰者和破晓漂移者之间做出选择！</p>
+        <p>每一次观众互动都能为赛车手提供动力 - 评论激活氮气加速，点赞解锁特殊动作，礼物提供改变游戏局势的能量提升。真实支持创造真实速度。</p>
+        <p>收集并升级你的赛车卡牌以解锁传奇车辆和专业车手。你的支持决定谁能领先车队，顶级粉丝将获得专属头衔和赛车奖励。</p>
+        <p>随着比赛强度的提升，你的影响力也会增长。选择你的车队，规划你的策略，观看激动人心的比赛以惊人的速度展开。</p>
+        <p>发动引擎。驰骋街头。你能应对地下赛车的热度吗？</p>`
+      },
+      vi: {
+        title: 'Đua Xe Tốc Độ: Thử Thách Đường Phố Tối Thượng',
+        description: 'Đua xe đường phố mãnh liệt nơi người xem tăng sức mạnh cho tay đua yêu thích của họ',
+        story: `<p>Đua Xe Tốc Độ đưa bạn vào trung tâm của văn hóa đua xe đường phố ngầm. Lựa chọn giữa Tay Đua Nửa Đêm hoặc Tay Drift Bình Minh!</p>
+        <p>Mỗi tương tác của người xem đều tăng sức mạnh cho các tay đua - bình luận nạp nitro tăng tốc, lượt thích mở khóa các động tác đặc biệt, và quà tặng cung cấp các năng lực thay đổi cục diện. Hỗ trợ thực sự tạo ra tốc độ thực sự.</p>
+        <p>Thu thập và nâng cấp thẻ đua xe của bạn để mở khóa các phương tiện huyền thoại và tay đua chuyên nghiệp. Sự ủng hộ của bạn quyết định ai dẫn đầu đoàn đua, với những người hâm mộ hàng đầu nhận được danh hiệu độc quyền và phần thưởng đua xe.</p>
+        <p>Khi các cuộc đua trở nên gay cấn hơn, ảnh hưởng của bạn cũng mạnh mẽ hơn. Chọn đội của bạn, lên kế hoạch chiến thuật và theo dõi hành động diễn ra với tốc độ chóng mặt.</p>
+        <p>Khởi động động cơ. Lao ra đường phố. Bạn có thể chịu được sức nóng của đua xe ngầm không?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
