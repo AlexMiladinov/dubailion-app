@@ -224,5 +224,61 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 5,
+    title: 'Three Kingdoms Brawl: Real-Time Faction War',
+    imageUrl: '/assets/Three Kingdoms Brawl_ Real-Time Faction War.jpg',
+    description: 'An intense real-time strategy game set in the Three Kingdoms era where stream viewers can join different factions',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Three Kingdoms Brawl: Real-Time Faction War',
+        description: 'An intense real-time strategy game set in the Three Kingdoms era where stream viewers can join different factions',
+        story: `<p>In <strong>Three Kingdoms Brawl</strong>, players command armies in a dynamic battlefield where stream viewers can pledge allegiance to different factions, send reinforcements, and influence the tide of war. Every battle becomes an epic clash of strategy, loyalty, and viewer participation.</p>`
+      },
+      de: {
+        title: 'Drei-Reiche-Kampf: Echtzeit-Fraktionskrieg',
+        description: 'Ein intensives Echtzeit-Strategiespiel in der Zeit der Drei Reiche, in dem Stream-Zuschauer verschiedenen Fraktionen beitreten können',
+        story: `<p>In <strong>Drei-Reiche-Kampf</strong> befehligen Spieler Armeen auf einem dynamischen Schlachtfeld, wo Stream-Zuschauer verschiedenen Fraktionen die Treue schwören, Verstärkungen senden und den Kriegsverlauf beeinflussen können.</p>`
+      },
+      fr: {
+        title: 'Bataille des Trois Royaumes: Guerre des Factions en Temps Réel',
+        description: 'Un jeu de stratégie intense en temps réel situé à l\'époque des Trois Royaumes où les spectateurs peuvent rejoindre différentes factions',
+        story: `<p>Dans <strong>Bataille des Trois Royaumes</strong>, les joueurs commandent des armées sur un champ de bataille dynamique où les spectateurs peuvent prêter allégeance à différentes factions, envoyer des renforts et influencer le cours de la guerre.</p>`
+      },
+      ru: {
+        title: 'Битва Трёх Королевств: Война Фракций в Реальном Времени',
+        description: 'Интенсивная стратегическая игра в реальном времени в эпоху Трёх Королевств, где зрители стрима могут присоединиться к разным фракциям',
+        story: `<p>В <strong>Битве Трёх Королевств</strong> игроки командуют армиями на динамичном поле боя, где зрители стрима могут присягнуть на верность разным фракциям, отправлять подкрепления и влиять на ход войны.</p>`
+      },
+      zh: {
+        title: '三国乱斗：实时派系战争',
+        description: '一款设定在三国时代的激烈实时策略游戏，观众可以加入不同阵营',
+        story: `<p>在<strong>三国乱斗</strong>中，玩家在动态战场上指挥军队，直播观众可以效忠不同阵营，派遣援军，影响战局走向。</p>`
+      },
+      ar: {
+        title: 'معركة الممالك الثلاثة: حرب الفصائل في الوقت الحقيقي',
+        description: 'لعبة استراتيجية مكثفة في الوقت الحقيقي تدور أحداثها في عصر الممالك الثلاثة حيث يمكن للمشاهدين الانضمام إلى فصائل مختلفة',
+        story: `<p>في <strong>معركة الممالك الثلاثة</strong>، يقود اللاعبون الجيوش في ساحة معركة ديناميكية حيث يمكن لمشاهدي البث المباشر إعلان الولاء لفصائل مختلفة وإرسال التعزيزات والتأثير على مجرى الحرب.</p>`
+      },
+      vi: {
+        title: 'Tam Quốc Đại Chiến: Chiến Tranh Phe Phái Thời Gian Thực',
+        description: 'Trò chơi chiến thuật thời gian thực gay cấn diễn ra trong thời Tam Quốc, nơi người xem stream có thể tham gia các phe phái khác nhau',
+        story: `<p>Trong <strong>Tam Quốc Đại Chiến</strong>, người chơi chỉ huy quân đội trên chiến trường năng động nơi người xem stream có thể tuyên thệ trung thành với các phe phái khác nhau, gửi tiếp viện và ảnh hưởng đến thế trận.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 8/10 (64-bit)',
+        processor: 'Intel Core i5-4460 or AMD FX-8350',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i7-7700K or AMD Ryzen 7 2700X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
