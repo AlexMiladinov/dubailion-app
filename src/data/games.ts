@@ -56,5 +56,61 @@ export const games: Game[] = [
         memory: '4 GB RAM'
       }
     }
+  },
+  {
+    id: 4,
+    title: 'Call Me Champion: Shape the Faction War with Every Move',
+    imageUrl: '/assets/Call Me Champion_ Shape the Faction War with Every Move.jpg',
+    description: 'Choose Your Side, Fight for Glory, and Earn Your Spot at the Top!',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Call Me Champion: Shape the Faction War with Every Move',
+        description: 'Choose Your Side, Fight for Glory, and Earn Your Spot at the Top!',
+        story: `<p>Enter a world where every decision shapes the outcome of an epic faction war. As a rising champion, your choices and combat prowess will determine the fate of your chosen faction. Stream viewers can pledge allegiance and contribute to the war effort through interactive commands and support.</p>`
+      },
+      de: {
+        title: 'Nenn Mich Champion: Forme den Fraktionskrieg mit Jeder Bewegung',
+        description: 'Wähle deine Seite, kämpfe für Ruhm und sichere dir deinen Platz an der Spitze!',
+        story: `<p>Betritt eine Welt, in der jede Entscheidung den Ausgang eines epischen Fraktionskrieges bestimmt. Als aufstrebender Champion entscheiden deine Wahl und deine Kampffähigkeiten über das Schicksal deiner gewählten Fraktion.</p>`
+      },
+      fr: {
+        title: 'Appelez-Moi Champion: Façonnez la Guerre des Factions à Chaque Mouvement',
+        description: 'Choisissez Votre Camp, Battez-vous pour la Gloire et Gagnez Votre Place au Sommet!',
+        story: `<p>Entrez dans un monde où chaque décision façonne l'issue d'une guerre épique entre factions. En tant que champion montant, vos choix et votre prouesse au combat détermineront le destin de votre faction.</p>`
+      },
+      ru: {
+        title: 'Зови Меня Чемпион: Определи Судьбу Войны Фракций Каждым Ходом',
+        description: 'Выбери Свою Сторону, Сражайся за Славу и Заслужи Место на Вершине!',
+        story: `<p>Войдите в мир, где каждое решение определяет исход эпической войны фракций. Как восходящий чемпион, ваш выбор и боевое мастерство определят судьбу вашей избранной фракции.</p>`
+      },
+      zh: {
+        title: '称霸天下：以战定乾坤',
+        description: '选择阵营，为荣耀而战，登顶称王！',
+        story: `<p>进入一个每个决定都能影响史诗级派系战争结局的世界。作为崛起的冠军，你的选择和战斗实力将决定你所选派系的命运。直播观众可以通过互动命令和支持来宣誓效忠并为战争努力做出贡献。</p>`
+      },
+      ar: {
+        title: 'نادني بطلاً: شكّل حرب الفصائل بكل خطوة',
+        description: 'اختر جانبك، قاتل من أجل المجد، واكسب مكانك في القمة!',
+        story: `<p>ادخل عالماً حيث كل قرار يشكل نتيجة حرب الفصائل الملحمية. كبطل صاعد، ستحدد اختياراتك وبراعتك في القتال مصير الفصيل الذي اخترته.</p>`
+      },
+      vi: {
+        title: 'Gọi Ta Là Nhà Vô Địch: Định Hình Cuộc Chiến Phe Phái Trong Từng Bước Đi',
+        description: 'Chọn Phe Của Bạn, Chiến Đấu Vì Vinh Quang, và Giành Lấy Vị Trí Của Bạn Ở Đỉnh Cao!',
+        story: `<p>Bước vào thế giới nơi mỗi quyết định đều định hình kết quả của cuộc chiến phe phái hoành tráng. Là một nhà vô địch đang lên, sự lựa chọn và khả năng chiến đấu của bạn sẽ quyết định số phận của phe phái bạn chọn.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-8400 or AMD Ryzen 5 2600',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-9700K or AMD Ryzen 7 3700X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
