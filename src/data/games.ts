@@ -84,6 +84,89 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 2,
+    title: 'Legion Clash: Battle for Glory',
+    imageUrl: '/assets/Legion Clash.jpg',
+    description: 'An epic real-time strategy battle where viewers shape the outcome',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Legion Clash: Battle for Glory',
+        description: 'An epic real-time strategy battle where viewers shape the outcome',
+        story: `<p>Legion Clash puts you at the heart of an epic battlefield where strategy meets live interaction. Will you join the Dawn Brigade or the Dusk Coalition?</p>
+        <p>Every comment, like, and gift you send unleashes powerful units and abilities. Command armies, cast spells, and turn the tide of battle with your support.</p>
+        <p>Use your battle cards wisely to unlock legendary commanders and elite units. Your contributions fuel the war effort, with top supporters earning unique titles and rewards.</p>
+        <p>As the conflict escalates, so does your influence. Choose your allegiance, plan your strategy, and watch the battle unfold in real-time.</p>
+        <p>Rally your forces. Claim victory. Can you emerge triumphant from this epic clash?</p>`
+      },
+      ar: {
+        title: 'صراع الفيلق: معركة المجد',
+        description: 'معركة استراتيجية في الوقت الفعلي حيث يشكل المشاهدون النتيجة',
+        story: `<p>يضعك صراع الفيلق في قلب ساحة معركة ملحمية حيث تلتقي الاستراتيجية بالتفاعل المباشر. هل ستنضم إلى لواء الفجر أم تحالف الغسق؟</p>
+        <p>كل تعليق، إعجاب، وهدية ترسلها تطلق وحدات وقدرات قوية. قم بقيادة الجيوش، إلقاء التعويذات، وتغيير مجرى المعركة بدعمك.</p>
+        <p>استخدم بطاقات المعركة بحكمة لفتح القادة الأسطوريين والوحدات النخبة. مساهماتك تغذي جهود الحرب، ويحصل كبار الداعمين على ألقاب ومكافآت فريدة.</p>
+        <p>مع تصاعد الصراع، يزداد تأثيرك. اختر ولاءك، خطط استراتيجيتك، وشاهد المعركة تتكشف في الوقت الفعلي.</p>
+        <p>احشد قواتك. احصل على النصر. هل يمكنك الخروج منتصراً من هذا الصدام الملحمي؟</p>`
+      },
+      de: {
+        title: 'Legion Clash: Kampf um den Ruhm',
+        description: 'Eine epische Echtzeit-Strategieschlacht, in der die Zuschauer den Ausgang bestimmen',
+        story: `<p>Legion Clash versetzt dich ins Herz eines epischen Schlachtfelds, wo Strategie auf Live-Interaktion trifft. Wirst du dich der Morgenbrigade oder der Dämmerungskoalition anschließen?</p>
+        <p>Jeder Kommentar, Like und jedes Geschenk, das du sendest, entfesselt mächtige Einheiten und Fähigkeiten. Befehlige Armeen, wirke Zauber und wende das Blatt der Schlacht mit deiner Unterstützung.</p>
+        <p>Nutze deine Schlachtkarten klug, um legendäre Kommandanten und Eliteeinheiten freizuschalten. Deine Beiträge treiben die Kriegsanstrengungen voran, wobei Top-Unterstützer einzigartige Titel und Belohnungen erhalten.</p>
+        <p>Je mehr der Konflikt eskaliert, desto größer wird dein Einfluss. Wähle deine Gefolgschaft, plane deine Strategie und beobachte, wie sich die Schlacht in Echtzeit entfaltet.</p>
+        <p>Sammle deine Streitkräfte. Erringe den Sieg. Kannst du siegreich aus diesem epischen Zusammenstoß hervorgehen?</p>`
+      },
+      ru: {
+        title: 'Legion Clash: Битва за Славу',
+        description: 'Эпическая стратегическая битва в реальном времени, где зрители определяют исход',
+        story: `<p>Legion Clash помещает вас в центр эпического поля боя, где стратегия встречается с живым взаимодействием. Присоединитесь ли вы к Бригаде Рассвета или Коалиции Сумерек?</p>
+        <p>Каждый комментарий, лайк и подарок, который вы отправляете, высвобождает мощные отряды и способности. Командуйте армиями, используйте заклинания и меняйте ход битвы своей поддержкой.</p>
+        <p>Мудро используйте боевые карты, чтобы разблокировать легендарных командиров и элитные отряды. Ваш вклад питает военные усилия, а лучшие сторонники получают уникальные титулы и награды.</p>
+        <p>По мере эскалации конфликта растет и ваше влияние. Выберите свою верность, спланируйте стратегию и наблюдайте, как битва разворачивается в реальном времени.</p>
+        <p>Соберите свои силы. Добейтесь победы. Сможете ли вы выйти победителем из этого эпического столкновения?</p>`
+      },
+      fr: {
+        title: 'Legion Clash : Bataille pour la Gloire',
+        description: 'Une bataille de stratégie épique en temps réel où les spectateurs façonnent le résultat',
+        story: `<p>Legion Clash vous place au cœur d'un champ de bataille épique où la stratégie rencontre l'interaction en direct. Rejoindrez-vous la Brigade de l'Aube ou la Coalition du Crépuscule ?</p>
+        <p>Chaque commentaire, like et cadeau que vous envoyez libère de puissantes unités et capacités. Commandez des armées, lancez des sorts et changez le cours de la bataille avec votre soutien.</p>
+        <p>Utilisez vos cartes de bataille judicieusement pour débloquer des commandants légendaires et des unités d'élite. Vos contributions alimentent l'effort de guerre, les meilleurs supporters gagnant des titres et récompenses uniques.</p>
+        <p>À mesure que le conflit s'intensifie, votre influence grandit. Choisissez votre allégeance, planifiez votre stratégie et regardez la bataille se dérouler en temps réel.</p>
+        <p>Ralliez vos forces. Revendiquez la victoire. Pouvez-vous sortir triomphant de cet affrontement épique ?</p>`
+      },
+      zh: {
+        title: '军团冲突：荣耀之战',
+        description: '一场观众决定结果的史诗级实时战略战斗',
+        story: `<p>军团冲突将你置于史诗战场的中心，战略与实时互动在此交汇。你是否会加入黎明旅或是黄昏联盟？</p>
+        <p>你发送的每个评论、点赞和礼物都会释放强大的单位和能力。指挥军队，施放法术，用你的支持改变战局。</p>
+        <p>明智地使用你的战斗卡牌来解锁传奇指挥官和精英部队。你的贡献推动战争努力，顶级支持者将获得独特的头衔和奖励。</p>
+        <p>随着冲突升级，你的影响力也会增加。选择你的效忠对象，规划你的战略，观看战斗实时展开。</p>
+        <p>集结你的力量。夺取胜利。你能在这场史诗般的冲突中胜出吗？</p>`
+      },
+      vi: {
+        title: 'Xung Đột Quân Đoàn: Trận Chiến Vinh Quang',
+        description: 'Trận chiến chiến lược thời gian thực hoành tráng nơi người xem định hình kết quả',
+        story: `<p>Xung Đột Quân Đoàn đặt bạn vào trung tâm của chiến trường hoành tráng, nơi chiến lược gặp gỡ tương tác trực tiếp. Bạn sẽ tham gia Lữ đoàn Bình minh hay Liên minh Hoàng hôn?</p>
+        <p>Mỗi bình luận, lượt thích và quà tặng bạn gửi đều giải phóng các đơn vị và khả năng mạnh mẽ. Chỉ huy quân đội, thi triển phép thuật và thay đổi cục diện trận chiến bằng sự hỗ trợ của bạn.</p>
+        <p>Sử dụng thẻ chiến đấu một cách khôn ngoan để mở khóa các chỉ huy huyền thoại và đơn vị tinh nhuệ. Đóng góp của bạn thúc đẩy nỗ lực chiến tranh, những người ủng hộ hàng đầu nhận được danh hiệu và phần thưởng độc đáo.</p>
+        <p>Khi xung đột leo thang, ảnh hưởng của bạn cũng tăng theo. Chọn phe trung thành, lên kế hoạch chiến lược và theo dõi trận chiến diễn ra trong thời gian thực.</p>
+        <p>Tập hợp lực lượng của bạn. Giành chiến thắng. Bạn có thể chiến thắng trong cuộc đụng độ hoành tráng này không?</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
-  // ... Continue with all other games following the same pattern
 ];
