@@ -321,8 +321,7 @@ export const games: Game[] = [
       vi: {
         title: 'Liên Minh Quái Vật: Chỉ Huy. Chinh Phục. Sinh Tồn.',
         description: 'Trò chơi thu thập và chiến đấu quái vật nơi người xem có thể ảnh hưởng đến sự tiến hóa và trận chiến',
-        story: `<p>Trong <strong>Liên Minh Quái Vật</strong>, người chơi thu thập và huấn luyện những sinh vật độc đáo trong khi người xem có thể ảnh hưởng đến sự tiến hóa và khả năng của chúng. Thông qua t
-ương tác của người xem, quái vật có thể đạt được sức mạnh mới, tiến hóa theo những cách bất ngờ và thay đổi cục diện trận chiến.</p>`
+        story: `<p>Trong <strong>Liên Minh Quái Vật</strong>, người chơi thu thập và huấn luyện những sinh vật độc đáo trong khi người xem có thể ảnh hưởng đến sự tiến hóa và khả năng của chúng. Thông qua tương tác của người xem, quái vật có thể đạt được sức mạnh mới, tiến hóa theo những cách bất ngờ và thay đổi cục diện trận chiến.</p>`
       }
     },
     systemRequirements: {
@@ -335,6 +334,62 @@ export const games: Game[] = [
         os: 'Windows 10 (64-bit) or Android 10.0+',
         processor: 'Intel Core i5-7400 or AMD Ryzen 3 1300X',
         memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 7,
+    title: 'Firepower Clash: Real-Time Faction Battle Game',
+    imageUrl: '/assets/Firepower Clash_ Real-Time Faction Battle Game.jpg',
+    description: 'A fast-paced multiplayer battle game where stream viewers can support their favorite factions with special abilities and power-ups',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Firepower Clash: Real-Time Faction Battle Game',
+        description: 'A fast-paced multiplayer battle game where stream viewers can support their favorite factions with special abilities and power-ups',
+        story: `<p>In <strong>Firepower Clash</strong>, players engage in intense faction-based combat while stream viewers become active participants in the battle. Through chat commands and donations, viewers can grant their chosen faction powerful abilities, tactical advantages, and game-changing power-ups that can turn the tide of battle in an instant.</p>`
+      },
+      de: {
+        title: 'Feuerkraft-Konflikt: Echtzeit-Fraktionsschlacht',
+        description: 'Ein schnelles Multiplayer-Kampfspiel, bei dem Stream-Zuschauer ihre Lieblingsfraktionen mit Spezialfähigkeiten und Power-ups unterstützen können',
+        story: `<p>In <strong>Feuerkraft-Konflikt</strong> nehmen Spieler an intensiven fraktionsbasierten Kämpfen teil, während Stream-Zuschauer zu aktiven Teilnehmern der Schlacht werden. Durch Chat-Befehle und Spenden können Zuschauer ihrer gewählten Fraktion mächtige Fähigkeiten, taktische Vorteile und spielverändernde Power-ups gewähren.</p>`
+      },
+      fr: {
+        title: 'Conflit de Puissance de Feu: Bataille de Factions en Temps Réel',
+        description: 'Un jeu de combat multijoueur rapide où les spectateurs peuvent soutenir leurs factions préférées avec des capacités spéciales et des bonus',
+        story: `<p>Dans <strong>Conflit de Puissance de Feu</strong>, les joueurs s'engagent dans des combats intenses basés sur les factions tandis que les spectateurs deviennent des participants actifs. Via les commandes du chat et les dons, les spectateurs peuvent accorder à leur faction choisie des capacités puissantes et des avantages tactiques.</p>`
+      },
+      ru: {
+        title: 'Огневая Мощь: Битва Фракций в Реальном Времени',
+        description: 'Динамичная многопользовательская боевая игра, где зрители стрима могут поддерживать любимые фракции особыми способностями и усилениями',
+        story: `<p>В <strong>Огневой Мощи</strong> игроки участвуют в интенсивных фракционных сражениях, а зрители стрима становятся активными участниками битвы. С помощью команд чата и пожертвований зрители могут даровать выбранной фракции мощные способности и тактические преимущества.</p>`
+      },
+      zh: {
+        title: '火力冲突：实时阵营战斗游戏',
+        description: '一款快节奏的多人战斗游戏，观众可以通过特殊能力和增益来支持他们喜欢的阵营',
+        story: `<p>在<strong>火力冲突</strong>中，玩家参与激烈的阵营战斗，而直播观众则成为战斗的积极参与者。通过聊天命令和打赏，观众可以为他们选择的阵营提供强大的能力、战术优势和改变游戏局势的增益。</p>`
+      },
+      ar: {
+        title: 'صراع القوة النارية: لعبة معارك الفصائل في الوقت الحقيقي',
+        description: 'لعبة قتال جماعية سريعة الوتيرة حيث يمكن لمشاهدي البث دعم فصائلهم المفضلة بقدرات خاصة وتعزيزات',
+        story: `<p>في <strong>صراع القوة النارية</strong>، ينخرط اللاعبون في قتال مكثف قائم على الفصائل بينما يصبح مشاهدو البث مشاركين نشطين في المعركة. من خلال أوامر الدردشة والتبرعات، يمكن للمشاهدين منح فصيلهم المختار قدرات قوية ومزايا تكتيكية وتعزيزات تغير مجرى المعركة.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Hỏa Lực: Trận Chiến Phe Phái Thời Gian Thực',
+        description: 'Trò chơi chiến đấu nhiều người chơi nhịp độ nhanh nơi người xem stream có thể hỗ trợ phe phái yêu thích với các khả năng đặc biệt và tăng cường sức mạnh',
+        story: `<p>Trong <strong>Đại Chiến Hỏa Lực</strong>, người chơi tham gia vào các trận chiến phe phái căng thẳng trong khi người xem stream trở thành những người tham gia tích cực. Thông qua lệnh chat và đóng góp, người xem có thể trao cho phe phái họ chọn những khả năng mạnh mẽ, lợi thế chiến thuật và tăng cường sức mạnh có thể thay đổi cục diện trận chiến.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 8/10 (64-bit)',
+        processor: 'Intel Core i5-4590 or AMD FX-8350',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 (64-bit)',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 3700X',
+        memory: '16 GB RAM'
       }
     }
   }
