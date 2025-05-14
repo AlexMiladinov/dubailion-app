@@ -112,6 +112,61 @@ export const games: Game[] = [
         memory: '32 GB RAM'
       }
     }
+  },
+  {
+    id: 3,
+    title: 'Brawl of the Westward Journey: Clash for the Golden Staff!',
+    imageUrl: '/assets/Brawl of the Westward Journey_ Clash for the Golden Staff!.jpg',
+    description: 'A strategic tug-of-war for dominance, featuring the Monkey King and Heavenly Court factions',
+    platform: 'Mobile',
+    translations: {
+      en: {
+        title: 'Brawl of the Westward Journey: Clash for the Golden Staff!',
+        description: 'A strategic tug-of-war for dominance, featuring the Monkey King and Heavenly Court factions',
+        story: `<p>Brawl of the Westward Journey is a fast-paced mobile game where players join either the Monkey King or the Heavenly Court faction in a tug-of-war battle to control the legendary Golden Staff.</p>`
+      },
+      de: {
+        title: 'Kampf der Westlichen Reise: Duell um den Goldenen Stab!',
+        description: 'Ein strategisches Tauziehen um die Vorherrschaft zwischen dem Affenkönig und den Himmlischen Hof-Fraktionen',
+        story: `<p>Kampf der Westlichen Reise ist ein schnelles Mobilspiel, bei dem sich Spieler entweder der Fraktion des Affenkönigs oder des Himmlischen Hofs anschließen, um in einem Tauziehen-Kampf den legendären Goldenen Stab zu kontrollieren.</p>`
+      },
+      fr: {
+        title: 'Bataille du Voyage vers l\'Ouest : Combat pour le Bâton d\'Or !',
+        description: 'Un bras de fer stratégique pour la domination, mettant en scène le Roi Singe et les factions de la Cour Céleste',
+        story: `<p>Bataille du Voyage vers l'Ouest est un jeu mobile rapide où les joueurs rejoignent soit la faction du Roi Singe, soit celle de la Cour Céleste dans une bataille de tir à la corde pour contrôler le légendaire Bâton d'Or.</p>`
+      },
+      ru: {
+        title: 'Битва Западного Путешествия: Сражение за Золотой Посох!',
+        description: 'Стратегическое противостояние за господство между фракциями Короля Обезьян и Небесного Двора',
+        story: `<p>Битва Западного Путешествия - это динамичная мобильная игра, где игроки присоединяются к фракции Короля Обезьян или Небесного Двора в борьбе за контроль над легендарным Золотым Посохом.</p>`
+      },
+      zh: {
+        title: '西游争霸：争夺金箍棒之战！',
+        description: '以孙悟空和天庭阵营为主的战略拔河对决',
+        story: `<p>西游争霸是一款快节奏的手机游戏，玩家可以加入孙悟空或天庭阵营，在拔河战斗中争夺传说中的金箍棒。</p>`
+      },
+      ar: {
+        title: 'معركة الرحلة الغربية: صراع على العصا الذهبية!',
+        description: 'لعبة شد الحبل الاستراتيجية للسيطرة، تضم فصائل الملك القرد والمحكمة السماوية',
+        story: `<p>معركة الرحلة الغربية هي لعبة جوال سريعة الإيقاع حيث ينضم اللاعبون إما إلى فصيل الملك القرد أو المحكمة السماوية في معركة شد الحبل للسيطرة على العصا الذهبية الأسطورية.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Tây Du: Tranh Đoạt Gậy Như Ý!',
+        description: 'Trò chơi kéo co chiến lược giữa phe Tôn Ngộ Không và Thiên Đình',
+        story: `<p>Đại Chiến Tây Du là một trò chơi di động nhịp độ nhanh, nơi người chơi tham gia vào phe Tôn Ngộ Không hoặc Thiên Đình trong trận chiến kéo co để giành quyền kiểm soát Gậy Như Ý huyền thoại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Android 5.0 or iOS 10.0',
+        processor: 'Quad-core 1.5 GHz',
+        memory: '2 GB RAM'
+      },
+      recommended: {
+        os: 'Android 8.0 or iOS 12.0',
+        processor: 'Octa-core 2.0 GHz',
+        memory: '4 GB RAM'
+      }
+    }
   }
-  // ... Continue with remaining 34 games following same translation structure
 ];
