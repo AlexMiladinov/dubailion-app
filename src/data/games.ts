@@ -56,6 +56,62 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 2,
+    title: 'Block Rush: Gift-Powered Strategy Showdown',
+    imageUrl: '/assets/Block Rush_ Gift-Powered Strategy Showdown.jpg',
+    description: 'A strategic defense game where players summon and upgrade units through in-game gifts',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Block Rush: Gift-Powered Strategy Showdown',
+        description: 'A strategic defense game where players summon and upgrade units through in-game gifts',
+        story: `<p>In Block Rush, players engage in a strategic defense game where they summon and upgrade units using in-game gifts. The objective is to outlast opponents by strategically placing defensive and offensive units.</p>`
+      },
+      de: {
+        title: 'Block Rush: Geschenkgetriebenes Strategieduell',
+        description: 'Ein strategisches Verteidigungsspiel, in dem Spieler Einheiten durch In-Game-Geschenke beschwören und verbessern',
+        story: `<p>In Block Rush nehmen die Spieler an einem strategischen Verteidigungsspiel teil, bei dem sie Einheiten durch In-Game-Geschenke beschwören und verbessern. Das Ziel ist es, Gegner durch strategische Platzierung von Verteidigungs- und Angriffseinheiten zu überdauern.</p>`
+      },
+      fr: {
+        title: 'Block Rush: Confrontation Stratégique Alimentée par les Cadeaux',
+        description: 'Un jeu de défense stratégique où les joueurs invoquent et améliorent des unités grâce aux cadeaux en jeu',
+        story: `<p>Dans Block Rush, les joueurs participent à un jeu de défense stratégique où ils invoquent et améliorent des unités en utilisant des cadeaux en jeu. L'objectif est de survivre aux adversaires en plaçant stratégiquement des unités défensives et offensives.</p>`
+      },
+      ru: {
+        title: 'Block Rush: Стратегическая Битва с Подарками',
+        description: 'Стратегическая игра в жанре защиты, где игроки призывают и улучшают юнитов с помощью внутриигровых подарков',
+        story: `<p>В Block Rush игроки участвуют в стратегической оборонительной игре, где они призывают и улучшают юнитов с помощью внутриигровых подарков. Цель - пережить противников, стратегически размещая оборонительные и наступательные юниты.</p>`
+      },
+      zh: {
+        title: '方块冲锋：礼物驱动的策略对决',
+        description: '一款策略防御游戏，玩家通过游戏内礼物召唤和升级单位',
+        story: `<p>在方块冲锋中，玩家参与策略防御游戏，通过游戏内礼物召唤和升级单位。目标是通过战略性地放置防御和进攻单位来战胜对手。</p>`
+      },
+      ar: {
+        title: 'بلوك راش: معركة استراتيجية مدعومة بالهدايا',
+        description: 'لعبة دفاع استراتيجية حيث يستدعي اللاعبون ويطورون الوحدات من خلال الهدايا داخل اللعبة',
+        story: `<p>في بلوك راش، يشارك اللاعبون في لعبة دفاع استراتيجية حيث يستدعون ويطورون الوحدات باستخدام الهدايا داخل اللعبة. الهدف هو البقاء أطول من الخصوم من خلال وضع وحدات دفاعية وهجومية بشكل استراتيجي.</p>`
+      },
+      vi: {
+        title: 'Block Rush: Đối Đầu Chiến Lược Bằng Quà Tặng',
+        description: 'Trò chơi phòng thủ chiến lược nơi người chơi triệu hồi và nâng cấp đơn vị thông qua quà tặng trong game',
+        story: `<p>Trong Block Rush, người chơi tham gia vào trò chơi phòng thủ chiến lược nơi họ triệu hồi và nâng cấp đơn vị bằng quà tặng trong game. Mục tiêu là tồn tại lâu hơn đối thủ bằng cách đặt các đơn vị phòng thủ và tấn công một cách chiến lược.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-4400E or AMD FX-6300',
+        memory: '16 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 (64-bit)',
+        processor: 'Intel Core i7-610 or AMD Ryzen 5 3600X',
+        memory: '32 GB RAM'
+      }
+    }
   }
-  // ... Continue with all 36 games following the same translation structure
+  // ... Continue with remaining 34 games following same translation structure
 ];
