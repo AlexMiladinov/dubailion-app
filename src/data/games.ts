@@ -280,5 +280,117 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 6,
+    title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+    imageUrl: '/assets/Cheese Battle_ The Ultimate Cat vs. Mouse Showdown.jpg',
+    description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+        description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+        story: `<p>Step into the delightful chaos of Cheese Battle, a fast-paced PvP game that brings the classic cat-and-mouse chase to life with a modern twist.</p>`
+      },
+      de: {
+        title: 'Käse-Schlacht: Das ultimative Katze-gegen-Maus-Duell',
+        description: 'Tritt ein in die verspielte Welt von Käse-Schlacht, wo niedliche Mäuse ihr Käsefest gegen schlaue Katzen verteidigen',
+        story: `<p>Tauche ein in das entzückende Chaos von Käse-Schlacht, ein schnelles PvP-Spiel, das die klassische Katz-und-Maus-Jagd mit einer modernen Wendung zum Leben erweckt.</p>`
+      },
+      fr: {
+        title: 'Bataille de Fromage : L\'Ultime Affrontement Chat contre Souris',
+        description: 'Rejoignez le monde fantaisiste de Bataille de Fromage, où d\'adorables souris défendent leur festin fromager contre des chats rusés',
+        story: `<p>Plongez dans le chaos délicieux de Bataille de Fromage, un jeu PvP rapide qui donne vie à la classique course-poursuite du chat et de la souris avec une touche moderne.</p>`
+      },
+      ru: {
+        title: 'Сырная Битва: Решающее Противостояние Кошек и Мышей',
+        description: 'Присоединяйтесь к причудливому миру Сырной Битвы, где очаровательные мыши защищают свой сырный пир от хитрых кошек',
+        story: `<p>Окунитесь в восхитительный хаос Сырной Битвы, динамичной PvP-игры, которая оживляет классическую погоню кошки за мышкой с современным поворотом.</p>`
+      },
+      zh: {
+        title: '奶酪大战：猫鼠终极对决',
+        description: '加入奶酪大战的奇幻世界，可爱的老鼠们守护着他们的奶酪盛宴，对抗狡猾的猫',
+        story: `<p>步入奶酪大战的欢乐混乱，这是一款快节奏的PvP游戏，以现代方式重现经典的猫鼠追逐。</p>`
+      },
+      ar: {
+        title: 'معركة الجبن: المواجهة النهائية بين القط والفأر',
+        description: 'انضم إلى عالم معركة الجبن الغريب، حيث تدافع الفئران اللطيفة عن وليمة الجبن ضد القطط الماكرة',
+        story: `<p>ادخل إلى الفوضى الممتعة في معركة الجبن، لعبة PvP سريعة تحيي مطاردة القط والفأر الكلاسيكية بلمسة عصرية.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Phô Mai: Cuộc Đối Đầu Tối Thượng Giữa Mèo và Chuột',
+        description: 'Tham gia vào thế giới kỳ thú của Đại Chiến Phô Mai, nơi những chú chuột đáng yêu bảo vệ bữa tiệc phô mai khỏi những chú mèo xảo quyệt',
+        story: `<p>Bước vào sự hỗn loạn thú vị của Đại Chiến Phô Mai, một trò chơi PvP nhịp độ nhanh mang lại cuộc rượt đuổi mèo-chuột cổ điển với một twist hiện đại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7 (SP1+), Windows 10, Windows 11',
+        processor: 'Intel Pentium 4 2.00GHz',
+        memory: '200 MB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 or later',
+        processor: 'Intel i5 or equivalent',
+        memory: '4 GB RAM'
+      }
+    }
+  },
+  {
+    id: 7,
+    title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+    imageUrl: '/assets/Chibi the three kingdoms.jpg',
+    description: 'Your Army, Your Strategy, Your Glory!',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+        description: 'Your Army, Your Strategy, Your Glory!',
+        story: `<p>Step into the action-packed world of Chibi: Three Kingdoms, where you control the fate of the kingdom!</p>`
+      },
+      de: {
+        title: 'Chibi: Drei Königreiche — Die ultimative Schlacht um Ruhm!',
+        description: 'Deine Armee, Deine Strategie, Dein Ruhm!',
+        story: `<p>Tritt ein in die actiongeladene Welt von Chibi: Drei Königreiche, wo du das Schicksal des Königreichs kontrollierst!</p>`
+      },
+      fr: {
+        title: 'Chibi : Les Trois Royaumes — La Bataille Ultime pour la Gloire !',
+        description: 'Votre Armée, Votre Stratégie, Votre Gloire !',
+        story: `<p>Entrez dans le monde plein d'action de Chibi : Les Trois Royaumes, où vous contrôlez le destin du royaume !</p>`
+      },
+      ru: {
+        title: 'Чиби: Три Королевства — Решающая Битва за Славу!',
+        description: 'Твоя Армия, Твоя Стратегия, Твоя Слава!',
+        story: `<p>Войдите в насыщенный действием мир Чиби: Три Королевства, где вы контролируете судьбу королевства!</p>`
+      },
+      zh: {
+        title: '赤壁：三国志 — 终极荣耀之战！',
+        description: '你的军队，你的策略，你的荣耀！',
+        story: `<p>步入充满动作的赤壁：三国志世界，在这里你掌控着王国的命运！</p>`
+      },
+      ar: {
+        title: 'تشيبي: الممالك الثلاثة — المعركة النهائية من أجل المجد!',
+        description: 'جيشك، استراتيجيتك، مجدك!',
+        story: `<p>ادخل إلى عالم تشيبي المليء بالحركة: الممالك الثلاثة، حيث تتحكم في مصير المملكة!</p>`
+      },
+      vi: {
+        title: 'Chibi: Tam Quốc — Trận Chiến Tối Thượng Vì Vinh Quang!',
+        description: 'Quân Đội Của Bạn, Chiến Lược Của Bạn, Vinh Quang Của Bạn!',
+        story: `<p>Bước vào thế giới đầy hành động của Chibi: Tam Quốc, nơi bạn kiểm soát vận mệnh của vương quốc!</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7 64-bit or higher',
+        processor: 'Intel Core i3-6100 or AMD Ryzen 3 1200',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i5-8400 or AMD Ryzen 5 2600',
+        memory: '8 GB RAM'
+      }
+    }
   }
 ];
