@@ -392,6 +392,117 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 8,
+    title: 'Color War',
+    imageUrl: '/assets/Color War.jpg',
+    description: 'Paint your way to victory in this vibrant battle arena',
+    platform: 'Mobile',
+    translations: {
+      en: {
+        title: 'Color War',
+        description: 'Paint your way to victory in this vibrant battle arena',
+        story: `<p>Color War is an exciting mobile game where players use paint to claim territory and defeat opponents. Every splash of color counts in this fast-paced strategic battle!</p>`
+      },
+      de: {
+        title: 'Farbenkrieg',
+        description: 'Male deinen Weg zum Sieg in dieser lebendigen Kampfarena',
+        story: `<p>Farbenkrieg ist ein aufregendes Mobilspiel, in dem Spieler mit Farbe Territorium beanspruchen und Gegner besiegen. Jeder Farbklecks zählt in dieser schnellen strategischen Schlacht!</p>`
+      },
+      fr: {
+        title: 'Guerre des Couleurs',
+        description: 'Peignez votre chemin vers la victoire dans cette arène de combat vibrante',
+        story: `<p>Guerre des Couleurs est un jeu mobile passionnant où les joueurs utilisent la peinture pour revendiquer du territoire et vaincre leurs adversaires. Chaque éclaboussure de couleur compte dans cette bataille stratégique rapide !</p>`
+      },
+      ru: {
+        title: 'Война Красок',
+        description: 'Проложите путь к победе красками в этой яркой боевой арене',
+        story: `<p>Война Красок - это захватывающая мобильная игра, где игроки используют краски для захвата территории и победы над противниками. Каждый всплеск цвета имеет значение в этой быстрой стратегической битве!</p>`
+      },
+      zh: {
+        title: '色彩战争',
+        description: '在这个充满活力的战斗竞技场中用绘画赢得胜利',
+        story: `<p>色彩战争是一款刺激的手机游戏，玩家使用颜料来占领领地并击败对手。在这场快节奏的战略战斗中，每一抹色彩都至关重要！</p>`
+      },
+      ar: {
+        title: 'حرب الألوان',
+        description: 'ارسم طريقك نحو النصر في ساحة المعركة النابضة بالحياة',
+        story: `<p>حرب الألوان هي لعبة جوال مثيرة حيث يستخدم اللاعبون الطلاء للمطالبة بالأراضي وهزيمة الخصوم. كل رشة لون تحسب في هذه المعركة الاستراتيجية السريعة!</p>`
+      },
+      vi: {
+        title: 'Chiến Tranh Sắc Màu',
+        description: 'Vẽ con đường chiến thắng trong đấu trường chiến đấu rực rỡ này',
+        story: `<p>Chiến Tranh Sắc Màu là một trò chơi di động thú vị, nơi người chơi sử dụng màu sắc để giành lãnh thổ và đánh bại đối thủ. Mỗi vệt màu đều quan trọng trong trận chiến chiến lược nhanh này!</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Android 5.0 or iOS 11.0',
+        processor: 'Quad-core 1.2 GHz',
+        memory: '2 GB RAM'
+      },
+      recommended: {
+        os: 'Android 7.0 or iOS 13.0',
+        processor: 'Octa-core 2.0 GHz',
+        memory: '4 GB RAM'
+      }
+    }
+  },
+  {
+    id: 9,
+    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
+    description: 'Experience the next evolution of Dragon Ball combat with real-time viewer interaction',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+        description: 'Experience the next evolution of Dragon Ball combat with real-time viewer interaction',
+        story: `<p>Dragon Ball Duel revolutionizes the fighting game genre by combining intense Dragon Ball action with live streaming interaction. Viewers can send energy to fighters, influence battle conditions, and even summon legendary warriors to aid their favorite combatants.</p>`
+      },
+      de: {
+        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
+        description: 'Erlebe die nächste Evolution des Dragon Ball Kampfes mit Echtzeit-Zuschauerinteraktion',
+        story: `<p>Dragon Ball Duell revolutioniert das Fighting-Game-Genre durch die Kombination von intensiver Dragon Ball Action mit Live-Streaming-Interaktion. Zuschauer können Kämpfern Energie senden, Kampfbedingungen beeinflussen und sogar legendäre Krieger herbeirufen.</p>`
+      },
+      fr: {
+        title: 'Dragon Ball Duel : Une Nouvelle Ère de Combat Dragon Ball Vous Attend',
+        description: 'Découvrez l\'évolution du combat Dragon Ball avec l\'interaction en temps réel des spectateurs',
+        story: `<p>Dragon Ball Duel révolutionne le genre du jeu de combat en combinant l'action intense de Dragon Ball avec l'interaction en direct. Les spectateurs peuvent envoyer de l'énergie aux combattants, influencer les conditions de combat et même invoquer des guerriers légendaires.</p>`
+      },
+      ru: {
+        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball Ждёт',
+        description: 'Испытайте следующую эволюцию сражений Dragon Ball с взаимодействием зрителей в реальном времени',
+        story: `<p>Dragon Ball Дуэль революционизирует жанр файтингов, сочетая интенсивное действие Dragon Ball с взаимодействием при прямой трансляции. Зрители могут отправлять энергию бойцам, влиять на условия боя и даже призывать легендарных воинов.</p>`
+      },
+      zh: {
+        title: '龙珠对决：龙珠战斗的新纪元来临',
+        description: '体验具有实时观众互动的下一代龙珠战斗进化',
+        story: `<p>龙珠对决通过将激烈的龙珠动作与直播互动相结合，革新了格斗游戏类型。观众可以向战士发送能量，影响战斗条件，甚至召唤传奇战士来援助他们喜爱的战士。</p>`
+      },
+      ar: {
+        title: 'دراغون بول ديول: حقبة جديدة من قتال دراغون بول في انتظارك',
+        description: 'اختبر التطور التالي لقتال دراغون بول مع تفاعل المشاهدين في الوقت الفعلي',
+        story: `<p>دراغون بول ديول يحدث ثورة في نوع ألعاب القتال من خلال الجمع بين عمل دراغون بول المكثف والتفاعل المباشر. يمكن للمشاهدين إرسال الطاقة للمقاتلين والتأثير على ظروف المعركة وحتى استدعاء المحاربين الأسطوريين.</p>`
+      },
+      vi: {
+        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới Của Trận Chiến Dragon Ball Đang Chờ Đợi',
+        description: 'Trải nghiệm sự tiến hóa tiếp theo của trận chiến Dragon Ball với tương tác người xem thời gian thực',
+        story: `<p>Dragon Ball Đối Đầu cách mạng hóa thể loại game đối kháng bằng cách kết hợp hành động Dragon Ball mãnh liệt với tương tác trực tiếp. Người xem có thể gửi năng lượng cho các chiến binh, ảnh hưởng đến điều kiện chiến đấu và thậm chí triệu hồi các chiến binh huyền thoại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 2700X',
+        memory: '16 GB RAM'
+      }
+    }
   }
-  // Continuing with the next games...
 ];
