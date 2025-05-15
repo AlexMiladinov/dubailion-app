@@ -339,3 +339,170 @@ export const games: Game[] = [
   },
   {
     id: 7,
+    title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+    imageUrl: '/assets/Chibi the three kingdoms.jpg',
+    description: 'Your Army, Your Strategy, Your Glory!',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+        description: 'Your Army, Your Strategy, Your Glory!',
+        story: `<p>Step into the action-packed world of Chibi: Three Kingdoms, where you control the fate of the kingdom!</p>`
+      },
+      de: {
+        title: 'Chibi: Drei Königreiche — Die ultimative Schlacht um Ruhm!',
+        description: 'Deine Armee, Deine Strategie, Dein Ruhm!',
+        story: `<p>Tritt ein in die actiongeladene Welt von Chibi: Drei Königreiche, wo du das Schicksal des Königreichs kontrollierst!</p>`
+      },
+      fr: {
+        title: 'Chibi : Les Trois Royaumes — La Bataille Ultime pour la Gloire !',
+        description: 'Votre Armée, Votre Stratégie, Votre Gloire !',
+        story: `<p>Entrez dans le monde plein d'action de Chibi : Les Trois Royaumes, où vous contrôlez le destin du royaume !</p>`
+      },
+      ru: {
+        title: 'Чиби: Три Королевства — Решающая Битва за Славу!',
+        description: 'Твоя Армия, Твоя Стратегия, Твоя Слава!',
+        story: `<p>Войдите в насыщенный действием мир Чиби: Три Королевства, где вы контролируете судьбу королевства!</p>`
+      },
+      zh: {
+        title: '赤壁：三国志 — 终极荣耀之战！',
+        description: '你的军队，你的策略，你的荣耀！',
+        story: `<p>步入充满动作的赤壁：三国志世界，在这里你掌控着王国的命运！</p>`
+      },
+      ar: {
+        title: 'تشيبي: الممالك الثلاثة — المعركة النهائية من أجل المجد!',
+        description: 'جيشك، استراتيجيتك، مجدك!',
+        story: `<p>ادخل إلى عالم تشيبي المليء بالحركة: الممالك الثلاثة، حيث تتحكم في مصير المملكة!</p>`
+      },
+      vi: {
+        title: 'Chibi: Tam Quốc — Trận Chiến Tối Thượng Vì Vinh Quang!',
+        description: 'Quân Đội Của Bạn, Chiến Lược Của Bạn, Vinh Quang Của Bạn!',
+        story: `<p>Bước vào thế giới đầy hành động của Chibi: Tam Quốc, nơi bạn kiểm soát vận mệnh của vương quốc!</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7 64-bit or higher',
+        processor: 'Intel Core i3-6100 or AMD Ryzen 3 1200',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i5-8400 or AMD Ryzen 5 2600',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 8,
+    title: 'Color War',
+    imageUrl: '/assets/Color War.jpg',
+    description: 'A vibrant battle arena where colors clash and strategy prevails',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Color War',
+        description: 'A vibrant battle arena where colors clash and strategy prevails',
+        story: `<p>Enter a world where colors are your weapons and strategy is your shield. In Color War, players must master the art of color manipulation to dominate the battlefield.</p>`
+      },
+      de: {
+        title: 'Farbenkrieg',
+        description: 'Eine lebendige Kampfarena, in der Farben aufeinanderprallen und Strategie siegt',
+        story: `<p>Betritt eine Welt, in der Farben deine Waffen und Strategie dein Schild sind. In Farbenkrieg müssen Spieler die Kunst der Farbenmanipulation meistern, um das Schlachtfeld zu beherrschen.</p>`
+      },
+      fr: {
+        title: 'Guerre des Couleurs',
+        description: 'Une arène de bataille vibrante où les couleurs s\'affrontent et la stratégie l\'emporte',
+        story: `<p>Entrez dans un monde où les couleurs sont vos armes et la stratégie est votre bouclier. Dans Guerre des Couleurs, les joueurs doivent maîtriser l'art de la manipulation des couleurs pour dominer le champ de bataille.</p>`
+      },
+      ru: {
+        title: 'Война Цветов',
+        description: 'Яркая боевая арена, где сталкиваются цвета и побеждает стратегия',
+        story: `<p>Войдите в мир, где цвета - ваше оружие, а стратегия - ваш щит. В Войне Цветов игроки должны овладеть искусством манипулирования цветом, чтобы доминировать на поле боя.</p>`
+      },
+      zh: {
+        title: '色彩战争',
+        description: '一个充满活力的战斗竞技场，色彩碰撞，策略制胜',
+        story: `<p>进入一个色彩即为武器，策略即为盾牌的世界。在色彩战争中，玩家必须掌握色彩操控的艺术来主宰战场。</p>`
+      },
+      ar: {
+        title: 'حرب الألوان',
+        description: 'ساحة معركة نابضة بالحياة حيث تتصادم الألوان وتسود الاستراتيجية',
+        story: `<p>ادخل عالماً حيث الألوان هي أسلحتك والاستراتيجية هي درعك. في حرب الألوان، يجب على اللاعبين إتقان فن التلاعب بالألوان للسيطرة على ساحة المعركة.</p>`
+      },
+      vi: {
+        title: 'Chiến Tranh Sắc Màu',
+        description: 'Đấu trường sôi động nơi màu sắc va chạm và chiến lược chiến thắng',
+        story: `<p>Bước vào thế giới nơi màu sắc là vũ khí và chiến lược là lá chắn của bạn. Trong Chiến Tranh Sắc Màu, người chơi phải thành thạo nghệ thuật điều khiển màu sắc để thống trị chiến trường.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10',
+        processor: 'Intel Core i3-3220 or AMD equivalent',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10',
+        processor: 'Intel Core i5-4590 or AMD equivalent',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 9,
+    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
+    description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+        description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles',
+        story: `<p>Dragon Ball Duel brings the legendary anime series into a new era of gaming. Face off against other players in intense real-time battles where skill, strategy, and power levels truly matter.</p>`
+      },
+      de: {
+        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
+        description: 'Erlebe die nächste Evolution des Dragon Ball Kampfes mit intensiven Echtzeit-Schlachten',
+        story: `<p>Dragon Ball Duell bringt die legendäre Anime-Serie in eine neue Gaming-Ära. Tritt gegen andere Spieler in intensiven Echtzeit-Kämpfen an, bei denen Können, Strategie und Kampfkraft wirklich zählen.</p>`
+      },
+      fr: {
+        title: 'Dragon Ball Duel : Une Nouvelle Ère de Combat Dragon Ball Vous Attend',
+        description: 'Découvrez la prochaine évolution du combat Dragon Ball avec des batailles intenses en temps réel',
+        story: `<p>Dragon Ball Duel fait entrer la série d'anime légendaire dans une nouvelle ère du jeu. Affrontez d'autres joueurs dans des batailles intenses en temps réel où la compétence, la stratégie et les niveaux de puissance comptent vraiment.</p>`
+      },
+      ru: {
+        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball',
+        description: 'Испытайте следующую эволюцию сражений Dragon Ball с интенсивными боями в реальном времени',
+        story: `<p>Dragon Ball Дуэль переносит легендарную аниме-серию в новую эру игр. Сразитесь с другими игроками в интенсивных боях в реальном времени, где действительно важны навыки, стратегия и уровни силы.</p>`
+      },
+      zh: {
+        title: '龙珠对决：龙珠战斗的新纪元来临',
+        description: '体验龙珠战斗的下一次进化，尽享激烈的实时战斗',
+        story: `<p>龙珠对决将这部传奇动漫系列带入游戏的新纪元。在激烈的实时战斗中与其他玩家对决，技能、策略和战斗力真正重要。</p>`
+      },
+      ar: {
+        title: 'دراغون بول ديول: حقبة جديدة من قتال دراغون بول في انتظارك',
+        description: 'اختبر التطور التالي لقتال دراغون بول مع معارك مكثفة في الوقت الفعلي',
+        story: `<p>يجلب دراغون بول ديول سلسلة الأنمي الأسطورية إلى حقبة جديدة من الألعاب. واجه لاعبين آخرين في معارك مكثفة في الوقت الفعلي حيث المهارة والاستراتيجية ومستويات القوة مهمة حقًا.</p>`
+      },
+      vi: {
+        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới Của Trận Chiến Dragon Ball',
+        description: 'Trải nghiệm sự tiến hóa tiếp theo của Dragon Ball với những trận chiến thời gian thực gay cấn',
+        story: `<p>Dragon Ball Đối Đầu mang series anime huyền thoại vào kỷ nguyên mới của gaming. Đối đầu với những người chơi khác trong các trận chiến thời gian thực gay cấn, nơi kỹ năng, chiến lược và cấp độ sức mạnh thực sự quan trọng.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 2700X',
+        memory: '16 GB RAM'
+      }
+    }
+  }
+];
