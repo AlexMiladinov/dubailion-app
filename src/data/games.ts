@@ -504,5 +504,61 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 10,
+    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
+    description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles and strategic gameplay',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
+        description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles and strategic gameplay',
+        story: `<p>Dragon Ball Duel revolutionizes the fighting game genre by combining classic Dragon Ball action with innovative stream-integrated mechanics. Players can power up their favorite characters through viewer support and unleash devastating combinations in epic battles.</p>`
+      },
+      de: {
+        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
+        description: 'Erlebe die nächste Evolution des Dragon Ball Kampfes mit intensiven Echtzeit-Schlachten und strategischem Gameplay',
+        story: `<p>Dragon Ball Duell revolutioniert das Fighting-Game-Genre durch die Kombination klassischer Dragon Ball Action mit innovativen Stream-integrierten Mechaniken. Spieler können ihre Lieblingscharaktere durch Zuschauer-Unterstützung verstärken und verheerende Kombinationen in epischen Kämpfen entfesseln.</p>`
+      },
+      fr: {
+        title: 'Dragon Ball Duel : Une Nouvelle Ère de Combat Dragon Ball Vous Attend',
+        description: 'Découvrez la prochaine évolution du combat Dragon Ball avec des batailles intenses en temps réel et un gameplay stratégique',
+        story: `<p>Dragon Ball Duel révolutionne le genre du jeu de combat en combinant l'action classique de Dragon Ball avec des mécaniques innovantes intégrées au streaming. Les joueurs peuvent renforcer leurs personnages préférés grâce au soutien des spectateurs et déchaîner des combinaisons dévastatrices dans des batailles épiques.</p>`
+      },
+      ru: {
+        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball Ждёт',
+        description: 'Испытайте следующую эволюцию сражений Dragon Ball с интенсивными битвами в реальном времени и стратегическим геймплеем',
+        story: `<p>Dragon Ball Дуэль революционизирует жанр файтингов, сочетая классическое действие Dragon Ball с инновационными механиками, интегрированными в стрим. Игроки могут усиливать своих любимых персонажей благодаря поддержке зрителей и выпускать разрушительные комбинации в эпических битвах.</p>`
+      },
+      zh: {
+        title: '龙珠对决：龙珠战斗的新纪元来临',
+        description: '体验龙珠战斗的下一次进化，享受激烈的实时战斗和策略性的游戏玩法',
+        story: `<p>龙珠对决通过将经典的龙珠动作与创新的流媒体集成机制相结合，革新了格斗游戏类型。玩家可以通过观众的支持来强化他们喜爱的角色，在史诗般的战斗中释放毁灭性的连击。</p>`
+      },
+      ar: {
+        title: 'دراغون بول ديول: حقبة جديدة من قتال دراغون بول في انتظارك',
+        description: 'اختبر التطور التالي لقتال دراغون بول مع معارك مكثفة في الوقت الحقيقي وأسلوب لعب استراتيجي',
+        story: `<p>دراغون بول ديول يحدث ثورة في نوع ألعاب القتال من خلال الجمع بين عمل دراغون بول الكلاسيكي وآليات مبتكرة متكاملة مع البث. يمكن للاعبين تقوية شخصياتهم المفضلة من خلال دعم المشاهدين وإطلاق مجموعات مدمرة في معارك ملحمية.</p>`
+      },
+      vi: {
+        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới của Chiến Đấu Dragon Ball Đang Chờ Đợi',
+        description: 'Trải nghiệm sự tiến hóa tiếp theo của Dragon Ball với các trận chiến căng thẳng theo thời gian thực và lối chơi chiến thuật',
+        story: `<p>Dragon Ball Đối Đầu cách mạng hóa thể loại game đối kháng bằng cách kết hợp hành động Dragon Ball cổ điển với cơ chế tích hợp stream sáng tạo. Người chơi có thể tăng sức mạnh cho các nhân vật yêu thích thông qua sự hỗ trợ của người xem và tung ra những combo hủy diệt trong các trận chiến hoành tráng.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-8350',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700 or AMD Ryzen 5 3600',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
