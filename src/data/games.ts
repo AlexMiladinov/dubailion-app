@@ -339,7 +339,7 @@ export const games: Game[] = [
   },
   {
     id: 7,
-    title:  'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+    title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
     imageUrl: '/assets/Chibi the three kingdoms.jpg',
     description: 'Your Army, Your Strategy, Your Glory!',
     platform: 'PC',
@@ -490,6 +490,174 @@ export const games: Game[] = [
         title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới Của Trận Chiến Dragon Ball Đang Chờ Đợi',
         description: 'Trải nghiệm sự tiến hóa tiếp theo của trận chiến Dragon Ball với tương tác người xem thời gian thực',
         story: `<p>Dragon Ball Đối Đầu cách mạng hóa thể loại game đối kháng bằng cách kết hợp hành động Dragon Ball mãnh liệt với tương tác trực tiếp. Người xem có thể gửi năng lượng cho các chiến binh, ảnh hưởng đến điều kiện chiến đấu và thậm chí triệu hồi các chiến binh huyền thoại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 2700X',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 10,
+    title: 'Elves Battle: Command the Chaos of Your TikTok Live',
+    imageUrl: '/assets/Elves Battle_ Command the Chaos of Your TikTok Live.jpg',
+    description: 'Lead your elven forces to victory with the help of your live audience',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Elves Battle: Command the Chaos of Your TikTok Live',
+        description: 'Lead your elven forces to victory with the help of your live audience',
+        story: `<p>In Elves Battle, every stream becomes a battlefield where viewers' interactions directly influence the outcome of magical conflicts between rival elven factions.</p>`
+      },
+      de: {
+        title: 'Elfenschlacht: Beherrsche das Chaos deines TikTok Live',
+        description: 'Führe deine Elfenstreitkräfte mit Hilfe deines Live-Publikums zum Sieg',
+        story: `<p>In Elfenschlacht wird jeder Stream zu einem Schlachtfeld, wo die Interaktionen der Zuschauer direkten Einfluss auf den Ausgang magischer Konflikte zwischen rivalisierenden Elfenfraktionen haben.</p>`
+      },
+      fr: {
+        title: 'Bataille des Elfes : Commandez le Chaos de Votre TikTok Live',
+        description: 'Menez vos forces elfiques à la victoire avec l\'aide de votre public en direct',
+        story: `<p>Dans Bataille des Elfes, chaque stream devient un champ de bataille où les interactions des spectateurs influencent directement l'issue des conflits magiques entre factions elfiques rivales.</p>`
+      },
+      ru: {
+        title: 'Битва Эльфов: Управляй Хаосом Твоего TikTok Live',
+        description: 'Веди свои эльфийские войска к победе с помощью живой аудитории',
+        story: `<p>В Битве Эльфов каждый стрим становится полем боя, где взаимодействия зрителей напрямую влияют на исход магических конфликтов между соперничающими фракциями эльфов.</p>`
+      },
+      zh: {
+        title: '精灵战争：掌控你的TikTok直播混战',
+        description: '在观众的帮助下带领你的精灵军队走向胜利',
+        story: `<p>在精灵战争中，每次直播都成为战场，观众的互动直接影响着对立精灵派系之间魔法冲突的结果。</p>`
+      },
+      ar: {
+        title: 'معركة الجان: تحكم في فوضى بث TikTok المباشر',
+        description: 'قد قوات الجان إلى النصر بمساعدة جمهورك المباشر',
+        story: `<p>في معركة الجان، يتحول كل بث إلى ساحة معركة حيث تؤثر تفاعلات المشاهدين مباشرة على نتيجة الصراعات السحرية بين فصائل الجان المتنافسة.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Tiên Tộc: Chỉ Huy Hỗn Loạn Trong TikTok Live',
+        description: 'Dẫn dắt lực lượng tiên tộc đến chiến thắng với sự giúp đỡ của khán giả trực tiếp',
+        story: `<p>Trong Đại Chiến Tiên Tộc, mỗi buổi stream trở thành chiến trường nơi sự tương tác của người xem trực tiếp ảnh hưởng đến kết quả của các cuộc xung đột phép thuật giữa các phe phái tiên tộc đối địch.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-7700K or AMD Ryzen 5 2600',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 11,
+    title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
+    imageUrl: '/assets/Farm Field_ Grow Big. Harvest More. Build Your Legacy.jpg',
+    description: 'Create and manage your dream farm with help from your live audience',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
+        description: 'Create and manage your dream farm with help from your live audience',
+        story: `<p>Farm Field transforms farming simulation by integrating live viewer participation. Your audience helps you plant, harvest, and expand your agricultural empire in real-time.</p>`
+      },
+      de: {
+        title: 'Farmfeld: Wachse Groß. Ernte Mehr. Baue Dein Vermächtnis.',
+        description: 'Erschaffe und verwalte deine Traumfarm mit Hilfe deines Live-Publikums',
+        story: `<p>Farmfeld transformiert die Farming-Simulation durch die Integration von Live-Zuschauer-Beteiligung. Dein Publikum hilft dir in Echtzeit beim Pflanzen, Ernten und Erweitern deines landwirtschaftlichen Imperiums.</p>`
+      },
+      fr: {
+        title: 'Champ Agricole : Grandissez. Récoltez Plus. Bâtissez Votre Héritage.',
+        description: 'Créez et gérez votre ferme de rêve avec l\'aide de votre public en direct',
+        story: `<p>Champ Agricole transforme la simulation agricole en intégrant la participation des spectateurs en direct. Votre public vous aide à planter, récolter et développer votre empire agricole en temps réel.</p>`
+      },
+      ru: {
+        title: 'Фермерское Поле: Расти Больше. Собирай Больше. Создавай Наследие.',
+        description: 'Создавай и управляй фермой своей мечты с помощью живой аудитории',
+        story: `<p>Фермерское Поле преображает симулятор фермерства, интегрируя участие живых зрителей. Ваша аудитория помогает вам сажать, собирать урожай и расширять вашу сельскохозяйственную империю в реальном времени.</p>`
+      },
+      zh: {
+        title: '农场天地：成长、收获、建立传奇',
+        description: '在直播观众的帮助下创建和管理你梦想中的农场',
+        story: `<p>农场天地通过整合直播观众参与改变了农场模拟游戏。你的观众可以实时帮助你种植、收获和扩展你的农业帝国。</p>`
+      },
+      ar: {
+        title: 'حقل المزرعة: انمو كبيراً. احصد أكثر. ابني إرثك.',
+        description: 'أنشئ وأدر مزرعة أحلامك بمساعدة جمهورك المباشر',
+        story: `<p>حقل المزرعة يحول محاكاة الزراعة من خلال دمج مشاركة المشاهدين المباشرة. يساعدك جمهورك في الزراعة والحصاد وتوسيع إمبراطوريتك الزراعية في الوقت الفعلي.</p>`
+      },
+      vi: {
+        title: 'Đồng Ruộng: Phát Triển. Thu Hoạch Nhiều Hơn. Xây Dựng Di Sản.',
+        description: 'Tạo và quản lý trang trại trong mơ với sự giúp đỡ của khán giả trực tiếp',
+        story: `<p>Đồng Ruộng biến đổi mô phỏng nông trại bằng cách tích hợp sự tham gia của người xem trực tiếp. Khán giả của bạn giúp bạn trồng trọt, thu hoạch và mở rộng đế chế nông nghiệp của bạn trong thời gian thực.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 64-bit',
+        processor: 'Intel Core i3-3220 or AMD FX-4300',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1400',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 12,
+    title: 'Firepower Clash: Real-Time Faction Battle Game',
+    imageUrl: '/assets/Firepower Clash_ Real-Time Faction Battle Game.jpg',
+    description: 'Command armies and unleash devastating firepower in this intense real-time battle game',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Firepower Clash: Real-Time Faction Battle Game',
+        description: 'Command armies and unleash devastating firepower in this intense real-time battle game',
+        story: `<p>Firepower Clash puts you in command of massive armies where strategic positioning and timing of artillery strikes can turn the tide of battle. Live viewers can support their favorite commanders with resource drops and tactical advantages.</p>`
+      },
+      de: {
+        title: 'Feuerkraft Konflikt: Echtzeit-Fraktionsschlacht',
+        description: 'Befehlige Armeen und entfessele verheerende Feuerkraft in diesem intensiven Echtzeit-Kampfspiel',
+        story: `<p>Feuerkraft Konflikt stellt dich an die Spitze gewaltiger Armeen, wo strategische Positionierung und das Timing von Artillerieangriffen den Ausgang der Schlacht entscheiden können. Live-Zuschauer können ihre bevorzugten Kommandeure mit Ressourcen-Drops und taktischen Vorteilen unterstützen.</p>`
+      },
+      fr: {
+        title: 'Conflit de Puissance de Feu : Jeu de Bataille de Faction en Temps Réel',
+        description: 'Commandez des armées et déchaînez une puissance de feu dévastatrice dans ce jeu de bataille intense en temps réel',
+        story: `<p>Conflit de Puissance de Feu vous met aux commandes d'armées massives où le positionnement stratégique et le timing des frappes d'artillerie peuvent renverser le cours de la bataille. Les spectateurs en direct peuvent soutenir leurs commandants favoris avec des largages de ressources et des avantages tactiques.</p>`
+      },
+      ru: {
+        title: 'Столкновение Огневой Мощи: Фракционная Битва в Реальном Времени',
+        description: 'Командуйте армиями и высвобождайте разрушительную огневую мощь в этой интенсивной битве в реальном времени',
+        story: `<p>Столкновение Огневой Мощи ставит вас во главе массивных армий, где стратегическое позиционирование и выбор времени артиллерийских ударов могут изменить ход битвы. Зрители в прямом эфире могут поддерживать своих любимых командиров сбросом ресурсов и тактическими преимуществами.</p>`
+      },
+      zh: {
+        title: '火力冲突：实时派系战斗游戏',
+        description: '在这款激烈的实时战斗游戏中指挥军队并释放毁灭性火力',
+        story: `<p>火力冲突让你指挥庞大的军队，战略性的定位和火炮打击的时机可以改变战局。直播观众可以通过资源投放和战术优势支持他们喜欢的指挥官。</p>`
+      },
+      ar: {
+        title: 'صراع القوة النارية: لعبة معارك الفصائل في الوقت الفعلي',
+        description: 'قم بقيادة الجيوش وأطلق القوة النارية المدمرة في هذه اللعبة القتالية المكثفة في الوقت الفعلي',
+        story: `<p>صراع القوة النارية يضعك في قيادة جيوش ضخمة حيث يمكن للتموضع الاستراتيجي وتوقيت الضربات المدفعية أن يغير مجرى المعركة. يمكن للمشاهدين المباشرين دعم قادتهم المفضلين من خلال إسقاط الموارد والمزايا التكتيكية.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Hỏa Lực: Trò Chơi Chiến Đấu Phe Phái Thời Gian Thực',
+        description: 'Chỉ huy quân đội và giải phóng hỏa lực hủy diệt trong trò chơi chiến đấu căng thẳng thời gian thực này',
+        story: `<p>Đại Chiến Hỏa Lực đặt bạn vào vị trí chỉ huy của những đội quân khổng lồ, nơi việc định vị chiến lược và thời điểm tấn công pháo binh có thể thay đổi cục diện trận chiến. Người xem trực tiếp có thể hỗ trợ chỉ huy yêu thích của họ bằng cách thả tài nguyên và lợi thế chiến thuật.</p>`
       }
     },
     systemRequirements: {
