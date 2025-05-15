@@ -840,5 +840,117 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 16,
+    title: "King's Duel",
+    imageUrl: "/assets/King's Duel_ Fantasy Clash in Real Time.jpg",
+    description: "Command armies in epic real-time fantasy battles",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "King's Duel",
+        description: "Command armies in epic real-time fantasy battles",
+        story: `<p>King's Duel throws you into a world where fantasy meets strategy. Lead your forces through magical battlefields, unleash powerful spells, and prove yourself worthy of the crown.</p>`
+      },
+      de: {
+        title: "Duell der Könige",
+        description: "Befehlige Armeen in epischen Fantasy-Echtzeit-Schlachten",
+        story: `<p>Duell der Könige wirft dich in eine Welt, in der Fantasy auf Strategie trifft. Führe deine Streitkräfte durch magische Schlachtfelder, entfessele mächtige Zauber und beweise dich der Krone würdig.</p>`
+      },
+      fr: {
+        title: "Duel des Rois",
+        description: "Commandez des armées dans des batailles fantastiques épiques en temps réel",
+        story: `<p>Duel des Rois vous plonge dans un monde où la fantaisie rencontre la stratégie. Dirigez vos forces à travers des champs de bataille magiques, déchaînez des sorts puissants et prouvez que vous êtes digne de la couronne.</p>`
+      },
+      ru: {
+        title: "Королевская Дуэль",
+        description: "Командуйте армиями в эпических фэнтезийных сражениях в реальном времени",
+        story: `<p>Королевская Дуэль погружает вас в мир, где фэнтези встречается со стратегией. Ведите свои войска через магические поля сражений, используйте могущественные заклинания и докажите, что вы достойны короны.</p>`
+      },
+      zh: {
+        title: "王者对决",
+        description: "在史诗级实时奇幻战斗中指挥军队",
+        story: `<p>王者对决将你带入奇幻与策略相遇的世界。率领你的军队穿越魔法战场，释放强大法术，证明你配得上王冠。</p>`
+      },
+      ar: {
+        title: "مبارزة الملوك",
+        description: "قيادة الجيوش في معارك خيالية ملحمية في الوقت الفعلي",
+        story: `<p>مبارزة الملوك تلقي بك في عالم يلتقي فيه الخيال بالاستراتيجية. قد قواتك عبر ساحات المعارك السحرية، وأطلق التعاويذ القوية، وأثبت أنك جدير بالتاج.</p>`
+      },
+      vi: {
+        title: "Quyết Đấu Đế Vương",
+        description: "Chỉ huy quân đội trong những trận chiến thần thoại hoành tráng thời gian thực",
+        story: `<p>Quyết Đấu Đế Vương đưa bạn vào thế giới nơi thần thoại gặp gỡ chiến thuật. Dẫn dắt quân đội qua các chiến trường ma thuật, giải phóng phép thuật mạnh mẽ và chứng minh bạn xứng đáng với vương miện.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-4460 or AMD FX-6300",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 5 3600",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 17,
+    title: "Legion Clash",
+    imageUrl: "/assets/Legion Clash.jpg",
+    description: "Lead your legion to victory in epic multiplayer battles",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Legion Clash",
+        description: "Lead your legion to victory in epic multiplayer battles",
+        story: `<p>Legion Clash is an intense multiplayer battle game where strategy and timing are everything. Command your forces, coordinate with allies, and crush your enemies in massive-scale warfare.</p>`
+      },
+      de: {
+        title: "Legion Konflikt",
+        description: "Führe deine Legion in epischen Mehrspieler-Schlachten zum Sieg",
+        story: `<p>Legion Konflikt ist ein intensives Mehrspieler-Kampfspiel, bei dem Strategie und Timing alles sind. Befehlige deine Streitkräfte, koordiniere mit Verbündeten und zerschmettere deine Feinde in großangelegter Kriegsführung.</p>`
+      },
+      fr: {
+        title: "Conflit des Légions",
+        description: "Menez votre légion à la victoire dans des batailles multijoueurs épiques",
+        story: `<p>Conflit des Légions est un jeu de bataille multijoueur intense où la stratégie et le timing sont essentiels. Commandez vos forces, coordonnez-vous avec vos alliés et écrasez vos ennemis dans une guerre à grande échelle.</p>`
+      },
+      ru: {
+        title: "Битва Легионов",
+        description: "Ведите свой легион к победе в эпических многопользовательских сражениях",
+        story: `<p>Битва Легионов - это интенсивная многопользовательская боевая игра, где стратегия и время решают всё. Командуйте своими силами, координируйтесь с союзниками и сокрушайте врагов в масштабных сражениях.</p>`
+      },
+      zh: {
+        title: "军团冲突",
+        description: "在史诗级多人战斗中带领你的军团走向胜利",
+        story: `<p>军团冲突是一款激烈的多人战斗游戏，策略和时机就是一切。指挥你的部队，与盟友协调，在大规模战争中击溃敌人。</p>`
+      },
+      ar: {
+        title: "صراع الفيلق",
+        description: "قد فيلقك إلى النصر في معارك ملحمية متعددة اللاعبين",
+        story: `<p>صراع الفيلق هي لعبة قتال متعددة اللاعبين مكثفة حيث الاستراتيجية والتوقيت هما كل شيء. قد قواتك، نسق مع الحلفاء، واسحق أعداءك في حرب واسعة النطاق.</p>`
+      },
+      vi: {
+        title: "Đại Chiến Quân Đoàn",
+        description: "Dẫn dắt quân đoàn của bạn đến chiến thắng trong những trận chiến nhiều người chơi hoành tráng",
+        story: `<p>Đại Chiến Quân Đoàn là trò chơi chiến đấu nhiều người chơi căng thẳng nơi chiến thuật và thời điểm là tất cả. Chỉ huy lực lượng của bạn, phối hợp với đồng minh và nghiền nát kẻ thù trong chiến tranh quy mô lớn.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 3 1300X",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-9700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
   }
 ];
