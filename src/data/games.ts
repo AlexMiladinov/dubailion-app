@@ -340,7 +340,7 @@ export const games: Game[] = [
   {
     id: 7,
     title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
-    image: '/assets/Chibi the three kingdoms.jpg',
+    imageUrl: '/assets/Chibi the three kingdoms.jpg',
     description: 'Your Army, Your Strategy, Your Glory!',
     platform: 'PC',
     translations: {
@@ -614,6 +614,62 @@ export const games: Game[] = [
         os: 'Windows 10/11 64-bit',
         processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
         memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 12,
+    title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
+    imageUrl: '/assets/Farm Field_ Grow Big. Harvest More. Build Your Legacy.jpg',
+    description: 'Create and manage your dream farm in this relaxing yet engaging farming simulation',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
+        description: 'Create and manage your dream farm in this relaxing yet engaging farming simulation',
+        story: `<p>Farm Field is a peaceful farming simulation where players can build and expand their agricultural empire. Plant crops, raise livestock, and interact with a vibrant community of farmers and traders.</p>`
+      },
+      de: {
+        title: 'Bauernhof: Wachse. Ernte Mehr. Baue Dein Vermächtnis.',
+        description: 'Erschaffe und verwalte deinen Traumbauernhof in dieser entspannenden aber fesselnden Farming-Simulation',
+        story: `<p>Bauernhof ist eine friedliche Farming-Simulation, in der Spieler ihr landwirtschaftliches Imperium aufbauen und erweitern können. Pflanze Feldfrüchte an, züchte Vieh und interagiere mit einer lebendigen Gemeinschaft von Bauern und Händlern.</p>`
+      },
+      fr: {
+        title: 'Champ Agricole : Grandissez. Récoltez Plus. Bâtissez Votre Héritage.',
+        description: 'Créez et gérez votre ferme de rêve dans cette simulation agricole relaxante mais captivante',
+        story: `<p>Champ Agricole est une simulation agricole paisible où les joueurs peuvent construire et étendre leur empire agricole. Plantez des cultures, élevez du bétail et interagissez avec une communauté dynamique d'agriculteurs et de commerçants.</p>`
+      },
+      ru: {
+        title: 'Фермерское Поле: Расти. Собирай Больше. Создавай Наследие.',
+        description: 'Создайте и управляйте фермой своей мечты в этой расслабляющей, но увлекательной фермерской симуляции',
+        story: `<p>Фермерское Поле - это мирная фермерская симуляция, где игроки могут построить и расширить свою сельскохозяйственную империю. Выращивайте культуры, разводите скот и взаимодействуйте с живым сообществом фермеров и торговцев.</p>`
+      },
+      zh: {
+        title: '农场天地：成长、收获、建立传奇',
+        description: '在这款轻松但引人入胜的农场模拟游戏中创建和管理你梦想中的农场',
+        story: `<p>农场天地是一款平和的农场模拟游戏，玩家可以建立和扩展他们的农业帝国。种植农作物，饲养牲畜，与充满活力的农民和商人社区互动。</p>`
+      },
+      ar: {
+        title: 'حقل المزرعة: انمُ. احصد أكثر. ابنِ إرثك.',
+        description: 'أنشئ وأدر مزرعة أحلامك في هذه المحاكاة الزراعية المريحة والممتعة',
+        story: `<p>حقل المزرعة هو محاكاة زراعية هادئة حيث يمكن للاعبين بناء وتوسيع إمبراطوريتهم الزراعية. ازرع المحاصيل، وربِّ الماشية، وتفاعل مع مجتمع نابض بالحياة من المزارعين والتجار.</p>`
+      },
+      vi: {
+        title: 'Đồng Ruộng: Phát Triển. Thu Hoạch Nhiều Hơn. Xây Dựng Di Sản.',
+        description: 'Tạo và quản lý trang trại trong mơ của bạn trong trò chơi mô phỏng nông trại thư giãn nhưng hấp dẫn này',
+        story: `<p>Đồng Ruộng là một trò chơi mô phỏng nông trại yên bình nơi người chơi có thể xây dựng và mở rộng đế chế nông nghiệp của họ. Trồng cây, nuôi gia súc và tương tác với cộng đồng nông dân và thương nhân sôi động.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10',
+        processor: 'Intel Core i3-2100 or AMD FX-4300',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10',
+        processor: 'Intel Core i5-4590 or AMD Ryzen 3 1200',
+        memory: '8 GB RAM'
       }
     }
   }
