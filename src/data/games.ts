@@ -728,5 +728,117 @@ export const games: Game[] = [
         memory: '4 GB RAM'
       }
     }
+  },
+  {
+    id: 14,
+    title: 'Island Rush',
+    imageUrl: '/assets/Island Rush_ Livestream Tower Defense Chaos.jpg',
+    description: 'Defend your tropical paradise in this unique tower defense experience',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Island Rush',
+        description: 'Defend your tropical paradise in this unique tower defense experience',
+        story: `<p>Island Rush combines classic tower defense strategy with tropical charm. Build and upgrade your defenses, harness the power of nature, and protect your paradise from waves of invaders.</p>`
+      },
+      de: {
+        title: 'Inselansturm',
+        description: 'Verteidige dein tropisches Paradies in diesem einzigartigen Tower-Defense-Erlebnis',
+        story: `<p>Inselansturm verbindet klassische Tower-Defense-Strategie mit tropischem Charme. Baue und verbessere deine Verteidigung, nutze die Kraft der Natur und schütze dein Paradies vor Wellen von Eindringlingen.</p>`
+      },
+      fr: {
+        title: 'Ruée vers l\'Île',
+        description: 'Défendez votre paradis tropical dans cette expérience unique de tower defense',
+        story: `<p>Ruée vers l'Île combine la stratégie classique de tower defense avec le charme tropical. Construisez et améliorez vos défenses, maîtrisez la puissance de la nature et protégez votre paradis contre des vagues d'envahisseurs.</p>`
+      },
+      ru: {
+        title: 'Островной Натиск',
+        description: 'Защитите свой тропический рай в этом уникальном tower defense опыте',
+        story: `<p>Островной Натиск сочетает классическую стратегию защиты башен с тропическим очарованием. Стройте и улучшайте свою защиту, используйте силу природы и защищайте свой рай от волн захватчиков.</p>`
+      },
+      zh: {
+        title: '岛屿冲锋',
+        description: '在这个独特的塔防体验中保卫你的热带天堂',
+        story: `<p>岛屿冲锋将经典塔防策略与热带魅力相结合。建造和升级防御设施，驾驭自然力量，保护你的天堂免受入侵者的波浪攻击。</p>`
+      },
+      ar: {
+        title: 'اندفاع الجزيرة',
+        description: 'دافع عن جنتك الاستوائية في هذه التجربة الفريدة للدفاع عن الأبراج',
+        story: `<p>اندفاع الجزيرة يجمع بين استراتيجية الدفاع عن الأبراج الكلاسيكية والسحر الاستوائي. ابنِ دفاعاتك وطورها، واستخدم قوة الطبيعة، واحمِ جنتك من موجات الغزاة.</p>`
+      },
+      vi: {
+        title: 'Xung Trận Đảo',
+        description: 'Bảo vệ thiên đường nhiệt đới của bạn trong trải nghiệm phòng thủ tháp độc đáo này',
+        story: `<p>Xung Trận Đảo kết hợp chiến thuật phòng thủ tháp cổ điển với nét quyến rũ nhiệt đới. Xây dựng và nâng cấp phòng thủ, vận dụng sức mạnh của thiên nhiên và bảo vệ thiên đường của bạn khỏi các đợt tấn công của kẻ xâm lược.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit)',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 15,
+    title: 'Jianghu Duel',
+    imageUrl: '/assets/Jianghu Duel_ The Battle for the Maiden and the Land.jpg',
+    description: 'Experience martial arts warfare in this epic wuxia battle arena',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Jianghu Duel',
+        description: 'Experience martial arts warfare in this epic wuxia battle arena',
+        story: `<p>Step into the world of Jianghu Duel, where ancient martial arts meet strategic combat. Master legendary techniques, form alliances, and fight for honor in a world of martial heroes.</p>`
+      },
+      de: {
+        title: 'Jianghu Duell',
+        description: 'Erlebe Kampfkunst-Kriegsführung in dieser epischen Wuxia-Kampfarena',
+        story: `<p>Tritt ein in die Welt von Jianghu Duell, wo alte Kampfkünste auf strategischen Kampf treffen. Meistere legendäre Techniken, schließe Bündnisse und kämpfe um Ehre in einer Welt der Kampfkunsthelden.</p>`
+      },
+      fr: {
+        title: 'Duel du Jianghu',
+        description: 'Vivez la guerre des arts martiaux dans cette arène de combat wuxia épique',
+        story: `<p>Entrez dans le monde du Duel du Jianghu, où les arts martiaux anciens rencontrent le combat stratégique. Maîtrisez des techniques légendaires, formez des alliances et battez-vous pour l'honneur dans un monde de héros martiaux.</p>`
+      },
+      ru: {
+        title: 'Дуэль Цзянху',
+        description: 'Испытайте боевые искусства в этой эпической боевой арене в стиле уся',
+        story: `<p>Войдите в мир Дуэли Цзянху, где древние боевые искусства встречаются со стратегическим боем. Освойте легендарные техники, формируйте альянсы и сражайтесь за честь в мире мастеров боевых искусств.</p>`
+      },
+      zh: {
+        title: '江湖决斗',
+        description: '在这个史诗级武侠战斗竞技场中体验武术战争',
+        story: `<p>步入江湖决斗的世界，在这里古老的武术与战略战斗相遇。掌握传奇技艺，结成联盟，在武侠世界中为荣誉而战。</p>`
+      },
+      ar: {
+        title: 'مبارزة جيانغهو',
+        description: 'اختبر حرب الفنون القتالية في ساحة معركة ووشيا الملحمية هذه',
+        story: `<p>ادخل إلى عالم مبارزة جيانغهو، حيث تلتقي الفنون القتالية القديمة بالقتال الاستراتيجي. أتقن التقنيات الأسطورية، وشكل التحالفات، وقاتل من أجل الشرف في عالم أبطال الفنون القتالية.</p>`
+      },
+      vi: {
+        title: 'Quyết Đấu Giang Hồ',
+        description: 'Trải nghiệm chiến tranh võ thuật trong đấu trường võ hiệp hoành tráng này',
+        story: `<p>Bước vào thế giới Quyết Đấu Giang Hồ, nơi võ thuật cổ xưa gặp gỡ chiến đấu chiến thuật. Làm chủ các kỹ thuật huyền thoại, tạo liên minh và chiến đấu vì danh dự trong thế giới của các anh hùng võ thuật.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 (64-bit)',
+        processor: 'Intel Core i7-7700K or AMD Ryzen 5 2600',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
