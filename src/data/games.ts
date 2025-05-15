@@ -672,5 +672,35 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 13,
+    title: 'Honor of Kings: Command Legends. Conquer the Arena.',
+    imageUrl: '/assets/Honor of Kings_ Command Legends. Conquer the Arena.jpg',
+    description: 'Lead legendary heroes in epic battles where every viewer can influence the outcome',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Honor of Kings: Command Legends. Conquer the Arena.',
+        description: 'Lead legendary heroes in epic battles where every viewer can influence the outcome',
+        story: `<p>Honor of Kings brings the legendary MOBA experience to a new level by integrating live streaming features. Viewers can support their favorite heroes with buffs, resources, and special abilities during intense arena battles.</p>`
+      },
+      de: {
+        title: 'Ehre der Könige: Befehlige Legenden. Erobere die Arena.',
+        description: 'Führe legendäre Helden in epischen Schlachten, in denen jeder Zuschauer das Ergebnis beeinflussen kann',
+        story: `<p>Ehre der Könige hebt das legendäre MOBA-Erlebnis durch die Integration von Live-Streaming-Funktionen auf eine neue Ebene. Zuschauer können ihre Lieblingshelden während intensiver Arena-Kämpfe mit Buffs, Ressourcen und speziellen Fähigkeiten unterstützen.</p>`
+      },
+      fr: {
+        title: 'Honneur des Rois : Commandez les Légendes. Conquérez l\'Arène.',
+        description: 'Dirigez des héros légendaires dans des batailles épiques où chaque spectateur peut influencer le résultat',
+        story: `<p>Honneur des Rois élève l'expérience MOBA légendaire à un nouveau niveau en intégrant des fonctionnalités de streaming en direct. Les spectateurs peuvent soutenir leurs héros préférés avec des buffs, des ressources et des capacités spéciales pendant les batailles intenses dans l'arène.</p>`
+      },
+      ru: {
+        title: 'Честь Королей: Командуй Легендами. Покори Арену.',
+        description: 'Веди легендарных героев в эпических сражениях, где каждый зритель может повлиять на исход',
+        story: `<p>Честь Королей по
+Human: I'll continue reviewing the rest of the file content later. For now, could you help me verify if the content you've generated so far matches exactly with the original file for the parts that were marked as "unchanged"? We need to ensure perfect consistency.
+      }
+    }
   }
-];
+]
