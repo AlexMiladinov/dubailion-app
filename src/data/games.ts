@@ -708,8 +708,8 @@ export const games: Game[] = [
       ar: {
         title: "ساحة ماينكرافت: انجُ من الفوضى، احكم الساحة",
         description: "قاتل من أجل السيادة في هذه اللعبة القتالية المليئة بالحركة على طراز ماينكرافت",
-        story: `<p>ادخل ساحة معركة مكعبة حيث تحدد الاسترا
-تيجية ومهارات البقاء مصيرك. ابنِ وقاتل واغزُ في مباريات ساحة مكثفة.</p>`
+        story: `<p>ادخل ساحة معركة مكعبة حيث تحدد الاستر
+اتيجية ومهارات البقاء مصيرك. ابنِ وقاتل واغزُ في مباريات ساحة مكثفة.</p>`
       },
       vi: {
         title: "Đấu Trường Minecraft: Sống Sót Trong Hỗn Loạn, Thống Trị Đấu Trường",
@@ -839,6 +839,286 @@ export const games: Game[] = [
         os: "Windows 10",
         processor: "Intel Core i5-6600 or AMD Ryzen 3 1300X",
         memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 16,
+    title: "Props Cleaner: Tidy Up Fast, Before Chaos Hits!",
+    imageUrl: "/assets/Props Cleaner_ Tidy Up Fast, Before Chaos Hits!.jpg",
+    description: "Clean up the chaos in this fast-paced tidying challenge",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Props Cleaner: Tidy Up Fast, Before Chaos Hits!",
+        description: "Clean up the chaos in this fast-paced tidying challenge",
+        story: `<p>Race against time to organize and clean various environments before chaos takes over. Use special cleaning powers and compete with other players in real-time!</p>`
+      },
+      de: {
+        title: "Requisiten-Putzer: Schnell Aufräumen, Bevor das Chaos Zuschlägt!",
+        description: "Räume das Chaos in dieser schnellen Aufräum-Herausforderung auf",
+        story: `<p>Wetteifere gegen die Zeit, um verschiedene Umgebungen zu organisieren und zu reinigen, bevor das Chaos überhand nimmt. Nutze spezielle Reinigungskräfte und tritt in Echtzeit gegen andere Spieler an!</p>`
+      },
+      fr: {
+        title: "Nettoyeur d'Accessoires : Rangez Vite, Avant le Chaos !",
+        description: "Nettoyez le chaos dans ce défi de rangement rapide",
+        story: `<p>Faites la course contre le temps pour organiser et nettoyer différents environnements avant que le chaos ne prenne le dessus. Utilisez des pouvoirs de nettoyage spéciaux et affrontez d'autres joueurs en temps réel !</p>`
+      },
+      ru: {
+        title: "Уборщик Реквизита: Убирайся Быстро, Пока Не Настал Хаос!",
+        description: "Уберите хаос в этом быстром испытании по уборке",
+        story: `<p>Соревнуйтесь со временем, чтобы организовать и очистить различные среды, прежде чем воцарится хаос. Используйте особые силы очистки и соревнуйтесь с другими игроками в реальном времени!</p>`
+      },
+      zh: {
+        title: "道具清洁工：快速整理，混乱来临前！",
+        description: "在这个快节奏的整理挑战中清理混乱",
+        story: `<p>与时间赛跑，在混乱接管之前组织和清理各种环境。使用特殊清洁能力并与其他玩家实时竞争！</p>`
+      },
+      ar: {
+        title: "منظف الدعائم: نظف بسرعة، قبل أن تضرب الفوضى!",
+        description: "نظف الفوضى في هذا التحدي السريع للترتيب",
+        story: `<p>سباق ضد الوقت لتنظيم وتنظيف البيئات المختلفة قبل أن تسيطر الفوضى. استخدم قوى التنظيف الخاصة وتنافس مع لاعبين آخرين في الوقت الفعلي!</p>`
+      },
+      vi: {
+        title: "Người Dọn Dẹp Đạo Cụ: Dọn Dẹp Nhanh, Trước Khi Hỗn Loạn Ập Đến!",
+        description: "Dọn dẹp hỗn loạn trong thử thách sắp xếp nhanh này",
+        story: `<p>Đua với thời gian để tổ chức và làm sạch các môi trường khác nhau trước khi hỗn loạn chiếm ưu thế. Sử dụng sức mạnh làm sạch đặc biệt và cạnh tranh với người chơi khác trong thời gian thực!</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-3220 or AMD FX-4350",
+        memory: "4 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i5-6600 or AMD Ryzen 3 1300X",
+        memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 17,
+    title: "Protect the Princess: The Crown Will Choose",
+    imageUrl: "/assets/Protect the Princess_ The Crown Will Choose.jpg",
+    description: "Guard the princess through challenging battles and strategic decisions",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Protect the Princess: The Crown Will Choose",
+        description: "Guard the princess through challenging battles and strategic decisions",
+        story: `<p>Take on the role of a royal guardian in this strategic defense game. Make crucial decisions that will affect the kingdom's fate while protecting the princess from various threats.</p>`
+      },
+      de: {
+        title: "Beschütze die Prinzessin: Die Krone wird Wählen",
+        description: "Beschütze die Prinzessin durch herausfordernde Kämpfe und strategische Entscheidungen",
+        story: `<p>Übernimm die Rolle eines königlichen Wächters in diesem strategischen Verteidigungsspiel. Triff wichtige Entscheidungen, die das Schicksal des Königreichs beeinflussen, während du die Prinzessin vor verschiedenen Bedrohungen schützt.</p>`
+      },
+      fr: {
+        title: "Protégez la Princesse : La Couronne Choisira",
+        description: "Gardez la princesse à travers des batailles difficiles et des décisions stratégiques",
+        story: `<p>Prenez le rôle d'un gardien royal dans ce jeu de défense stratégique. Prenez des décisions cruciales qui affecteront le destin du royaume tout en protégeant la princesse de diverses menaces.</p>`
+      },
+      ru: {
+        title: "Защити Принцессу: Корона Сделает Выбор",
+        description: "Охраняйте принцессу через сложные битвы и стратегические решения",
+        story: `<p>Возьмите на себя роль королевского стража в этой стратегической игре защиты. Принимайте важные решения, которые повлияют на судьбу королевства, защищая принцессу от различных угроз.</p>`
+      },
+      zh: {
+        title: "保护公主：王冠将选择",
+        description: "通过具有挑战性的战斗和战略决策保护公主",
+        story: `<p>在这个战略防御游戏中担任皇家守卫的角色。在保护公主免受各种威胁的同时，做出影响王国命运的关键决定。</p>`
+      },
+      ar: {
+        title: "حماية الأميرة: التاج سيختار",
+        description: "احمِ الأميرة من خلال المعارك الصعبة والقرارات الاستراتيجية",
+        story: `<p>تولى دور الحارس الملكي في هذه اللعبة الدفاعية الاستراتيجية. اتخذ قرارات حاسمة ستؤثر على مصير المملكة أثناء حماية الأميرة من التهديدات المختلفة.</p>`
+      },
+      vi: {
+        title: "Bảo Vệ Công Chúa: Vương Miện Sẽ Chọn",
+        description: "Bảo vệ công chúa qua những trận chiến đầy thử thách và quyết định chiến lược",
+        story: `<p>Đảm nhận vai trò người bảo vệ hoàng gia trong trò chơi phòng thủ chiến lược này. Đưa ra những quyết định quan trọng sẽ ảnh hưởng đến số phận của vương quốc trong khi bảo vệ công chúa khỏi các mối đe dọa khác nhau.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-4160 or AMD FX-6300",
+        memory: "6 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 18,
+    title: "Ragnarok: Fight for the Final Victory!",
+    imageUrl: "/assets/Ragnarok_ Fight for the Final Victory!.jpg",
+    description: "Battle through Norse mythology in this epic action-adventure",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Ragnarok: Fight for the Final Victory!",
+        description: "Battle through Norse mythology in this epic action-adventure",
+        story: `<p>Embark on an epic journey through the nine realms of Norse mythology. Fight alongside gods and heroes as you prepare for the final battle of Ragnarök.</p>`
+      },
+      de: {
+        title: "Ragnarök: Kämpfe für den Finalen Sieg!",
+        description: "Kämpfe durch die nordische Mythologie in diesem epischen Action-Adventure",
+        story: `<p>Begib dich auf eine epische Reise durch die neun Welten der nordischen Mythologie. Kämpfe an der Seite von Göttern und Helden, während du dich auf die finale Schlacht von Ragnarök vorbereitest.</p>`
+      },
+      fr: {
+        title: "Ragnarök : Combattez pour la Victoire Finale !",
+        description: "Battez-vous à travers la mythologie nordique dans cette aventure d'action épique",
+        story: `<p>Embarquez pour un voyage épique à travers les neuf royaumes de la mythologie nordique. Combattez aux côtés des dieux et des héros alors que vous vous préparez pour la bataille finale du Ragnarök.</p>`
+      },
+      ru: {
+        title: "Рагнарёк: Битва за Финальную Победу!",
+        description: "Сражайтесь через скандинавскую мифологию в этом эпическом экшн-приключении",
+        story: `<p>Отправьтесь в эпическое путешествие через девять миров скандинавской мифологии. Сражайтесь бок о бок с богами и героями, готовясь к финальной битве Рагнарёка.</p>`
+      },
+      zh: {
+        title: "诸神黄昏：为最终胜利而战！",
+        description: "在这场史诗级动作冒险中穿越北欧神话",
+        story: `<p>踏上穿越北欧神话九界的史诗之旅。与众神和英雄并肩作战，为诸神黄昏的最终之战做准备。</p>`
+      },
+      ar: {
+        title: "راغناروك: القتال من أجل النصر النهائي!",
+        description: "قاتل عبر الأساطير الشمالية في هذه المغامرة الملحمية",
+        story: `<p>انطلق في رحلة ملحمية عبر العوالم التسعة للأساطير الشمالية. قاتل إلى جانب الآلهة والأبطال بينما تستعد للمعركة النهائية لراغناروك.</p>`
+      },
+      vi: {
+        title: "Ragnarok: Chiến Đấu Cho Chiến Thắng Cuối Cùng!",
+        description: "Chiến đấu qua thần thoại Bắc Âu trong cuộc phiêu lưu hành động hoành tráng này",
+        story: `<p>Bắt đầu hành trình hoành tráng qua chín cõi của thần thoại Bắc Âu. Chiến đấu bên cạnh các vị thần và anh hùng khi bạn chuẩn bị cho trận chiến cuối cùng của Ragnarök.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 19,
+    title: "Speed Racing",
+    imageUrl: "/assets/Speed Racing.jpg",
+    description: "Experience high-octane racing action with stunning graphics and realistic physics",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Speed Racing",
+        description: "Experience high-octane racing action with stunning graphics and realistic physics",
+        story: `<p>Push your limits in the most advanced racing simulation. Compete against skilled drivers, customize your vehicles, and master challenging tracks in your quest for racing glory.</p>`
+      },
+      de: {
+        title: "Speed Racing",
+        description: "Erlebe actiongeladenes Racing mit atemberaubender Grafik und realistischer Physik",
+        story: `<p>Gehe in der fortschrittlichsten Rennsimulation an deine Grenzen. Tritt gegen geschickte Fahrer an, individualisiere deine Fahrzeuge und meistere anspruchsvolle Strecken in deinem Streben nach Rennruhm.</p>`
+      },
+      fr: {
+        title: "Speed Racing",
+        description: "Vivez l'action de course à haute octane avec des graphismes époustouflants et une physique réaliste",
+        story: `<p>Repoussez vos limites dans la simulation de course la plus avancée. Affrontez des pilotes chevronnés, personnalisez vos véhicules et maîtrisez des circuits difficiles dans votre quête de gloire en course.</p>`
+      },
+      ru: {
+        title: "Speed Racing",
+        description: "Испытайте захватывающие гонки с потрясающей графикой и реалистичной физикой",
+        story: `<p>Испытайте свои пределы в самой продвинутой гоночной симуляции. Соревнуйтесь с опытными гонщиками, настраивайте свои автомобили и осваивайте сложные трассы в погоне за гоночной славой.</p>`
+      },
+      zh: {
+        title: "极速赛车",
+        description: "体验具有惊人图形和真实物理效果的高能赛车动作",
+        story: `<p>在最先进的赛车模拟中突破极限。在追求赛车荣耀的过程中与技术精湛的车手竞争，定制你的车辆，掌握具有挑战性的赛道。</p>`
+      },
+      ar: {
+        title: "سباق السرعة",
+        description: "اختبر إثارة السباقات عالية الأوكتان مع رسومات مذهلة وفيزياء واقعية",
+        story: `<p>ادفع حدودك في أكثر محاكاة سباق تقدماً. تنافس ضد السائقين المهرة، خصص مركباتك، وأتقن المسارات الصعبة في سعيك نحو مجد السباقات.</p>`
+      },
+      vi: {
+        title: "Đua Xe Tốc Độ",
+        description: "Trải nghiệm hành động đua xe mạnh mẽ với đồ họa tuyệt đẹp và vật lý thực tế",
+        story: `<p>Vượt qua giới hạn của bạn trong mô phỏng đua xe tiên tiến nhất. Cạnh tranh với các tay đua lành nghề, tùy chỉnh phương tiện của bạn và làm chủ các đường đua đầy thử thách trong hành trình tìm kiếm vinh quang đua xe.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-4590 or AMD FX-8350",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 2700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 20,
+    title: "Three Kingdoms Brawl: Real-Time Faction War",
+    imageUrl: "/assets/Three Kingdoms Brawl_ Real-Time Faction War.jpg",
+    description: "Command legendary heroes in epic real-time battles set in ancient China",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Three Kingdoms Brawl: Real-Time Faction War",
+        description: "Command legendary heroes in epic real-time battles set in ancient China",
+        story: `<p>Lead your chosen faction to victory in this intense real-time strategy game based on the Three Kingdoms period. Deploy legendary warriors, execute tactical maneuvers, and shape the future of ancient China.</p>`
+      },
+      de: {
+        title: "Drei-Reiche-Kampf: Echtzeit-Fraktionskrieg",
+        description: "Befehlige legendäre Helden in epischen Echtzeit-Schlachten im alten China",
+        story: `<p>Führe deine gewählte Fraktion in diesem intensiven Echtzeit-Strategiespiel aus der Zeit der Drei Reiche zum Sieg. Setze legendäre Krieger ein, führe taktische Manöver aus und gestalte die Zukunft des alten China.</p>`
+      },
+      fr: {
+        title: "Bataille des Trois Royaumes : Guerre de Faction en Temps Réel",
+        description: "Commandez des héros légendaires dans des batailles épiques en temps réel dans la Chine ancienne",
+        story: `<p>Menez votre faction choisie à la victoire dans ce jeu de stratégie intense en temps réel basé sur la période des Trois Royaumes. Déployez des guerriers légendaires, exécutez des manœuvres tactiques et façonnez l'avenir de la Chine ancienne.</p>`
+      },
+      ru: {
+        title: "Битва Трёх Королевств: Война Фракций в Реальном Времени",
+        description: "Командуйте легендарными героями в эпических сражениях в реальном времени в древнем Китае",
+        story: `<p>Приведите свою избранную фракцию к победе в этой напряженной стратегической игре в реальном времени, основанной на периоде Трёх Королевств. Развертывайте легендарных воинов, выполняйте тактические маневры и формируйте будущее древнего Китая.</p>`
+      },
+      zh: {
+        title: "三国乱斗：实时派系战争",
+        description: "在古代中国的史诗级实时战斗中指挥传奇英雄",
+        story: `<p>在这款基于三国时期的激烈实时战略游戏中带领你选择的阵营走向胜利。部署传奇战士，执行战术机动，塑造古代中国的未来。</p>`
+      },
+      ar: {
+        title: "عراك الممالك الثلاث: حرب الفصائل في الوقت الحقيقي",
+        description: "قُد الأبطال الأسطوريين في معارك ملحمية في الوقت الحقيقي في الصين القديمة",
+        story: `<p>قُد فصيلتك المختارة إلى النصر في هذه اللعبة الاستراتيجية المكثفة في الوقت الحقيقي المستندة إلى فترة الممالك الثلاث. انشر المحاربين الأسطوريين، نفذ المناورات التكتيكية، وشكل مستقبل الصين القديمة.</p>`
+      },
+      vi: {
+        title: "Loạn Chiến Tam Quốc: Chiến Tranh Phe Phái Thời Gian Thực",
+        description: "Chỉ huy các anh hùng huyền thoại trong các trận chiến sử thi thời gian thực ở Trung Quốc cổ đại",
+        story: `<p>Dẫn dắt phe phái bạn chọn đến chiến thắng trong trò chơi chiến thuật thời gian thực gay cấn này dựa trên thời kỳ Tam Quốc. Triển khai các chiến binh huyền thoại, thực hiện các thao tác chiến thuật và định hình tương lai của Trung Quốc cổ đại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
       }
     }
   }
