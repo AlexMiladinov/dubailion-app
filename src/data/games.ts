@@ -1121,5 +1121,285 @@ export const games: Game[] = [
         memory: "16 GB RAM"
       }
     }
+  },
+  {
+    id: 21,
+    title: "Unified Kingdom",
+    imageUrl: "/assets/Unified Kingdom.jpg",
+    description: "Unite the divided lands through diplomacy and warfare in this grand strategy epic",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Unified Kingdom",
+        description: "Unite the divided lands through diplomacy and warfare in this grand strategy epic",
+        story: `<p>Lead your faction to unite the fractured kingdoms through a combination of diplomatic alliances and strategic warfare. Every decision shapes the future of the realm.</p>`
+      },
+      de: {
+        title: "Vereinigtes Königreich",
+        description: "Vereine die geteilten Länder durch Diplomatie und Kriegsführung in diesem epischen Strategiespiel",
+        story: `<p>Führe deine Fraktion zur Vereinigung der zersplitterten Königreiche durch eine Kombination aus diplomatischen Bündnissen und strategischer Kriegsführung. Jede Entscheidung formt die Zukunft des Reiches.</p>`
+      },
+      fr: {
+        title: "Royaume Unifié",
+        description: "Unissez les terres divisées par la diplomatie et la guerre dans cette épopée de grande stratégie",
+        story: `<p>Menez votre faction pour unir les royaumes fracturés grâce à une combinaison d'alliances diplomatiques et de guerre stratégique. Chaque décision façonne l'avenir du royaume.</p>`
+      },
+      ru: {
+        title: "Объединённое Королевство",
+        description: "Объедините разделенные земли через дипломатию и войну в этой масштабной стратегической эпопее",
+        story: `<p>Ведите свою фракцию к объединению раздробленных королевств через сочетание дипломатических союзов и стратегической войны. Каждое решение формирует будущее царства.</p>`
+      },
+      zh: {
+        title: "统一王国",
+        description: "在这场宏大的战略史诗中通过外交和战争统一分裂的土地",
+        story: `<p>通过外交联盟和战略战争的结合，带领你的派系统一分裂的王国。每个决定都塑造着王国的未来。</p>`
+      },
+      ar: {
+        title: "المملكة الموحدة",
+        description: "وحد الأراضي المنقسمة من خلال الدبلوماسية والحرب في هذه الملحمة الاستراتيجية الكبرى",
+        story: `<p>قد فصيلتك لتوحيد الممالك المنقسمة من خلال مزيج من التحالفات الدبلوماسية والحرب الاستراتيجية. كل قرار يشكل مستقبل المملكة.</p>`
+      },
+      vi: {
+        title: "Vương Quốc Thống Nhất",
+        description: "Thống nhất các vùng đất chia rẽ thông qua ngoại giao và chiến tranh trong sử thi chiến lược vĩ đại này",
+        story: `<p>Lãnh đạo phe phái của bạn để thống nhất các vương quốc bị chia rẽ thông qua kết hợp các liên minh ngoại giao và chiến tranh chiến lược. Mỗi quyết định đều định hình tương lai của vương quốc.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 2600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 22,
+    title: "Legion Clash",
+    imageUrl: "/assets/Legion Clash.jpg",
+    description: "Command vast armies in epic real-time battles across ancient battlefields",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Legion Clash",
+        description: "Command vast armies in epic real-time battles across ancient battlefields",
+        story: `<p>Take control of massive legions in this intense real-time strategy game. Deploy tactics, manage resources, and lead your forces to victory in sprawling ancient battlefields.</p>`
+      },
+      de: {
+        title: "Legion Zusammenstoß",
+        description: "Befehlige riesige Armeen in epischen Echtzeit-Schlachten auf antiken Schlachtfeldern",
+        story: `<p>Übernimm die Kontrolle über massive Legionen in diesem intensiven Echtzeit-Strategiespiel. Setze Taktiken ein, verwalte Ressourcen und führe deine Streitkräfte auf weitläufigen antiken Schlachtfeldern zum Sieg.</p>`
+      },
+      fr: {
+        title: "Choc des Légions",
+        description: "Commandez de vastes armées dans des batailles épiques en temps réel à travers des champs de bataille antiques",
+        story: `<p>Prenez le contrôle de légions massives dans ce jeu de stratégie intense en temps réel. Déployez des tactiques, gérez les ressources et menez vos forces à la victoire sur de vastes champs de bataille antiques.</p>`
+      },
+      ru: {
+        title: "Столкновение Легионов",
+        description: "Командуйте огромными армиями в эпических сражениях в реальном времени на древних полях битв",
+        story: `<p>Возьмите под контроль массивные легионы в этой напряженной стратегической игре в реальном времени. Применяйте тактику, управляйте ресурсами и ведите свои силы к победе на обширных древних полях сражений.</p>`
+      },
+      zh: {
+        title: "军团冲突",
+        description: "在古代战场上指挥庞大军队进行史诗级实时战斗",
+        story: `<p>在这款激烈的实时战略游戏中控制庞大的军团。部署战术，管理资源，在广阔的古代战场上带领你的军队走向胜利。</p>`
+      },
+      ar: {
+        title: "صدام الفيالق",
+        description: "قُد جيوشاً ضخمة في معارك ملحمية في الوقت الحقيقي عبر ساحات المعارك القديمة",
+        story: `<p>تولَّ السيطرة على فيالق ضخمة في هذه اللعبة الاستراتيجية المكثفة في الوقت الحقيقي. انشر التكتيكات، أدر الموارد، وقُد قواتك إلى النصر في ساحات المعارك القديمة الواسعة.</p>`
+      },
+      vi: {
+        title: "Đụng Độ Quân Đoàn",
+        description: "Chỉ huy các đội quân khổng lồ trong các trận chiến sử thi thời gian thực trên các chiến trường cổ đại",
+        story: `<p>Kiểm soát các quân đoàn khổng lồ trong trò chơi chiến thuật thời gian thực gay cấn này. Triển khai chiến thuật, quản lý tài nguyên và dẫn dắt lực lượng của bạn đến chiến thắng trên các chiến trường cổ đại rộng lớn.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-7400 or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-9700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 23,
+    title: "Legion Clash 2",
+    imageUrl: "/assets/Legion Clash 2.jpg",
+    description: "Return to the battlefield with enhanced graphics and deeper strategic gameplay",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Legion Clash 2",
+        description: "Return to the battlefield with enhanced graphics and deeper strategic gameplay",
+        story: `<p>The epic sequel to Legion Clash brings enhanced graphics, deeper strategic elements, and more intense battles. Lead your improved legions to glory with new tactical options and battlefield mechanics.</p>`
+      },
+      de: {
+        title: "Legion Zusammenstoß 2",
+        description: "Kehre mit verbesserter Grafik und tiefergehendem strategischem Gameplay auf das Schlachtfeld zurück",
+        story: `<p>Die epische Fortsetzung von Legion Zusammenstoß bringt verbesserte Grafik, tiefere strategische Elemente und intensivere Schlachten. Führe deine verbesserten Legionen mit neuen taktischen Optionen und Schlachtfeld-Mechaniken zum Ruhm.</p>`
+      },
+      fr: {
+        title: "Choc des Légions 2",
+        description: "Retournez sur le champ de bataille avec des graphismes améliorés et un gameplay stratégique plus profond",
+        story: `<p>La suite épique de Choc des Légions apporte des graphismes améliorés, des éléments stratégiques plus profonds et des batailles plus intenses. Menez vos légions améliorées à la gloire avec de nouvelles options tactiques et mécaniques de champ de bataille.</p>`
+      },
+      ru: {
+        title: "Столкновение Легионов 2",
+        description: "Вернитесь на поле битвы с улучшенной графикой и более глубоким стратегическим геймплеем",
+        story: `<p>Эпическое продолжение Столкновения Легионов приносит улучшенную графику, более глубокие стратегические элементы и более интенсивные сражения. Ведите свои улучшенные легионы к славе с новыми тактическими возможностями и механикой поля боя.</p>`
+      },
+      zh: {
+        title: "军团冲突2",
+        description: "带着增强的图形和更深层的战略游戏玩法重返战场",
+        story: `<p>军团冲突的史诗续作带来增强的图形、更深层的战略元素和更激烈的战斗。使用新的战术选项和战场机制带领你改进的军团走向荣耀。</p>`
+      },
+      ar: {
+        title: "صدام الفيالق 2",
+        description: "عُد إلى ساحة المعركة مع رسومات محسنة ولعب استراتيجي أعمق",
+        story: `<p>الجزء الملحمي الثاني من صدام الفيالق يجلب رسومات محسنة، وعناصر استراتيجية أعمق، ومعارك أكثر كثافة. قُد فيالقك المحسنة إلى المجد مع خيارات تكتيكية جديدة وميكانيكا ساحة المعركة.</p>`
+      },
+      vi: {
+        title: "Đụng Độ Quân Đoàn 2",
+        description: "Trở lại chiến trường với đồ họa nâng cao và lối chơi chiến thuật sâu sắc hơn",
+        story: `<p>Phần tiếp theo hoành tráng của Đụng Độ Quân Đoàn mang đến đồ họa nâng cao, yếu tố chiến thuật sâu sắc hơn và các trận chiến gay cấn hơn. Dẫn dắt quân đoàn cải tiến của bạn đến vinh quang với các tùy chọn chiến thuật mới và cơ chế chiến trường.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-8400 or AMD Ryzen 5 2600",
+        memory: "12 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-10700K or AMD Ryzen 7 5800X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 24,
+    title: "King of Soldiers",
+    imageUrl: "/assets/King of Soldiers.jpg",
+    description: "Rise through the ranks from soldier to king in this military strategy RPG",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "King of Soldiers",
+        description: "Rise through the ranks from soldier to king in this military strategy RPG",
+        story: `<p>Begin your journey as a common soldier and climb the military hierarchy through strategic battles and political maneuvering. Shape the future of your kingdom as you rise to become the ultimate ruler.</p>`
+      },
+      de: {
+        title: "König der Soldaten",
+        description: "Steige vom Soldaten zum König auf in diesem militärischen Strategie-RPG",
+        story: `<p>Beginne deine Reise als einfacher Soldat und erklimme die militärische Hierarchie durch strategische Schlachten und politisches Manövrieren. Gestalte die Zukunft deines Königreichs während du zum ultimativen Herrscher aufsteigst.</p>`
+      },
+      fr: {
+        title: "Roi des Soldats",
+        description: "Montez en grade de soldat à roi dans ce RPG de stratégie militaire",
+        story: `<p>Commencez votre voyage en tant que simple soldat et gravissez la hiérarchie militaire à travers des batailles stratégiques et des manœuvres politiques. Façonnez l'avenir de votre royaume en devenant le souverain ultime.</p>`
+      },
+      ru: {
+        title: "Король Солдат",
+        description: "Поднимитесь по званиям от солдата до короля в этой военной стратегической RPG",
+        story: `<p>Начните свой путь как простой солдат и поднимайтесь по военной иерархии через стратегические сражения и политические маневры. Формируйте будущее своего королевства по мере того, как становитесь верховным правителем.</p>`
+      },
+      zh: {
+        title: "士兵之王",
+        description: "在这款军事战略角色扮演游戏中从士兵晋升为国王",
+        story: `<p>从普通士兵开始你的旅程，通过战略战斗和政治运作攀登军事等级。在成为终极统治者的过程中塑造你王国的未来。</p>`
+      },
+      ar: {
+        title: "ملك الجنود",
+        description: "ارتقِ في الرتب من جندي إلى ملك في لعبة تقمص الأدوار الاستراتيجية العسكرية هذه",
+        story: `<p>ابدأ رحلتك كجندي عادي واصعد التسلسل العسكري من خلال المعارك الاستراتيجية والمناورات السياسية. شكل مستقبل مملكتك بينما ترتقي لتصبح الحاكم الأعلى.</p>`
+      },
+      vi: {
+        title: "Vua Của Binh Lính",
+        description: "Thăng tiến từ người lính đến vua trong trò chơi nhập vai chiến thuật quân sự này",
+        story: `<p>Bắt đầu hành trình của bạn như một người lính bình thường và leo lên hệ thống cấp bậc quân sự thông qua các trận chiến chiến thuật và vận động chính trị. Định hình tương lai của vương quốc khi bạn vươn lên trở thành người cai trị tối cao.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10 64-bit",
+        processor: "Intel Core i5-4460 or AMD FX-6300",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i7-7700 or AMD Ryzen 5 2600",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 25,
+    title: "Color War",
+    imageUrl: "/assets/Color War.jpg",
+    description: "Paint the battlefield in vibrant colors as you compete for territory control",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Color War",
+        description: "Paint the battlefield in vibrant colors as you compete for territory control",
+        story: `<p>Enter a unique battlefield where color is your weapon. Claim territory by painting the arena in your team's colors while defending against enemy advances in this innovative multiplayer experience.</p>`
+      },
+      de: {
+        title: "Farbenkrieg",
+        description: "Bemale das Schlachtfeld in leuchtenden Farben während du um Gebietskontrolle kämpfst",
+        story: `<p>Betritt ein einzigartiges Schlachtfeld, wo Farbe deine Waffe ist. Beanspruche Territorium, indem du die Arena in den Farben deines Teams bemalst, während du dich gegen feindliche Vorstöße in dieser innovativen Multiplayer-Erfahrung verteidigst.</p>`
+      },
+      fr: {
+        title: "Guerre des Couleurs",
+        description: "Peignez le champ de bataille de couleurs vives en vous battant pour le contrôle du territoire",
+        story: `<p>Entrez dans un champ de bataille unique où la couleur est votre arme. Revendiquez le territoire en peignant l'arène aux couleurs de votre équipe tout en vous défendant contre les avancées ennemies dans cette expérience multijoueur innovante.</p>`
+      },
+      ru: {
+        title: "Цветная Война",
+        description: "Раскрасьте поле боя яркими цветами в борьбе за контроль территории",
+        story: `<p>Войдите на уникальное поле боя, где цвет - ваше оружие. Захватывайте территорию, раскрашивая арену в цвета своей команды, защищаясь от вражеских наступлений в этом инновационном многопользовательском опыте.</p>`
+      },
+      zh: {
+        title: "色彩战争",
+        description: "在争夺领土控制权时用鲜艳的颜色涂染战场",
+        story: `<p>进入一个颜色即武器的独特战场。在这种创新的多人游戏体验中，通过用你队伍的颜色涂染竞技场来占领领土，同时防御敌人的进攻。</p>`
+      },
+      ar: {
+        title: "حرب الألوان",
+        description: "اصبغ ساحة المعركة بألوان نابضة بالحياة أثناء التنافس على السيطرة على الأراضي",
+        story: `<p>ادخل ساحة معركة فريدة حيث اللون هو سلاحك. اطالب بالأراضي من خلال طلاء الساحة بألوان فريقك مع الدفاع ضد تقدم العدو في هذه التجربة متعددة اللاعبين المبتكرة.</p>`
+      },
+      vi: {
+        title: "Chiến Tranh Màu Sắc",
+        description: "Tô màu chiến trường bằng những màu sắc rực rỡ khi bạn tranh giành kiểm soát lãnh thổ",
+        story: `<p>Bước vào chiến trường độc đáo nơi màu sắc là vũ khí của bạn. Giành lãnh thổ bằng cách tô màu đấu trường theo màu của đội bạn trong khi phòng thủ chống lại sự tiến công của kẻ thù trong trải nghiệm nhiều người chơi sáng tạo này.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-3220 or AMD FX-4350",
+        memory: "4 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i5-6600 or AMD Ryzen 3 1300X",
+        memory: "8 GB RAM"
+      }
+    }
   }
 ];
