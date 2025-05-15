@@ -560,5 +560,61 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 11,
+    title: 'Elves Battle: Command the Chaos of Your TikTok Live',
+    imageUrl: '/assets/Elves Battle_ Command the Chaos of Your TikTok Live.jpg',
+    description: 'Lead your elven forces to victory in this interactive streaming battle game',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Elves Battle: Command the Chaos of Your TikTok Live',
+        description: 'Lead your elven forces to victory in this interactive streaming battle game',
+        story: `<p>Elves Battle transforms your TikTok live stream into an epic battlefield where viewers can summon magical creatures, cast spells, and influence the outcome of mystical conflicts in real-time.</p>`
+      },
+      de: {
+        title: 'Elfenschlacht: Beherrsche das Chaos deines TikTok Live',
+        description: 'Führe deine Elfenstreitkräfte in diesem interaktiven Streaming-Kampfspiel zum Sieg',
+        story: `<p>Elfenschlacht verwandelt deinen TikTok-Livestream in ein episches Schlachtfeld, wo Zuschauer magische Kreaturen beschwören, Zauber wirken und den Ausgang mystischer Konflikte in Echtzeit beeinflussen können.</p>`
+      },
+      fr: {
+        title: 'Bataille des Elfes : Maîtrisez le Chaos de Votre TikTok Live',
+        description: 'Menez vos forces elfiques à la victoire dans ce jeu de bataille en streaming interactif',
+        story: `<p>Bataille des Elfes transforme votre stream TikTok en direct en un champ de bataille épique où les spectateurs peuvent invoquer des créatures magiques, lancer des sorts et influencer l'issue des conflits mystiques en temps réel.</p>`
+      },
+      ru: {
+        title: 'Битва Эльфов: Управляй Хаосом Твоего TikTok Live',
+        description: 'Веди свои эльфийские войска к победе в этой интерактивной стриминговой боевой игре',
+        story: `<p>Битва Эльфов превращает твою прямую трансляцию в TikTok в эпическое поле битвы, где зрители могут призывать магических существ, творить заклинания и влиять на исход мистических конфликтов в реальном времени.</p>`
+      },
+      zh: {
+        title: '精灵战争：掌控你的TikTok直播混战',
+        description: '在这款互动式流媒体战斗游戏中带领你的精灵部队走向胜利',
+        story: `<p>精灵战争将你的TikTok直播转变为一个史诗般的战场，观众可以召唤魔法生物，施放法术，并实时影响神秘冲突的结果。</p>`
+      },
+      ar: {
+        title: 'معركة الجن: تحكم في فوضى بث TikTok المباشر',
+        description: 'قد قواتك من الجن إلى النصر في هذه اللعبة القتالية التفاعلية عبر البث المباشر',
+        story: `<p>معركة الجن تحول بثك المباشر على TikTok إلى ساحة معركة ملحمية حيث يمكن للمشاهدين استدعاء المخلوقات السحرية، وإلقاء التعاويذ، والتأثير على نتائج الصراعات الغامضة في الوقت الفعلي.</p>`
+      },
+      vi: {
+        title: 'Trận Chiến Tiên Tộc: Chỉ Huy Hỗn Loạn Trên TikTok Live Của Bạn',
+        description: 'Dẫn dắt lực lượng tiên tộc của bạn đến chiến thắng trong trò chơi chiến đấu phát trực tiếp tương tác này',
+        story: `<p>Trận Chiến Tiên Tộc biến luồng TikTok trực tiếp của bạn thành chiến trường hoành tráng, nơi người xem có thể triệu hồi sinh vật ma thuật, thi triển phép thuật và ảnh hưởng đến kết quả của các cuộc xung đột huyền bí theo thời gian thực.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6500 or AMD Ryzen 3 1300X',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
