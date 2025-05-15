@@ -392,5 +392,117 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 8,
+    title: 'Color War',
+    imageUrl: '/assets/Color War.jpg',
+    description: 'Paint your way to victory in this vibrant multiplayer battle arena',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Color War',
+        description: 'Paint your way to victory in this vibrant multiplayer battle arena',
+        story: `<p>Color War transforms the battlefield into a canvas where your artistic skills determine your success. Team up with friends to paint and claim territory in this unique multiplayer experience.</p>`
+      },
+      de: {
+        title: 'Farbenkrieg',
+        description: 'Male deinen Weg zum Sieg in dieser lebendigen Mehrspieler-Kampfarena',
+        story: `<p>Farbenkrieg verwandelt das Schlachtfeld in eine Leinwand, auf der deine künstlerischen Fähigkeiten deinen Erfolg bestimmen. Schließe dich mit Freunden zusammen, um in diesem einzigartigen Mehrspielererlebnis Territorium zu bemalen und zu beanspruchen.</p>`
+      },
+      fr: {
+        title: 'Guerre des Couleurs',
+        description: 'Peignez votre chemin vers la victoire dans cette arène de bataille multijoueur vibrante',
+        story: `<p>Guerre des Couleurs transforme le champ de bataille en une toile où vos compétences artistiques déterminent votre succès. Faites équipe avec des amis pour peindre et revendiquer du territoire dans cette expérience multijoueur unique.</p>`
+      },
+      ru: {
+        title: 'Война Красок',
+        description: 'Прокладывайте путь к победе красками в этой яркой многопользовательской боевой арене',
+        story: `<p>Война Красок превращает поле боя в холст, где ваши художественные навыки определяют успех. Объединяйтесь с друзьями, чтобы раскрашивать и захватывать территорию в этом уникальном многопользовательском опыте.</p>`
+      },
+      zh: {
+        title: '色彩战争',
+        description: '在这个充满活力的多人战斗竞技场中用绘画赢得胜利',
+        story: `<p>色彩战争将战场变成画布，你的艺术技巧决定成败。在这个独特的多人游戏体验中与朋友组队绘画并占领领地。</p>`
+      },
+      ar: {
+        title: 'حرب الألوان',
+        description: 'ارسم طريقك نحو النصر في ساحة معركة متعددة اللاعبين نابضة بالحياة',
+        story: `<p>حرب الألوان تحول ساحة المعركة إلى لوحة فنية حيث تحدد مهاراتك الفنية نجاحك. تعاون مع الأصدقاء للرسم والمطالبة بالأراضي في هذه التجربة الفريدة متعددة اللاعبين.</p>`
+      },
+      vi: {
+        title: 'Chiến Tranh Sắc Màu',
+        description: 'Vẽ con đường chiến thắng trong đấu trường nhiều người chơi sôi động này',
+        story: `<p>Chiến Tranh Sắc Màu biến chiến trường thành một bức tranh, nơi kỹ năng nghệ thuật của bạn quyết định thành công. Hợp tác với bạn bè để vẽ và giành lãnh thổ trong trải nghiệm nhiều người chơi độc đáo này.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit)',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 3 1300X',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 9,
+    title: 'Dragon Ball Duel',
+    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
+    description: 'Experience the next evolution of Dragon Ball combat in this action-packed battle arena',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Dragon Ball Duel',
+        description: 'Experience the next evolution of Dragon Ball combat in this action-packed battle arena',
+        story: `<p>Dragon Ball Duel brings the iconic anime series into a new era of competitive gaming. Master legendary techniques, transform mid-battle, and prove yourself in intense PvP matches.</p>`
+      },
+      de: {
+        title: 'Dragon Ball Duell',
+        description: 'Erlebe die nächste Evolution des Dragon Ball Kampfes in dieser actiongeladenen Kampfarena',
+        story: `<p>Dragon Ball Duell bringt die ikonische Anime-Serie in eine neue Ära des kompetitiven Gamings. Meistere legendäre Techniken, transformiere mitten im Kampf und beweise dich in intensiven PvP-Matches.</p>`
+      },
+      fr: {
+        title: 'Duel Dragon Ball',
+        description: 'Découvrez la prochaine évolution du combat Dragon Ball dans cette arène de bataille pleine d\'action',
+        story: `<p>Duel Dragon Ball amène la série d'anime iconique dans une nouvelle ère du gaming compétitif. Maîtrisez des techniques légendaires, transformez-vous en plein combat et prouvez-vous dans des matchs PvP intenses.</p>`
+      },
+      ru: {
+        title: 'Дуэль Драгон Болл',
+        description: 'Испытайте следующую эволюцию сражений Dragon Ball в этой насыщенной действием боевой арене',
+        story: `<p>Дуэль Драгон Болл переносит культовый аниме-сериал в новую эру соревновательных игр. Освойте легендарные техники, трансформируйтесь в разгар боя и докажите себя в интенсивных PvP-матчах.</p>`
+      },
+      zh: {
+        title: '龙珠对决',
+        description: '在这个充满动作的战斗竞技场中体验龙珠战斗的新进化',
+        story: `<p>龙珠对决将标志性的动漫系列带入竞技游戏的新时代。掌握传奇技能，战斗中变身，在激烈的PvP对战中证明自己。</p>`
+      },
+      ar: {
+        title: 'مبارزة دراغون بول',
+        description: 'اختبر التطور التالي لقتال دراغون بول في ساحة المعركة المليئة بالحركة',
+        story: `<p>مبارزة دراغون بول تجلب سلسلة الأنمي الشهيرة إلى عصر جديد من الألعاب التنافسية. أتقن التقنيات الأسطورية، تحول في منتصف المعركة، وأثبت نفسك في مباريات PvP مكثفة.</p>`
+      },
+      vi: {
+        title: 'Đấu Trường Dragon Ball',
+        description: 'Trải nghiệm sự tiến hóa tiếp theo của Dragon Ball trong đấu trường chiến đấu đầy hành động này',
+        story: `<p>Đấu Trường Dragon Ball mang series anime biểu tượng vào kỷ nguyên mới của gaming cạnh tranh. Làm chủ các kỹ thuật huyền thoại, biến đổi giữa trận đấu và chứng minh bản thân trong các trận đấu PvP gay cấn.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 (64-bit)',
+        processor: 'Intel Core i7-7700K or AMD Ryzen 5 2600',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
