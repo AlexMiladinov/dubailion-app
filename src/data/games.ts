@@ -504,5 +504,117 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 10,
+    title: 'Elves Battle',
+    imageUrl: '/assets/Elves Battle_ Command the Chaos of Your TikTok Live.jpg',
+    description: 'Command magical elven forces in this enchanting real-time strategy game',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Elves Battle',
+        description: 'Command magical elven forces in this enchanting real-time strategy game',
+        story: `<p>Enter the mystical realm of Elves Battle, where ancient magic meets modern strategy. Lead your elven armies to victory through enchanted forests and magical battlegrounds.</p>`
+      },
+      de: {
+        title: 'Elfenschlacht',
+        description: 'Befehlige magische Elfenstreitkräfte in diesem bezaubernden Echtzeit-Strategiespiel',
+        story: `<p>Betritt das mystische Reich der Elfenschlacht, wo uralte Magie auf moderne Strategie trifft. Führe deine Elfenarmeen durch verzauberte Wälder und magische Schlachtfelder zum Sieg.</p>`
+      },
+      fr: {
+        title: 'Bataille des Elfes',
+        description: 'Commandez des forces elfiques magiques dans ce jeu de stratégie en temps réel enchanteur',
+        story: `<p>Entrez dans le royaume mystique de la Bataille des Elfes, où la magie ancienne rencontre la stratégie moderne. Menez vos armées elfiques à la victoire à travers des forêts enchantées et des champs de bataille magiques.</p>`
+      },
+      ru: {
+        title: 'Битва Эльфов',
+        description: 'Командуйте магическими эльфийскими силами в этой очаровательной стратегии в реальном времени',
+        story: `<p>Войдите в мистическое царство Битвы Эльфов, где древняя магия встречается с современной стратегией. Ведите свои эльфийские армии к победе через зачарованные леса и магические поля сражений.</p>`
+      },
+      zh: {
+        title: '精灵战争',
+        description: '在这款迷人的即时战略游戏中指挥魔法精灵部队',
+        story: `<p>进入精灵战争的神秘境界，在这里古老的魔法与现代战略相遇。带领你的精灵军队穿越魔法森林和战场走向胜利。</p>`
+      },
+      ar: {
+        title: 'معركة الجان',
+        description: 'قيادة قوات الجان السحرية في هذه اللعبة الاستراتيجية الساحرة في الوقت الفعلي',
+        story: `<p>ادخل إلى عالم معركة الجان الغامض، حيث يلتقي السحر القديم بالاستراتيجية الحديثة. قد جيوش الجان إلى النصر عبر الغابات المسحورة وساحات المعارك السحرية.</p>`
+      },
+      vi: {
+        title: 'Trận Chiến Tiên Tộc',
+        description: 'Chỉ huy lực lượng tiên tộc ma thuật trong trò chơi chiến thuật thời gian thực mê hoặc này',
+        story: `<p>Bước vào vương quốc huyền bí của Trận Chiến Tiên Tộc, nơi phép thuật cổ xưa gặp gỡ chiến thuật hiện đại. Dẫn dắt đội quân tiên tộc của bạn đến chiến thắng qua những khu rừng phép thuật và chiến trường ma thuật.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10 (64-bit)',
+        processor: 'Intel Core i3-4160 or AMD equivalent',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 (64-bit)',
+        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 11,
+    title: 'Farm Field',
+    imageUrl: '/assets/Farm Field_ Grow Big. Harvest More. Build Your Legacy.jpg',
+    description: 'Build and manage your dream farm in this relaxing simulation game',
+    platform: 'Mobile',
+    translations: {
+      en: {
+        title: 'Farm Field',
+        description: 'Build and manage your dream farm in this relaxing simulation game',
+        story: `<p>Farm Field invites you to create your own agricultural paradise. Plant crops, raise animals, and expand your farm into a thriving enterprise while enjoying the peaceful countryside atmosphere.</p>`
+      },
+      de: {
+        title: 'Bauernhof',
+        description: 'Baue und verwalte deinen Traumhof in diesem entspannenden Simulationsspiel',
+        story: `<p>Bauernhof lädt dich ein, dein eigenes landwirtschaftliches Paradies zu erschaffen. Pflanze Feldfrüchte an, züchte Tiere und erweitere deinen Hof zu einem florierenden Unternehmen, während du die friedliche Landatmosphäre genießt.</p>`
+      },
+      fr: {
+        title: 'Champ Agricole',
+        description: 'Construisez et gérez votre ferme de rêve dans ce jeu de simulation relaxant',
+        story: `<p>Champ Agricole vous invite à créer votre propre paradis agricole. Plantez des cultures, élevez des animaux et développez votre ferme en une entreprise prospère tout en profitant de l'atmosphère paisible de la campagne.</p>`
+      },
+      ru: {
+        title: 'Фермерское Поле',
+        description: 'Постройте и управляйте фермой своей мечты в этой расслабляющей симуляции',
+        story: `<p>Фермерское Поле приглашает вас создать свой собственный сельскохозяйственный рай. Выращивайте урожай, разводите животных и превратите свою ферму в процветающее предприятие, наслаждаясь мирной атмосферой сельской местности.</p>`
+      },
+      zh: {
+        title: '农场天地',
+        description: '在这款轻松的模拟游戏中建造和管理你梦想中的农场',
+        story: `<p>农场天地邀请你创建自己的农业天堂。种植农作物，饲养动物，将你的农场发展成一个繁荣的企业，同时享受宁静的乡村氛围。</p>`
+      },
+      ar: {
+        title: 'حقل المزرعة',
+        description: 'ابنِ وأدر مزرعة أحلامك في هذه اللعبة المحاكاة المريحة',
+        story: `<p>حقل المزرعة يدعوك لإنشاء جنتك الزراعية الخاصة. ازرع المحاصيل، وربِّ الحيوانات، ووسع مزرعتك لتصبح مشروعًا مزدهرًا بينما تستمتع بأجواء الريف الهادئة.</p>`
+      },
+      vi: {
+        title: 'Đồng Ruộng',
+        description: 'Xây dựng và quản lý trang trại trong mơ của bạn trong trò chơi mô phỏng thư giãn này',
+        story: `<p>Đồng Ruộng mời bạn tạo ra thiên đường nông nghiệp của riêng mình. Trồng cây, nuôi thú và mở rộng trang trại thành một doanh nghiệp phát đạt trong khi tận hưởng bầu không khí yên bình của vùng quê.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Android 5.0 or iOS 11.0',
+        processor: 'Any modern smartphone processor',
+        memory: '2 GB RAM'
+      },
+      recommended: {
+        os: 'Android 8.0 or iOS 13.0',
+        processor: 'Snapdragon 662 or equivalent',
+        memory: '4 GB RAM'
+      }
+    }
   }
 ];
