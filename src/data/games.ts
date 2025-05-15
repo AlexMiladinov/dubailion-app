@@ -285,22 +285,22 @@ export const games: Game[] = [
     id: 6,
     title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
     imageUrl: '/assets/Cheese Battle_ The Ultimate Cat vs. Mouse Showdown.jpg',
-    description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+    description: 'Join cute cats in an adorable fishing competition where skill meets strategy',
     platform: 'PC',
     translations: {
       en: {
         title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
-        description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+        description: 'Join cute cats in an adorable fishing competition where skill meets strategy',
         story: `<p>Step into the delightful chaos of Cheese Battle, a fast-paced PvP game that brings the classic cat-and-mouse chase to life with a modern twist.</p>`
       },
       de: {
         title: 'Käse-Schlacht: Das ultimative Katze-gegen-Maus-Duell',
-        description: 'Tritt ein in die verspielte Welt von Käse-Schlacht, wo niedliche Mäuse ihr Käsefest gegen schlaue Katzen verteidigen',
+        description: 'Schließe dich niedlichen Katzen in einem entzückenden Angelwettbewerb an, wo Geschick auf Strategie trifft',
         story: `<p>Tauche ein in das entzückende Chaos von Käse-Schlacht, ein schnelles PvP-Spiel, das die klassische Katz-und-Maus-Jagd mit einer modernen Wendung zum Leben erweckt.</p>`
       },
       fr: {
         title: 'Bataille de Fromage : L\'Ultime Affrontement Chat contre Souris',
-        description: 'Rejoignez le monde fantaisiste de Bataille de Fromage, où d\'adorables souris défendent leur festin fromager contre des chats rusés',
+        description: 'Rejoignez des chats mignons dans une adorable compétition de pêche où l'habileté rencontre la stratégie',
         story: `<p>Plongez dans le chaos délicieux de Bataille de Fromage, un jeu PvP rapide qui donne vie à la classique course-poursuite du chat et de la souris avec une touche moderne.</p>`
       },
       ru: {
@@ -310,30 +310,30 @@ export const games: Game[] = [
       },
       zh: {
         title: '奶酪大战：猫鼠终极对决',
-        description: '加入奶酪大战的奇幻世界，可爱的老鼠们守护着他们的奶酪盛宴，对抗狡猾的猫',
+        description: '在这个技巧与策略并重的可爱钓鱼比赛中与萌猫一起参与',
         story: `<p>步入奶酪大战的欢乐混乱，这是一款快节奏的PvP游戏，以现代方式重现经典的猫鼠追逐。</p>`
       },
       ar: {
         title: 'معركة الجبن: المواجهة النهائية بين القط والفأر',
-        description: 'انضم إلى عالم معركة الجبن الغريب، حيث تدافع الفئران اللطيفة عن وليمة الجبن ضد القطط الماكرة',
+        description: 'انضم إلى القطط اللطيفة في منافسة صيد السمك الجذابة حيث تلتقي المهارة بالاستراتيجية',
         story: `<p>ادخل إلى الفوضى الممتعة في معركة الجبن، لعبة PvP سريعة تحيي مطاردة القط والفأر الكلاسيكية بلمسة عصرية.</p>`
       },
       vi: {
         title: 'Đại Chiến Phô Mai: Cuộc Đối Đầu Tối Thượng Giữa Mèo và Chuột',
-        description: 'Tham gia vào thế giới kỳ thú của Đại Chiến Phô Mai, nơi những chú chuột đáng yêu bảo vệ bữa tiệc phô mai khỏi những chú mèo xảo quyệt',
+        description: 'Tham gia cùng những chú mèo dễ thương trong cuộc thi câu cá đáng yêu nơi kỹ năng gặp chiến thuật',
         story: `<p>Bước vào sự hỗn loạn thú vị của Đại Chiến Phô Mai, một trò chơi PvP nhịp độ nhanh mang lại cuộc rượt đuổi mèo-chuột cổ điển với một twist hiện đại.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 7 (SP1+), Windows 10, Windows 11',
-        processor: 'Intel Pentium 4 2.00GHz',
-        memory: '200 MB RAM'
+        os: 'Windows 7/8/10',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
       },
       recommended: {
-        os: 'Windows 10 or later',
-        processor: 'Intel i5 or equivalent',
-        memory: '4 GB RAM'
+        os: 'Windows 10',
+        processor: 'Intel Core i5-6600 or AMD Ryzen 3 1300X',
+        memory: '8 GB RAM'
       }
     }
   },
@@ -708,8 +708,7 @@ export const games: Game[] = [
       ar: {
         title: "ساحة ماينكرافت: انجُ من الفوضى، احكم الساحة",
         description: "قاتل من أجل السيادة في هذه اللعبة القتالية المليئة بالحركة على طراز ماينكرافت",
-        story: `<p>ادخل ساحة معركة مكعبة حيث تحدد الاسترا
-تيجية ومهارات البقاء مصيرك. ابنِ وقاتل واغزُ في مباريات ساحة مكثفة.</p>`
+        story: `<p>ادخل ساحة معركة مكعبة حيث تحدد الاستراتيجية ومهارات البقاء مصيرك. ابنِ وقاتل واغزُ في مباريات ساحة مكثفة.</p>`
       },
       vi: {
         title: "Đấu Trường Minecraft: Sống Sót Trong Hỗn Loạn, Thống Trị Đấu Trường",
@@ -1399,6 +1398,287 @@ export const games: Game[] = [
         os: "Windows 10/11 64-bit",
         processor: "Intel Core i5-8400 or AMD Ryzen 5 2600",
         memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 26,
+    title: "Color War",
+    imageUrl: "/assets/Color War.jpg",
+    description: "Paint your way to victory in this vibrant multiplayer battle arena",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Color War",
+        description: "Paint your way to victory in this vibrant multiplayer battle arena",
+        story: `<p>Enter a world where color is your weapon. Splash, paint, and strategize your way through dynamic arenas while competing against other players in real-time color-based combat.</p>`
+      },
+      de: {
+        title: "Farbenkrieg",
+        description: "Male deinen Weg zum Sieg in dieser lebendigen Mehrspieler-Kampfarena",
+        story: `<p>Betritt eine Welt, in der Farbe deine Waffe ist. Spritz, male und entwickle Strategien in dynamischen Arenen, während du gegen andere Spieler in Echtzeit-Farbkämpfen antrittst.</p>`
+      },
+      fr: {
+        title: "Guerre des Couleurs",
+        description: "Peignez votre chemin vers la victoire dans cette arène de combat multijoueur vibrante",
+        story: `<p>Entrez dans un monde où la couleur est votre arme. Éclaboussez, peignez et élaborez des stratégies dans des arènes dynamiques tout en affrontant d'autres joueurs dans des combats en temps réel basés sur les couleurs.</p>`
+      },
+      ru: {
+        title: "Война Красок",
+        description: "Проложите путь к победе красками в этой яркой многопользовательской боевой арене",
+        story: `<p>Войдите в мир, где цвет - ваше оружие. Разбрызгивайте, красьте и разрабатывайте стратегию на динамичных аренах, соревнуясь с другими игроками в цветных боях в реальном времени.</p>`
+      },
+      zh: {
+        title: "色彩战争",
+        description: "在这个充满活力的多人战斗竞技场中用绘画赢得胜利",
+        story: `<p>进入一个色彩即武器的世界。在动态竞技场中泼洒、绘画和策划，与其他玩家进行实时的基于色彩的战斗。</p>`
+      },
+      ar: {
+        title: "حرب الألوان",
+        description: "ارسم طريقك نحو النصر في ساحة معركة متعددة اللاعبين نابضة بالحياة",
+        story: `<p>ادخل عالماً حيث اللون هو سلاحك. اسكب ولوّن وخطط طريقك عبر ساحات ديناميكية أثناء المنافسة ضد لاعبين آخرين في قتال قائم على الألوان في الوقت الفعلي.</p>`
+      },
+      vi: {
+        title: "Chiến Tranh Sắc Màu",
+        description: "Vẽ con đường đến chiến thắng trong đấu trường nhiều người chơi sống động này",
+        story: `<p>Bước vào thế giới nơi màu sắc là vũ khí của bạn. Tung tóe, vẽ và lập chiến lược trong các đấu trường năng động trong khi thi đấu với người chơi khác trong trận chiến thời gian thực dựa trên màu sắc.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-3220 or AMD FX-4350",
+        memory: "4 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i5-6600 or AMD Ryzen 3 1300X",
+        memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 27,
+    title: "Legion Clash",
+    imageUrl: "/assets/Legion Clash.jpg",
+    description: "Command vast armies in epic real-time strategy battles",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Legion Clash",
+        description: "Command vast armies in epic real-time strategy battles",
+        story: `<p>Lead massive armies into battle in this grand-scale strategy game. Control multiple legions, execute complex tactical maneuvers, and dominate the battlefield through superior strategy.</p>`
+      },
+      de: {
+        title: "Legionen-Zusammenstoß",
+        description: "Befehlige riesige Armeen in epischen Echtzeit-Strategieschlachten",
+        story: `<p>Führe massive Armeen in diesem großangelegten Strategiespiel in die Schlacht. Kontrolliere mehrere Legionen, führe komplexe taktische Manöver aus und dominiere das Schlachtfeld durch überlegene Strategie.</p>`
+      },
+      fr: {
+        title: "Choc des Légions",
+        description: "Commandez de vastes armées dans des batailles de stratégie épiques en temps réel",
+        story: `<p>Menez des armées massives au combat dans ce jeu de stratégie à grande échelle. Contrôlez plusieurs légions, exécutez des manœuvres tactiques complexes et dominez le champ de bataille grâce à une stratégie supérieure.</p>`
+      },
+      ru: {
+        title: "Столкновение Легионов",
+        description: "Командуйте огромными армиями в эпических стратегических сражениях в реальном времени",
+        
+        story: `<p>Ведите массивные армии в бой в этой масштабной стратегической игре. Управляйте несколькими легионами, выполняйте сложные тактические маневры и доминируйте на поле боя благодаря превосходной стратегии.</p>`
+      },
+      zh: {
+        title: "军团冲突",
+        description: "在史诗级实时战略战斗中指挥庞大军队",
+        story: `<p>在这款大规模战略游戏中率领庞大军队投入战斗。控制多个军团，执行复杂的战术机动，通过卓越的战略主宰战场。</p>`
+      },
+      ar: {
+        title: "صدام الفيالق",
+        description: "قُد جيوشاً ضخمة في معارك استراتيجية ملحمية في الوقت الحقيقي",
+        story: `<p>قُد جيوشاً ضخمة إلى المعركة في هذه اللعبة الاستراتيجية واسعة النطاق. تحكم في فيالق متعددة، نفذ مناورات تكتيكية معقدة، وسيطر على ساحة المعركة من خلال استراتيجية متفوقة.</p>`
+      },
+      vi: {
+        title: "Đụng Độ Quân Đoàn",
+        description: "Chỉ huy các đội quân khổng lồ trong các trận chiến chiến lược thời gian thực hoành tráng",
+        story: `<p>Dẫn dắt các đội quân khổng lồ vào trận chiến trong trò chơi chiến lược quy mô lớn này. Kiểm soát nhiều quân đoàn, thực hiện các thao tác chiến thuật phức tạp và thống trị chiến trường thông qua chiến lược vượt trội.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 28,
+    title: "Legion Clash 2",
+    imageUrl: "/assets/Legion Clash 2.jpg",
+    description: "The epic sequel to the legendary strategy battle game",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Legion Clash 2",
+        description: "The epic sequel to the legendary strategy battle game",
+        story: `<p>Return to the battlefield with enhanced graphics, new tactical options, and even larger armies. Command multiple specialized legions and engage in epic-scale warfare with improved strategic depth.</p>`
+      },
+      de: {
+        title: "Legionen-Zusammenstoß 2",
+        description: "Die epische Fortsetzung des legendären Strategiespiel-Klassikers",
+        story: `<p>Kehre mit verbesserter Grafik, neuen taktischen Optionen und noch größeren Armeen auf das Schlachtfeld zurück. Befehlige mehrere spezialisierte Legionen und führe epische Kriegshandlungen mit verbesserter strategischer Tiefe.</p>`
+      },
+      fr: {
+        title: "Choc des Légions 2",
+        description: "La suite épique du légendaire jeu de bataille stratégique",
+        story: `<p>Retournez sur le champ de bataille avec des graphismes améliorés, de nouvelles options tactiques et des armées encore plus importantes. Commandez plusieurs légions spécialisées et engagez-vous dans une guerre à grande échelle avec une profondeur stratégique améliorée.</p>`
+      },
+      ru: {
+        title: "Столкновение Легионов 2",
+        description: "Эпическое продолжение легендарной стратегической боевой игры",
+        story: `<p>Вернитесь на поле боя с улучшенной графикой, новыми тактическими возможностями и еще более крупными армиями. Командуйте несколькими специализированными легионами и участвуйте в масштабных военных действиях с улучшенной стратегической глубиной.</p>`
+      },
+      zh: {
+        title: "军团冲突2",
+        description: "传奇战略战斗游戏的史诗续作",
+        story: `<p>带着增强的图形、新的战术选项和更大的军队重返战场。指挥多个专业军团，进行具有改进战略深度的史诗级战争。</p>`
+      },
+      ar: {
+        title: "صدام الفيالق 2",
+        description: "التكملة الملحمية للعبة المعارك الاستراتيجية الأسطورية",
+        story: `<p>عُد إلى ساحة المعركة مع رسومات محسنة وخيارات تكتيكية جديدة وجيوش أكبر. قُد فيالق متخصصة متعددة وشارك في حرب على نطاق ملحمي مع عمق استراتيجي محسن.</p>`
+      },
+      vi: {
+        title: "Đụng Độ Quân Đoàn 2",
+        description: "Phần tiếp theo hoành tráng của trò chơi chiến đấu chiến lược huyền thoại",
+        story: `<p>Trở lại chiến trường với đồ họa nâng cao, các tùy chọn chiến thuật mới và quân đội còn lớn hơn. Chỉ huy nhiều quân đoàn chuyên biệt và tham gia chiến tranh quy mô sử thi với chiều sâu chiến lược được cải thiện.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-8400 or AMD Ryzen 5 2600",
+        memory: "12 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-9700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 29,
+    title: "Unified Kingdom",
+    imageUrl: "/assets/Unified Kingdom.jpg",
+    description: "Build and manage your medieval kingdom in this grand strategy simulation",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Unified Kingdom",
+        description: "Build and manage your medieval kingdom in this grand strategy simulation",
+        story: `<p>Take control of a fledgling medieval kingdom and guide it to greatness. Balance resources, forge alliances, and defend your realm while expanding your influence across the continent.</p>`
+      },
+      de: {
+        title: "Vereinigtes Königreich",
+        description: "Baue und verwalte dein mittelalterliches Königreich in dieser großen Strategiesimulation",
+        story: `<p>Übernimm die Kontrolle über ein aufstrebendes mittelalterliches Königreich und führe es zur Größe. Balanciere Ressourcen, schmiede Bündnisse und verteidige dein Reich, während du deinen Einfluss über den Kontinent ausdehnst.</p>`
+      },
+      fr: {
+        title: "Royaume Unifié",
+        description: "Construisez et gérez votre royaume médiéval dans cette simulation de grande stratégie",
+        story: `<p>Prenez le contrôle d'un royaume médiéval naissant et guidez-le vers la grandeur. Équilibrez les ressources, forgez des alliances et défendez votre royaume tout en étendant votre influence à travers le continent.</p>`
+      },
+      ru: {
+        title: "Объединённое Королевство",
+        description: "Постройте и управляйте своим средневековым королевством в этой масштабной стратегической симуляции",
+        story: `<p>Возьмите под контроль зарождающееся средневековое королевство и приведите его к величию. Балансируйте ресурсы, создавайте союзы и защищайте свое королевство, расширяя свое влияние по всему континенту.</p>`
+      },
+      zh: {
+        title: "统一王国",
+        description: "在这款宏大的战略模拟游戏中建设和管理你的中世纪王国",
+        story: `<p>掌控一个新兴的中世纪王国，引导它走向辉煌。平衡资源、建立联盟，在扩大你在大陆上的影响力的同时保卫你的领地。</p>`
+      },
+      ar: {
+        title: "المملكة الموحدة",
+        description: "ابنِ وأدر مملكتك في العصور الوسطى في هذه المحاكاة الاستراتيجية الكبرى",
+        story: `<p>تولَّ السيطرة على مملكة ناشئة في العصور الوسطى وقدها نحو العظمة. وازن الموارد، أقم التحالفات، ودافع عن مملكتك أثناء توسيع نفوذك عبر القارة.</p>`
+      },
+      vi: {
+        title: "Vương Quốc Thống Nhất",
+        description: "Xây dựng và quản lý vương quốc trung cổ của bạn trong mô phỏng chiến lược quy mô lớn này",
+        story: `<p>Nắm quyền kiểm soát một vương quốc trung cổ đang phát triển và dẫn dắt nó đến sự vĩ đại. Cân bằng tài nguyên, tạo dựng liên minh và bảo vệ vương quốc của bạn trong khi mở rộng ảnh hưởng trên khắp lục địa.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i5-4460 or AMD FX-6300",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i7-7700 or AMD Ryzen 5 1600",
+        memory: "16 GB RAM"
+      }
+    }
+  },
+  {
+    id: 30,
+    title: "King of Soldiers",
+    imageUrl: "/assets/King of Soldiers.jpg",
+    description: "Lead your elite squad through intense tactical combat missions",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "King of Soldiers",
+        description: "Lead your elite squad through intense tactical combat missions",
+        story: `<p>Command a specialized military unit in modern warfare scenarios. Make split-second decisions, utilize advanced weaponry, and execute precise tactical maneuvers to achieve mission objectives.</p>`
+      },
+      de: {
+        title: "König der Soldaten",
+        description: "Führe deine Eliteeinheit durch intensive taktische Kampfmissionen",
+        story: `<p>Befehlige eine spezialisierte Militäreinheit in modernen Kriegsszenarien. Triff blitzschnelle Entscheidungen, nutze fortschrittliche Waffen und führe präzise taktische Manöver aus, um Missionsziele zu erreichen.</p>`
+      },
+      fr: {
+        title: "Roi des Soldats",
+        description: "Dirigez votre escouade d'élite à travers des missions de combat tactique intenses",
+        story: `<p>Commandez une unité militaire spécialisée dans des scénarios de guerre moderne. Prenez des décisions en une fraction de seconde, utilisez des armes avancées et exécutez des manœuvres tactiques précises pour atteindre les objectifs de mission.</p>`
+      },
+      ru: {
+        title: "Король Солдат",
+        description: "Ведите свой элитный отряд через интенсивные тактические боевые миссии",
+        story: `<p>Командуйте специализированным военным подразделением в сценариях современной войны. Принимайте мгновенные решения, используйте передовое вооружение и выполняйте точные тактические маневры для достижения целей миссии.</p>`
+      },
+      zh: {
+        title: "士兵之王",
+        description: "带领你的精英小队完成激烈的战术战斗任务",
+        story: `<p>在现代战争场景中指挥专业军事单位。做出瞬间决策，使用先进武器，执行精确的战术机动以实现任务目标。</p>`
+      },
+      ar: {
+        title: "ملك الجنود",
+        description: "قُد فرقتك النخبة عبر مهام قتالية تكتيكية مكثفة",
+        story: `<p>قُد وحدة عسكرية متخصصة في سيناريوهات الحرب الحديثة. اتخذ قرارات سريعة، استخدم الأسلحة المتقدمة، ونفذ مناورات تكتيكية دقيقة لتحقيق أهداف المهمة.</p>`
+      },
+      vi: {
+        title: "Vua Của Binh Sĩ",
+        description: "Lãnh đạo đội đặc nhiệm của bạn qua các nhiệm vụ chiến đấu chiến thuật gay cấn",
+        story: `<p>Chỉ huy một đơn vị quân sự chuyên biệt trong các tình huống chiến tranh hiện đại. Đưa ra quyết định trong tích tắc, sử dụng vũ khí tiên tiến và thực hiện các thao tác chiến thuật chính xác để đạt được mục tiêu nhiệm vụ.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
       }
     }
   }
