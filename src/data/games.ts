@@ -672,5 +672,62 @@ export const games: Game[] = [
         memory: '8 GB RAM'
       }
     }
+  },
+  {
+    id: 13,
+    title: 'Firepower Clash: Real-Time Faction Battle Game',
+    imageUrl: '/assets/Firepower Clash_ Real-Time Faction Battle Game.jpg',
+    description: 'Command your forces in intense real-time battles where every decision counts',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Firepower Clash: Real-Time Faction Battle Game',
+        description: 'Command your forces in intense real-time battles where every decision counts',
+        story: `<p>Firepower Clash puts you in command of elite military forces in a high-stakes battle arena. Coordinate with your team, deploy strategic assets, and dominate the battlefield in this intense real-time combat experience.</p>`
+      },
+      de: {
+        title: 'Feuerkraft Konflikt: Echtzeit-Fraktionsschlacht',
+        
+        description: 'Befehlige deine Streitkräfte in intensiven Echtzeit-Schlachten, in denen jede Entscheidung zählt',
+        story: `<p>Feuerkraft Konflikt stellt dich an die Spitze von Elite-Militäreinheiten in einer Kampfarena mit hohem Einsatz. Koordiniere mit deinem Team, setze strategische Ressourcen ein und dominiere das Schlachtfeld in diesem intensiven Echtzeit-Kampferlebnis.</p>`
+      },
+      fr: {
+        title: 'Conflit de Puissance de Feu : Jeu de Bataille de Faction en Temps Réel',
+        description: 'Commandez vos forces dans des batailles intenses en temps réel où chaque décision compte',
+        story: `<p>Conflit de Puissance de Feu vous met aux commandes de forces militaires d'élite dans une arène de bataille à haut enjeu. Coordonnez-vous avec votre équipe, déployez des atouts stratégiques et dominez le champ de bataille dans cette intense expérience de combat en temps réel.</p>`
+      },
+      ru: {
+        title: 'Столкновение Огневой Мощи: Фракционная Битва в Реальном Времени',
+        description: 'Командуйте своими силами в интенсивных сражениях в реальном времени, где каждое решение имеет значение',
+        story: `<p>Столкновение Огневой Мощи ставит вас во главе элитных военных сил на арене боевых действий с высокими ставками. Координируйте действия с командой, развертывайте стратегические активы и доминируйте на поле боя в этом интенсивном боевом опыте в реальном времени.</p>`
+      },
+      zh: {
+        title: '火力冲突：实时派系战斗游戏',
+        description: '在激烈的实时战斗中指挥你的部队，每个决定都至关重要',
+        story: `<p>火力冲突让你指挥精英军事力量在高风险的战斗竞技场中作战。在这个激烈的实时战斗体验中，与你的团队协调，部署战略资产，主宰战场。</p>`
+      },
+      ar: {
+        title: 'صراع القوة النارية: لعبة معارك الفصائل في الوقت الحقيقي',
+        description: 'قُد قواتك في معارك مكثفة في الوقت الحقيقي حيث كل قرار مهم',
+        story: `<p>صراع القوة النارية يضعك في قيادة القوات العسكرية النخبة في ساحة معركة عالية المخاطر. نسق مع فريقك، انشر الأصول الاستراتيجية، وسيطر على ساحة المعركة في هذه التجربة القتالية المكثفة في الوقت الحقيقي.</p>`
+      },
+      vi: {
+        title: 'Đụng Độ Hỏa Lực: Trò Chơi Chiến Đấu Phe Phái Thời Gian Thực',
+        description: 'Chỉ huy lực lượng của bạn trong các trận chiến căng thẳng thời gian thực, nơi mọi quyết định đều quan trọng',
+        story: `<p>Đụng Độ Hỏa Lực đặt bạn vào vị trí chỉ huy các lực lượng quân sự tinh nhuệ trong đấu trường chiến đấu căng thẳng. Phối hợp với đội của bạn, triển khai các tài sản chiến lược và thống trị chiến trường trong trải nghiệm chiến đấu thời gian thực căng thẳng này.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-9700K or AMD Ryzen 7 3700X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
