@@ -168,5 +168,174 @@ export const games: Game[] = [
         memory: '4 GB RAM'
       }
     }
-  }
-];
+  },
+  {
+    id: 4,
+    title: 'Call Me Champion: Shape the Faction War with Every Move',
+    imageUrl: '/assets/Call Me Champion_ Shape the Faction War with Every Move.jpg',
+    description: 'Choose Your Side, Fight for Glory, and Earn Your Spot at the Top!',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Call Me Champion: Shape the Faction War with Every Move',
+        description: 'Choose Your Side, Fight for Glory, and Earn Your Spot at the Top!',
+        story: `<p>In Call Me Champion, it's not just about watching, it's about participating. This game throws you into a multi-camp battle where broadcasters and viewers join forces to push their camp to victory.</p>`
+      },
+      de: {
+        title: 'Nenn Mich Champion: Gestalte den Fraktionskrieg mit Jedem Zug',
+        description: 'Wähle deine Seite, Kämpfe für Ruhm und Sichere dir deinen Platz an der Spitze!',
+        story: `<p>In Nenn Mich Champion geht es nicht nur ums Zusehen, sondern ums Mitmachen. Dieses Spiel wirft dich in eine Multi-Camp-Schlacht, wo Broadcaster und Zuschauer sich zusammentun, um ihr Lager zum Sieg zu führen.</p>`
+      },
+      fr: {
+        title: 'Appelez-Moi Champion : Façonnez la Guerre des Factions à Chaque Mouvement',
+        description: 'Choisissez Votre Camp, Battez-vous pour la Gloire et Gagnez Votre Place au Sommet !',
+        story: `<p>Dans Appelez-Moi Champion, il ne s'agit pas seulement de regarder, mais de participer. Ce jeu vous plonge dans une bataille multi-camps où diffuseurs et spectateurs unissent leurs forces pour mener leur camp à la victoire.</p>`
+      },
+      ru: {
+        title: 'Зови Меня Чемпион: Определи Исход Войны Фракций Каждым Ходом',
+        description: 'Выбери Свою Сторону, Сражайся за Славу и Заработай Место на Вершине!',
+        story: `<p>В игре Зови Меня Чемпион важно не просто смотреть, а участвовать. Эта игра погружает вас в многолагерную битву, где стримеры и зрители объединяются, чтобы привести свой лагерь к победе.</p>`
+      },
+      zh: {
+        title: '称霸之战：每一步都决定派系战争的走向',
+        description: '选择阵营，为荣耀而战，赢得巅峰地位！',
+        story: `<p>在称霸之战中，不仅仅是观看，更重要的是参与。这款游戏将你投入多阵营战斗，主播和观众联手推动自己的阵营走向胜利。</p>`
+      },
+      ar: {
+        title: 'نادني بطل: شكل حرب الفصائل مع كل خطوة',
+        description: 'اختر جانبك، قاتل من أجل المجد، واكسب مكانك في القمة!',
+        story: `<p>في نادني بطل، الأمر لا يتعلق بالمشاهدة فقط، بل بالمشاركة. تضعك هذه اللعبة في معركة متعددة المعسكرات حيث يتحد البث المباشر والمشاهدون لدفع معسكرهم نحو النصر.</p>`
+      },
+      vi: {
+        title: 'Gọi Tôi Là Nhà Vô Địch: Định Hình Cuộc Chiến Phe Phái Qua Từng Bước Đi',
+        description: 'Chọn Phe Của Bạn, Chiến Đấu Vì Vinh Quang và Giành Vị Trí Cao Nhất!',
+        story: `<p>Trong Gọi Tôi Là Nhà Vô Địch, không chỉ là xem mà còn là tham gia. Trò chơi này đưa bạn vào trận chiến đa trại, nơi người phát sóng và người xem hợp lực để đưa trại của họ đến chiến thắng.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 5,
+    title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
+    imageUrl: '/assets/Call Me Da Sheng_ Shape the Fate of the Monkey King.jpg',
+    description: 'Will you help the Monkey King escape, or stop him in his tracks?',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Call Me Da Sheng: Shape the Fate of the Monkey King',
+        description: 'Will you help the Monkey King escape, or stop him in his tracks?',
+        story: `<p>In Call Me Da Sheng, your choice is your fate. Help or hinder the Monkey King's escape from Wuzhi Mountain in this intense tug-of-war PVP showdown.</p>`
+      },
+      de: {
+        title: 'Nenn Mich Da Sheng: Bestimme das Schicksal des Affenkönigs',
+        description: 'Wirst du dem Affenkönig bei der Flucht helfen oder ihn aufhalten?',
+        story: `<p>In Nenn Mich Da Sheng ist deine Wahl dein Schicksal. Hilf dem Affenkönig bei seiner Flucht vom Wuzhi-Berg oder verhindere sie in diesem intensiven Tauziehen-PVP-Showdown.</p>`
+      },
+      fr: {
+        title: 'Appelez-Moi Da Sheng : Façonnez le Destin du Roi Singe',
+        description: 'Aiderez-vous le Roi Singe à s\'échapper, ou l\'arrêterez-vous dans sa course ?',
+        story: `<p>Dans Appelez-Moi Da Sheng, votre choix est votre destin. Aidez ou empêchez l'évasion du Roi Singe de la montagne Wuzhi dans cet intense face-à-face PVP.</p>`
+      },
+      ru: {
+        title: 'Зови Меня Да Шэн: Определи Судьбу Короля Обезьян',
+        description: 'Поможешь Королю Обезьян сбежать или остановишь его?',
+        story: `<p>В игре Зови Меня Да Шэн твой выбор определяет твою судьбу. Помоги или помешай побегу Короля Обезьян с горы Уджи в этом напряженном PVP-противостоянии.</p>`
+      },
+      zh: {
+        title: '齐天大圣：决定美猴王的命运',
+        description: '你会帮助美猴王逃脱，还是阻止他的脚步？',
+        story: `<p>在齐天大圣中，你的选择就是你的命运。在这场激烈的PVP拔河对决中，帮助或阻止美猴王从五指山逃脱。</p>`
+      },
+      ar: {
+        title: 'نادني دا شنغ: شكل مصير ملك القرود',
+        description: 'هل ستساعد ملك القرود على الهروب، أم ستوقفه في مساره؟',
+        story: `<p>في نادني دا شنغ، اختيارك هو مصيرك. ساعد أو أعق هروب ملك القرود من جبل ووتشي في هذه المواجهة المكثفة للعبة شد الحبل PVP.</p>`
+      },
+      vi: {
+        title: 'Gọi Tôi Là Đại Thánh: Định Đoạt Số Phận Của Tề Thiên Đại Thánh',
+        description: 'Bạn sẽ giúp Tề Thiên Đại Thánh thoát thân, hay ngăn chặn ông ấy?',
+        story: `<p>Trong Gọi Tôi Là Đại Thánh, sự lựa chọn của bạn là số phận của bạn. Giúp đỡ hoặc cản trở Tề Thiên Đại Thánh thoát khỏi núi Ngũ Chỉ trong trận đối đầu kéo co PVP gay cấn này.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5 (11th Generation) or AMD Ryzen 5',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7 or AMD Ryzen 7',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 6,
+    title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+    imageUrl: '/assets/Cheese Battle_ The Ultimate Cat vs. Mouse Showdown.jpg',
+    description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Cheese Battle: The Ultimate Cat vs. Mouse Showdown',
+        description: 'Join the whimsical world of Cheese Battle, where adorable mice defend their cheesy feast against cunning cats',
+        story: `<p>Step into the delightful chaos of Cheese Battle, a fast-paced PvP game that brings the classic cat-and-mouse chase to life with a modern twist.</p>`
+      },
+      de: {
+        title: 'Käse-Schlacht: Das ultimative Katze-gegen-Maus-Duell',
+        description: 'Tritt ein in die verspielte Welt von Käse-Schlacht, wo niedliche Mäuse ihr Käsefest gegen schlaue Katzen verteidigen',
+        story: `<p>Tauche ein in das entzückende Chaos von Käse-Schlacht, ein schnelles PvP-Spiel, das die klassische Katz-und-Maus-Jagd mit einer modernen Wendung zum Leben erweckt.</p>`
+      },
+      fr: {
+        title: 'Bataille de Fromage : L\'Ultime Affrontement Chat contre Souris',
+        description: 'Rejoignez le monde fantaisiste de Bataille de Fromage, où d\'adorables souris défendent leur festin fromager contre des chats rusés',
+        story: `<p>Plongez dans le chaos délicieux de Bataille de Fromage, un jeu PvP rapide qui donne vie à la classique course-poursuite du chat et de la souris avec une touche moderne.</p>`
+      },
+      ru: {
+        title: 'Сырная Битва: Решающее Противостояние Кошек и Мышей',
+        description: 'Присоединяйтесь к причудливому миру Сырной Битвы, где очаровательные мыши защищают свой сырный пир от хитрых кошек',
+        story: `<p>Окунитесь в восхитительный хаос Сырной Битвы, динамичной PvP-игры, которая оживляет классическую погоню кошки за мышкой с современным поворотом.</p>`
+      },
+      zh: {
+        title: '奶酪大战：猫鼠终极对决',
+        description: '加入奶酪大战的奇幻世界，可爱的老鼠们守护着他们的奶酪盛宴，对抗狡猾的猫',
+        story: `<p>步入奶酪大战的欢乐混乱，这是一款快节奏的PvP游戏，以现代方式重现经典的猫鼠追逐。</p>`
+      },
+      ar: {
+        title: 'معركة الجبن: المواجهة النهائية بين القط والفأر',
+        description: 'انضم إلى عالم معركة الجبن الغريب، حيث تدافع الفئران اللطيفة عن وليمة الجبن ضد القطط الماكرة',
+        story: `<p>ادخل إلى الفوضى الممتعة في معركة الجبن، لعبة PvP سريعة تحيي مطاردة القط والفأر الكلاسيكية بلمسة عصرية.</p>`
+      },
+      vi: {
+        title: 'Đại Chiến Phô Mai: Cuộc Đối Đầu Tối Thượng Giữa Mèo và Chuột',
+        description: 'Tham gia vào thế giới kỳ thú của Đại Chiến Phô Mai, nơi những chú chuột đáng yêu bảo vệ bữa tiệc phô mai khỏi những chú mèo xảo quyệt',
+        story: `<p>Bước vào sự hỗn loạn thú vị của Đại Chiến Phô Mai, một trò chơi PvP nhịp độ nhanh mang lại cuộc rượt đuổi mèo-chuột cổ điển với một twist hiện đại.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7 (SP1+), Windows 10, Windows 11',
+        processor: 'Intel Pentium 4 2.00GHz',
+        memory: '200 MB RAM'
+      },
+      recommended: {
+        os: 'Windows 10 or later',
+        processor: 'Intel i5 or equivalent',
+        memory: '4 GB RAM'
+      }
+    }
+  },
+  {
+    id: 7,
