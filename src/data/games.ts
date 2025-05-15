@@ -672,5 +672,174 @@ export const games: Game[] = [
         memory: "16 GB RAM"
       }
     }
+  },
+  {
+    id: 13,
+    title: "Minecraft Arena: Survive the Chaos, Rule the Arena",
+    imageUrl: "/assets/Minecraft Arena_ Survive the Chaos, Rule the Arena.jpg",
+    description: "Battle for supremacy in this action-packed Minecraft-style arena combat game",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Minecraft Arena: Survive the Chaos, Rule the Arena",
+        description: "Battle for supremacy in this action-packed Minecraft-style arena combat game",
+        story: `<p>Enter a blocky battlefield where strategy and survival skills determine your fate. Build, fight, and conquer in intense arena matches.</p>`
+      },
+      de: {
+        title: "Minecraft Arena: Überlebe das Chaos, Beherrsche die Arena",
+        description: "Kämpfe um die Vorherrschaft in diesem actiongeladenen Minecraft-artigen Arena-Kampfspiel",
+        story: `<p>Betritt ein blockiges Schlachtfeld, wo Strategie und Überlebensfähigkeiten dein Schicksal bestimmen. Baue, kämpfe und erobere in intensiven Arena-Matches.</p>`
+      },
+      fr: {
+        title: "Arène Minecraft : Survivez au Chaos, Dominez l'Arène",
+        description: "Battez-vous pour la suprématie dans ce jeu de combat d'arène style Minecraft plein d'action",
+        story: `<p>Entrez dans un champ de bataille cubique où la stratégie et les compétences de survie déterminent votre destin. Construisez, combattez et conquérez dans des matchs d'arène intenses.</p>`
+      },
+      ru: {
+        title: "Minecraft Арена: Выживи в Хаосе, Правь Ареной",
+        description: "Сражайся за превосходство в этой насыщенной действием боевой арене в стиле Minecraft",
+        story: `<p>Войдите на блочное поле битвы, где стратегия и навыки выживания определяют вашу судьбу. Стройте, сражайтесь и побеждайте в интенсивных аренных матчах.</p>`
+      },
+      zh: {
+        title: "我的世界竞技场：在混沌中生存，统治竞技场",
+        description: "在这款充满动作的我的世界风格竞技场战斗游戏中争夺霸权",
+        story: `<p>进入一个由策略和生存技能决定命运的方块战场。在激烈的竞技场比赛中建造、战斗和征服。</p>`
+      },
+      ar: {
+        title: "ساحة ماينكرافت: انجُ من الفوضى، احكم الساحة",
+        description: "قاتل من أجل السيادة في هذه اللعبة القتالية المليئة بالحركة على طراز ماينكرافت",
+        story: `<p>ادخل ساحة معركة مكعبة حيث تحدد الاسترا
+تيجية ومهارات البقاء مصيرك. ابنِ وقاتل واغزُ في مباريات ساحة مكثفة.</p>`
+      },
+      vi: {
+        title: "Đấu Trường Minecraft: Sống Sót Trong Hỗn Loạn, Thống Trị Đấu Trường",
+        description: "Chiến đấu giành quyền thống trị trong trò chơi đấu trường phong cách Minecraft đầy hành động này",
+        story: `<p>Bước vào chiến trường khối vuông nơi chiến lược và kỹ năng sinh tồn quyết định số phận của bạn. Xây dựng, chiến đấu và chinh phục trong các trận đấu đấu trường gay cấn.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-3210 or AMD A8-7600",
+        memory: "4 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-4690 or AMD A10-7800",
+        memory: "8 GB RAM"
+      }
+    }
+  },
+  {
+    id: 14,
+    title: "Mole World Battle Adventure",
+    imageUrl: "/assets/Mole World Battle Adventure.jpg",
+    description: "Embark on an underground adventure in this cute but competitive mole-themed battle game",
+    platform: "Mobile",
+    translations: {
+      en: {
+        title: "Mole World Battle Adventure",
+        description: "Embark on an underground adventure in this cute but competitive mole-themed battle game",
+        story: `<p>Dig, battle, and explore in the charming world of competitive mole warriors. Use your digging skills and special abilities to outmaneuver opponents in underground arenas.</p>`
+      },
+      de: {
+        title: "Maulwurf-Welt Kampfabenteuer",
+        description: "Begib dich auf ein unterirdisches Abenteuer in diesem niedlichen aber wettbewerbsorientierten Maulwurf-Kampfspiel",
+        story: `<p>Grabe, kämpfe und erkunde in der charmanten Welt der wetteifernden Maulwurf-Krieger. Nutze deine Grabfähigkeiten und Spezialfähigkeiten, um Gegner in unterirdischen Arenen auszumanövrieren.</p>`
+      },
+      fr: {
+        title: "Aventure de Combat du Monde des Taupes",
+        description: "Embarquez pour une aventure souterraine dans ce jeu de combat mignon mais compétitif sur le thème des taupes",
+        story: `<p>Creusez, combattez et explorez dans le monde charmant des guerriers taupes compétitifs. Utilisez vos compétences de creusement et vos capacités spéciales pour surpasser vos adversaires dans des arènes souterraines.</p>`
+      },
+      ru: {
+        title: "Боевые Приключения в Мире Кротов",
+        description: "Отправьтесь в подземное приключение в этой милой, но соревновательной боевой игре про кротов",
+        story: `<p>Копайте, сражайтесь и исследуйте в очаровательном мире соревнующихся кротов-воинов. Используйте свои навыки копания и особые способности, чтобы перехитрить противников в подземных аренах.</p>`
+      },
+      zh: {
+        title: "鼹鼠世界战斗冒险",
+        description: "在这款可爱但富有竞争性的鼹鼠主题战斗游戏中展开地下冒险",
+        story: `<p>在充满魅力的竞技鼹鼠战士世界中挖掘、战斗和探索。使用你的挖掘技能和特殊能力在地下竞技场中战胜对手。</p>`
+      },
+      ar: {
+        title: "مغامرة معركة عالم الخلد",
+        description: "انطلق في مغامرة تحت الأرض في هذه اللعبة القتالية اللطيفة ولكن التنافسية بموضوع الخلد",
+        story: `<p>احفر وقاتل واستكشف في عالم محاربي الخلد التنافسي الساحر. استخدم مهارات الحفر وقدراتك الخاصة للتفوق على الخصوم في الساحات تحت الأرض.</p>`
+      },
+      vi: {
+        title: "Phiêu Lưu Chiến Đấu Thế Giới Chuột Chũi",
+        description: "Bắt đầu cuộc phiêu lưu dưới lòng đất trong trò chơi chiến đấu dễ thương nhưng đầy tính cạnh tranh với chủ đề chuột chũi",
+        story: `<p>Đào, chiến đấu và khám phá trong thế giới quyến rũ của các chiến binh chuột chũi đầy tính cạnh tranh. Sử dụng kỹ năng đào và khả năng đặc biệt để vượt qua đối thủ trong các đấu trường dưới lòng đất.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Android 5.0 or iOS 11.0",
+        processor: "1.5 GHz Quad-core",
+        memory: "2 GB RAM"
+      },
+      recommended: {
+        os: "Android 8.0 or iOS 13.0",
+        processor: "2.0 GHz Octa-core",
+        memory: "4 GB RAM"
+      }
+    }
+  },
+  {
+    id: 15,
+    title: "Props Avalanche: Climb Fast, Dodge Chaos, Win Live!",
+    imageUrl: "/assets/Props Avalanche_ Climb Fast, Dodge Chaos, Win Live!.jpg",
+    description: "Race against time and opponents in this frantic prop-climbing challenge",
+    platform: "PC",
+    translations: {
+      en: {
+        title: "Props Avalanche: Climb Fast, Dodge Chaos, Win Live!",
+        description: "Race against time and opponents in this frantic prop-climbing challenge",
+        story: `<p>Scale an ever-changing mountain of props while dodging obstacles and competing against other players in real-time. Every decision counts in this fast-paced vertical challenge!</p>`
+      },
+      de: {
+        title: "Requisiten-Lawine: Schnell Klettern, Chaos Ausweichen, Live Gewinnen!",
+        description: "Wettkampf gegen Zeit und Gegner in dieser hektischen Requisiten-Kletter-Herausforderung",
+        story: `<p>Erklimme einen sich ständig verändernden Berg von Requisiten, während du Hindernissen ausweichst und in Echtzeit gegen andere Spieler antrittst. Jede Entscheidung zählt in dieser schnellen vertikalen Herausforderung!</p>`
+      },
+      fr: {
+        title: "Avalanche d'Accessoires : Grimpez Vite, Évitez le Chaos, Gagnez en Direct !",
+        description: "Faites la course contre le temps et les adversaires dans ce défi frénétique d'escalade d'accessoires",
+        story: `<p>Escaladez une montagne d'accessoires en constante évolution tout en évitant les obstacles et en affrontant d'autres joueurs en temps réel. Chaque décision compte dans ce défi vertical rapide !</p>`
+      },
+      ru: {
+        title: "Лавина Предметов: Быстро Карабкайся, Уворачивайся от Хаоса, Побеждай в Прямом Эфире!",
+        description: "Соревнуйтесь со временем и противниками в этом безумном испытании по карабканью по предметам",
+        story: `<p>Взбирайтесь по постоянно меняющейся горе предметов, уворачиваясь от препятствий и соревнуясь с другими игроками в реальном времени. Каждое решение имеет значение в этом быстром вертикальном испытании!</p>`
+      },
+      zh: {
+        title: "道具雪崩：快速攀爬，躲避混乱，实时制胜！",
+        description: "在这个疯狂的道具攀爬挑战中与时间和对手赛跑",
+        story: `<p>在不断变化的道具之山上攀爬，同时躲避障碍物并与其他玩家实时竞争。在这个快节奏的垂直挑战中，每个决定都至关重要！</p>`
+      },
+      ar: {
+        title: "انهيار الدعائم: تسلق سريع، تجنب الفوضى، فوز مباشر!",
+        description: "سباق ضد الوقت والخصوم في هذا التحدي المحموم لتسلق الدعائم",
+        story: `<p>تسلق جبلاً متغيراً باستمرار من الدعائم مع تجنب العقبات والتنافس مع لاعبين آخرين في الوقت الفعلي. كل قرار مهم في هذا التحدي العمودي السريع!</p>`
+      },
+      vi: {
+        title: "Thác Đổ Đạo Cụ: Leo Nhanh, Né Tránh Hỗn Loạn, Chiến Thắng Trực Tiếp!",
+        description: "Đua với thời gian và đối thủ trong thử thách leo trèo đạo cụ điên cuồng này",
+        story: `<p>Leo lên ngọn núi đạo cụ luôn thay đổi trong khi né tránh chướng ngại vật và cạnh tranh với người chơi khác trong thời gian thực. Mỗi quyết định đều quan trọng trong thử thách theo chiều dọc nhanh này!</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: "Windows 7/8/10",
+        processor: "Intel Core i3-3220 or AMD FX-4350",
+        memory: "4 GB RAM"
+      },
+      recommended: {
+        os: "Windows 10",
+        processor: "Intel Core i5-6600 or AMD Ryzen 3 1300X",
+        memory: "8 GB RAM"
+      }
+    }
   }
 ];
