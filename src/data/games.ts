@@ -729,5 +729,173 @@ export const games: Game[] = [
         memory: '16 GB RAM'
       }
     }
+  },
+  {
+    id: 14,
+    title: 'Honor of Kings: Command Legends. Conquer the Arena.',
+    imageUrl: '/assets/Honor of Kings_ Command Legends. Conquer the Arena.jpg',
+    description: 'Lead legendary heroes in epic battles where strategy meets skill',
+    platform: 'Mobile',
+    translations: {
+      en: {
+        title: 'Honor of Kings: Command Legends. Conquer the Arena.',
+        description: 'Lead legendary heroes in epic battles where strategy meets skill',
+        story: `<p>Honor of Kings brings the classic MOBA experience to mobile with a unique twist. Command legendary heroes, coordinate with teammates, and dominate the battlefield in this fast-paced strategic combat game.</p>`
+      },
+      de: {
+        title: 'Ehre der Könige: Befehlige Legenden. Erobere die Arena.',
+        description: 'Führe legendäre Helden in epischen Schlachten, wo Strategie auf Können trifft',
+        story: `<p>Ehre der Könige bringt das klassische MOBA-Erlebnis mit einer einzigartigen Wendung auf Mobile. Befehlige legendäre Helden, koordiniere mit Teamkollegen und dominiere das Schlachtfeld in diesem schnellen strategischen Kampfspiel.</p>`
+      },
+      fr: {
+        title: 'Honneur des Rois : Commandez les Légendes. Conquérez l\'Arène.',
+        description: 'Dirigez des héros légendaires dans des batailles épiques où stratégie et compétence se rencontrent',
+        story: `<p>Honneur des Rois apporte l'expérience MOBA classique sur mobile avec une touche unique. Commandez des héros légendaires, coordonnez-vous avec vos coéquipiers et dominez le champ de bataille dans ce jeu de combat stratégique rapide.</p>`
+      },
+      ru: {
+        title: 'Честь Королей: Командуй Легендами. Покори Арену.',
+        description: 'Веди легендарных героев в эпических битвах, где стратегия встречается с мастерством',
+        story: `<p>Честь Королей привносит классический опыт MOBA на мобильные устройства с уникальным поворотом. Командуй легендарными героями, координируй действия с товарищами по команде и доминируй на поле боя в этой быстрой стратегической боевой игре.</p>`
+      },
+      zh: {
+        title: '王者荣耀：指挥传奇。征服竞技场。',
+        description: '在战略与技巧相遇的史诗战斗中领导传奇英雄',
+        story: `<p>王者荣耀以独特的方式将经典MOBA体验带到移动设备。在这款快节奏的战略战斗游戏中指挥传奇英雄，与队友协调，主宰战场。</p>`
+      },
+      ar: {
+        title: 'شرف الملوك: قيادة الأساطير. احتلال الساحة.',
+        description: 'قد الأبطال الأسطوريين في معارك ملحمية حيث تلتقي الاستراتيجية بالمهارة',
+        story: `<p>شرف الملوك يجلب تجربة موبا الكلاسيكية إلى الهاتف المحمول مع لمسة فريدة. قد الأبطال الأسطوريين، نسق مع زملائك في الفريق، وسيطر على ساحة المعركة في هذه اللعبة القتالية الاستراتيجية سريعة الوتيرة.</p>`
+      },
+      vi: {
+        title: 'Vinh Quang Đế Vương: Chỉ Huy Huyền Thoại. Chinh Phục Đấu Trường.',
+        description: 'Lãnh đạo các anh hùng huyền thoại trong những trận chiến hoành tráng nơi chiến lược gặp kỹ năng',
+        story: `<p>Vinh Quang Đế Vương mang trải nghiệm MOBA cổ điển lên di động với một twist độc đáo. Chỉ huy các anh hùng huyền thoại, phối hợp với đồng đội và thống trị chiến trường trong trò chơi chiến đấu chiến thuật nhịp độ nhanh này.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Android 5.0 or iOS 11.0',
+        processor: 'Quad-core 1.2 GHz',
+        memory: '2 GB RAM'
+      },
+      recommended: {
+        os: 'Android 8.0 or iOS 13.0',
+        processor: 'Octa-core 2.0 GHz',
+        memory: '4 GB RAM'
+      }
+    }
+  },
+  {
+    id: 15,
+    title: 'Island Rush: Livestream Tower Defense Chaos',
+    imageUrl: '/assets/Island Rush_ Livestream Tower Defense Chaos.jpg',
+    description: 'Defend your island paradise in this chaotic tower defense game where viewers control the waves',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Island Rush: Livestream Tower Defense Chaos',
+        description: 'Defend your island paradise in this chaotic tower defense game where viewers control the waves',
+        story: `<p>Island Rush revolutionizes tower defense by putting viewers in control of the enemy waves. Build your defenses and adapt to the chaos as your audience sends increasingly challenging waves of attackers.</p>`
+      },
+      de: {
+        title: 'Inselansturm: Livestream Turmverteidigung Chaos',
+        description: 'Verteidige dein Inselparadies in diesem chaotischen Turmverteidigungsspiel, in dem Zuschauer die Wellen kontrollieren',
+        story: `<p>Inselansturm revolutioniert Turmverteidigung, indem es den Zuschauern die Kontrolle über die Angriffswellen gibt. Baue deine Verteidigung auf und passe dich dem Chaos an, während dein Publikum zunehmend herausfordernde Angriffswellen sendet.</p>`
+      },
+      fr: {
+        title: 'Ruée vers l\'Île : Chaos de Défense de Tours en Direct',
+        description: 'Défendez votre paradis insulaire dans ce jeu chaotique de défense de tours où les spectateurs contrôlent les vagues',
+        story: `<p>Ruée vers l'Île révolutionne la défense de tours en donnant aux spectateurs le contrôle des vagues ennemies. Construisez vos défenses et adaptez-vous au chaos pendant que votre public envoie des vagues d'attaquants de plus en plus difficiles.</p>`
+      },
+      ru: {
+        title: 'Островной Натиск: Хаос Башенной Обороны в Прямом Эфире',
+        description: 'Защищайте свой райский остров в этой хаотичной игре в жанре tower defense, где зрители управляют волнами',
+        story: `<p>Островной Натиск революционизирует башенную оборону, передавая зрителям контроль над волнами противников. Стройте свою защиту и приспосабливайтесь к хаосу, пока ваша аудитория посылает всё более сложные волны атакующих.</p>`
+      },
+      zh: {
+        title: '岛屿冲锋：直播塔防混战',
+        description: '在这款混乱的塔防游戏中保卫你的岛屿天堂，观众控制进攻波次',
+        story: `<p>岛屿冲锋通过让观众控制敌人波次革新了塔防游戏。建立你的防御并适应混乱，因为你的观众会发送越来越具有挑战性的攻击者波次。</p>`
+      },
+      ar: {
+        title: 'اندفاع الجزيرة: فوضى دفاع الأبراج المباشر',
+        description: 'دافع عن جنتك الجزيرية في هذه اللعبة الفوضوية للدفاع عن الأبراج حيث يتحكم المشاهدون في الموجات',
+        story: `<p>اندفاع الجزيرة يحدث ثورة في دفاع الأبراج من خلال وضع المشاهدين في التحكم بموجات العدو. ابنِ دفاعاتك وتكيف مع الفوضى بينما يرسل جمهورك موجات متزايدة التحدي من المهاجمين.</p>`
+      },
+      vi: {
+        title: 'Đột Kích Đảo: Hỗn Loạn Phòng Thủ Tháp Trực Tiếp',
+        description: 'Bảo vệ thiên đường đảo của bạn trong trò chơi phòng thủ tháp hỗn loạn này, nơi người xem kiểm soát các đợt tấn công',
+        story: `<p>Đột Kích Đảo cách mạng hóa thể loại phòng thủ tháp bằng cách để người xem kiểm soát các đợt tấn công của kẻ thù. Xây dựng phòng thủ của bạn và thích ứng với hỗn loạn khi khán giả gửi các đợt tấn công ngày càng thách thức.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10',
+        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
+      }
+    }
+  },
+  {
+    id: 16,
+    title: 'Jianghu Duel: The Battle for the Maiden and the Land',
+    imageUrl: '/assets/Jianghu Duel_ The Battle for the Maiden and the Land.jpg',
+    description: 'Experience ancient Chinese martial arts in this intense PvP combat game',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Jianghu Duel: The Battle for the Maiden and the Land',
+        description: 'Experience ancient Chinese martial arts in this intense PvP combat game',
+        story: `<p>Jianghu Duel immerses players in a world of ancient Chinese martial arts, where skilled warriors compete for honor and glory. Master various fighting styles, execute powerful combos, and become a legend in the martial arts world.</p>`
+      },
+      de: {
+        title: 'Jianghu Duell: Der Kampf um die Jungfrau und das Land',
+        description: 'Erlebe alte chinesische Kampfkunst in diesem intensiven PvP-Kampfspiel',
+        story: `<p>Jianghu Duell taucht die Spieler in eine Welt der alten chinesischen Kampfkunst ein, wo geschickte Krieger um Ehre und Ruhm kämpfen. Meistere verschiedene Kampfstile, führe mächtige Kombos aus und werde eine Legende in der Welt der Kampfkünste.</p>`
+      },
+      fr: {
+        title: 'Duel du Jianghu : La Bataille pour la Demoiselle et la Terre',
+        description: 'Découvrez les arts martiaux chinois anciens dans ce jeu de combat PvP intense',
+        story: `<p>Duel du Jianghu plonge les joueurs dans un monde d'arts martiaux chinois anciens, où des guerriers habiles s'affrontent pour l'honneur et la gloire. Maîtrisez différents styles de combat, exécutez des combos puissants et devenez une légende dans le monde des arts martiaux.</p>`
+      },
+      ru: {
+        title: 'Дуэль Цзянху: Битва за Деву и Землю',
+        description: 'Испытайте древнее китайское боевое искусство в этой напряженной PvP боевой игре',
+        story: `<p>Дуэль Цзянху погружает игроков в мир древних китайских боевых искусств, где умелые воины соревнуются за честь и славу. Освойте различные стили боя, выполняйте мощные комбо и станьте легендой в мире боевых искусств.</p>`
+      },
+      zh: {
+        title: '江湖决斗：少女与土地之战',
+        description: '在这款激烈的PvP格斗游戏中体验中国古代武术',
+        story: `<p>江湖决斗将玩家沉浸在中国古代武术的世界中，熟练的武士为荣誉和荣耀而战。掌握各种战斗风格，执行强大的连击，成为武术世界的传奇。</p>`
+      },
+      ar: {
+        title: 'مبارزة جيانغهو: معركة العذراء والأرض',
+        description: 'اختبر فنون القتال الصينية القديمة في هذه اللعبة القتالية PvP المكثفة',
+        story: `<p>مبارزة جيانغهو تغمر اللاعبين في عالم فنون القتال الصينية القديمة، حيث يتنافس المحاربون المهرة من أجل الشرف والمجد. أتقن أساليب القتال المختلفة، نفذ مجموعات قوية، وأصبح أسطورة في عالم فنون القتال.</p>`
+      },
+      vi: {
+        title: 'Quyết Đấu Giang Hồ: Trận Chiến Vì Giai Nhân và Giang Sơn',
+        description: 'Trải nghiệm võ thuật Trung Hoa cổ đại trong trò chơi chiến đấu PvP căng thẳng này',
+        story: `<p>Quyết Đấu Giang Hồ đưa người chơi vào thế giới võ thuật Trung Hoa cổ đại, nơi các chiến binh thiện nghệ tranh đấu vì danh dự và vinh quang. Làm chủ các phong cách chiến đấu khác nhau, thực hiện các combo mạnh mẽ và trở thành huyền thoại trong thế giới võ thuật.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-6300',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-7700K or AMD Ryzen 5 2600X',
+        memory: '16 GB RAM'
+      }
+    }
   }
 ];
