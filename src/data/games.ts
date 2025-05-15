@@ -340,7 +340,7 @@ export const games: Game[] = [
   {
     id: 7,
     title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
-    imageUrl: '/assets/Chibi the three kingdoms.jpg',
+    image: '/assets/Chibi the three kingdoms.jpg',
     description: 'Your Army, Your Strategy, Your Glory!',
     platform: 'PC',
     translations: {
@@ -446,6 +446,62 @@ export const games: Game[] = [
         os: 'Windows 10/11 64-bit',
         processor: 'Intel Core i7-8700 or AMD Ryzen 5 3600',
         memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 9,
+    title: 'Color War',
+    imageUrl: '/assets/Color War.jpg',
+    description: 'Paint your way to victory in this vibrant multiplayer battle arena',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Color War',
+        description: 'Paint your way to victory in this vibrant multiplayer battle arena',
+        story: `<p>Color War is an exciting multiplayer game where players use paint as their weapon. Cover the arena in your team's colors while avoiding enemy paint attacks in this colorful twist on traditional battle games.</p>`
+      },
+      de: {
+        title: 'Farbenkrieg',
+        description: 'Male deinen Weg zum Sieg in dieser lebendigen Mehrspieler-Kampfarena',
+        story: `<p>Farbenkrieg ist ein aufregendes Mehrspielerspiel, in dem Spieler Farbe als ihre Waffe nutzen. Bedecke die Arena in den Farben deines Teams, während du feindlichen Farbangriffen ausweichst, in dieser farbenfrohen Wendung traditioneller Kampfspiele.</p>`
+      },
+      fr: {
+        title: 'Guerre des Couleurs',
+        description: 'Peignez votre chemin vers la victoire dans cette arène de bataille multijoueur vibrante',
+        story: `<p>Guerre des Couleurs est un jeu multijoueur passionnant où les joueurs utilisent la peinture comme arme. Couvrez l'arène des couleurs de votre équipe tout en évitant les attaques de peinture ennemies dans cette version colorée des jeux de bataille traditionnels.</p>`
+      },
+      ru: {
+        title: 'Война Красок',
+        description: 'Проложите путь к победе красками в этой яркой многопользовательской боевой арене',
+        story: `<p>Война Красок - это захватывающая многопользовательская игра, где игроки используют краску как оружие. Покрывайте арену цветами своей команды, уклоняясь от вражеских атак краской, в этой красочной версии традиционных боевых игр.</p>`
+      },
+      zh: {
+        title: '色彩战争',
+        description: '在这个充满活力的多人战斗竞技场中用绘画赢得胜利',
+        story: `<p>色彩战争是一款刺激的多人游戏，玩家使用颜料作为武器。在这个为传统战斗游戏带来色彩转折的游戏中，用你队伍的颜色覆盖竞技场，同时避开敌人的颜料攻击。</p>`
+      },
+      ar: {
+        title: 'حرب الألوان',
+        description: 'ارسم طريقك نحو النصر في ساحة معركة متعددة اللاعبين نابضة بالحياة',
+        story: `<p>حرب الألوان هي لعبة متعددة اللاعبين مثيرة حيث يستخدم اللاعبون الطلاء كسلاحهم. غطِ الساحة بألوان فريقك مع تجنب هجمات الطلاء العدوة في هذا التحول الملون من ألعاب القتال التقليدية.</p>`
+      },
+      vi: {
+        title: 'Chiến Tranh Sắc Màu',
+        description: 'Vẽ con đường chiến thắng trong đấu trường nhiều người chơi sôi động này',
+        story: `<p>Chiến Tranh Sắc Màu là một trò chơi nhiều người chơi thú vị, nơi người chơi sử dụng sơn làm vũ khí. Phủ đấu trường bằng màu sắc của đội bạn trong khi tránh các đòn tấn công sơn của đối thủ trong phiên bản đầy màu sắc này của các trò chơi chiến đấu truyền thống.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 7/8/10',
+        processor: 'Intel Core i3-3220 or AMD FX-4350',
+        memory: '4 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10',
+        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1600',
+        memory: '8 GB RAM'
       }
     }
   }
