@@ -1,4 +1,7 @@
+import { Game } from '../types';
 
+export const games: Game[] = [
+  {
     id: 31,
     title: "Color War",
     imageUrl: "/assets/Color War.jpg",
