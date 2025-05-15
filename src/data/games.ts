@@ -339,7 +339,7 @@ export const games: Game[] = [
   },
   {
     id: 7,
-    title: 'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
+    title:  'Chibi: Three Kingdoms — The Ultimate Battle for Glory!',
     imageUrl: '/assets/Chibi the three kingdoms.jpg',
     description: 'Your Army, Your Strategy, Your Glory!',
     platform: 'PC',
