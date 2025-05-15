@@ -395,506 +395,281 @@ export const games: Game[] = [
   },
   {
     id: 8,
-    title: 'Civilization and Empire: Clash of the Factions',
-    imageUrl: '/assets/Civilization and Empire_ Clash of the Factions_.jpg',
-    description: 'Build your empire, forge alliances, and dominate the ancient world in this epic strategy game',
-    platform: 'PC',
+    title: "King's Duel: Fantasy Clash in Real Time",
+    imageUrl: "/assets/King's Duel_ Fantasy Clash in Real Time.jpg",
+    description: "Command your fantasy army in epic real-time battles where strategy meets magic",
+    platform: "PC",
     translations: {
       en: {
-        title: 'Civilization and Empire: Clash of the Factions',
-        description: 'Build your empire, forge alliances, and dominate the ancient world in this epic strategy game',
-        story: `<p>In Civilization and Empire, players take control of ancient factions vying for supremacy. Build cities, research technologies, and lead your armies to victory in this immersive strategy experience.</p>`
+        title: "King's Duel: Fantasy Clash in Real Time",
+        description: "Command your fantasy army in epic real-time battles where strategy meets magic",
+        story: `<p>Enter a realm where magic and military might collide in real-time strategic warfare. Lead your fantasy armies to victory through tactical brilliance and magical supremacy.</p>`
       },
       de: {
-        title: 'Zivilisation und Imperium: Kampf der Fraktionen',
-        description: 'Baue dein Imperium auf, schmiede Bündnisse und beherrsche die antike Welt in diesem epischen Strategiespiel',
-        story: `<p>In Zivilisation und Imperium übernehmen die Spieler die Kontrolle über antike Fraktionen, die um die Vorherrschaft kämpfen. Baue Städte, erforsche Technologien und führe deine Armeen zum Sieg in diesem immersiven Strategieerlebnis.</p>`
+        title: "Duell der Könige: Fantasy-Kampf in Echtzeit",
+        description: "Befehlige deine Fantasy-Armee in epischen Echtzeit-Schlachten, wo Strategie auf Magie trifft",
+        story: `<p>Betritt eine Welt, in der Magie und militärische Macht in strategischer Kriegsführung in Echtzeit aufeinandertreffen. Führe deine Fantasy-Armeen durch taktische Brillanz und magische Überlegenheit zum Sieg.</p>`
       },
       fr: {
-        title: 'Civilisation et Empire : Conflit des Factions',
-        description: 'Construisez votre empire, forgez des alliances et dominez le monde antique dans ce jeu de stratégie épique',
-        story: `<p>Dans Civilisation et Empire, les joueurs prennent le contrôle de factions antiques luttant pour la suprématie. Construisez des villes, recherchez des technologies et menez vos armées à la victoire dans cette expérience stratégique immersive.</p>`
+        title: "Duel des Rois : Affrontement Fantastique en Temps Réel",
+        description: "Commandez votre armée fantastique dans des batailles épiques en temps réel où la stratégie rencontre la magie",
+        story: `<p>Entrez dans un royaume où la magie et la puissance militaire s'affrontent dans une guerre stratégique en temps réel. Menez vos armées fantastiques à la victoire grâce à la brillance tactique et la suprématie magique.</p>`
       },
       ru: {
-        title: 'Цивилизация и Империя: Столкновение Фракций',
-        description: 'Постройте свою империю, создавайте союзы и доминируйте в древнем мире в этой эпической стратегической игре',
-        story: `<p>В игре Цивилизация и Империя игроки берут под контроль древние фракции, борющиеся за превосходство. Стройте города, исследуйте технологии и ведите свои армии к победе в этом захватывающем стратегическом опыте.</p>`
+        title: "Королевская Дуэль: Фэнтезийные Сражения в Реальном Времени",
+        description: "Командуйте фэнтезийной армией в эпических сражениях в реальном времени, где стратегия встречается с магией",
+        story: `<p>Войдите в мир, где магия и военная мощь сталкиваются в стратегической войне в реальном времени. Ведите свои фэнтезийные армии к победе через тактическое мастерство и магическое превосходство.</p>`
       },
       zh: {
-        title: '文明与帝国：派系之争',
-        description: '在这款史诗级策略游戏中建立你的帝国，结成联盟，主宰古代世界',
-        story: `<p>在文明与帝国中，玩家控制着争夺霸权的古代派系。在这个身临其境的策略体验中建造城市，研究技术，带领军队走向胜利。</p>`
+        title: "王者对决：实时奇幻冲突",
+        description: "在战略与魔法交织的史诗级实时战斗中指挥你的奇幻军队",
+        story: `<p>进入一个魔法与军事力量在实时战略战争中碰撞的领域。通过战术才智和魔法优势带领你的奇幻军队走向胜利。</p>`
       },
       ar: {
-        title: 'الحضارة والإمبراطورية: صراع الفصائل',
-        description: 'ابنِ إمبراطوريتك، كوّن التحالفات، وسيطر على العالم القديم في هذه اللعبة الاستراتيجية الملحمية',
-        story: `<p>في الحضارة والإمبراطورية، يتولى اللاعبون السيطرة على الفصائل القديمة المتنافسة على التفوق. ابنِ المدن، ابحث في التقنيات، وقد جيوشك إلى النصر في هذه التجربة الاستراتيجية الغامرة.</p>`
+        title: "مبارزة الملوك: صراع الخيال في الوقت الحقيقي",
+        description: "قُد جيشك الخيالي في معارك ملحمية في الوقت الحقيقي حيث تلتقي الاستراتيجية بالسحر",
+        story: `<p>ادخل عالماً حيث يتصادم السحر والقوة العسكرية في حرب استراتيجية في الوقت الحقيقي. قُد جيوشك الخيالية إلى النصر من خلال البراعة التكتيكية والتفوق السحري.</p>`
       },
       vi: {
-        title: 'Văn Minh và Đế Chế: Xung Đột Phe Phái',
-        description: 'Xây dựng đế chế của bạn, tạo liên minh và thống trị thế giới cổ đại trong trò chơi chiến thuật hoành tráng này',
-        story: `<p>Trong Văn Minh và Đế Chế, người chơi kiểm soát các phe phái cổ đại tranh giành quyền thống trị. Xây dựng thành phố, nghiên cứu công nghệ và dẫn dắt quân đội đến chiến thắng trong trải nghiệm chiến thuật đắm chìm này.</p>`
+        title: "Quyết Đấu Vương Giả: Đụng Độ Kỳ Ảo Thời Gian Thực",
+        description: "Chỉ huy đội quân kỳ ảo của bạn trong những trận chiến sử thi thời gian thực nơi chiến lược gặp phép thuật",
+        story: `<p>Bước vào một vương quốc nơi phép thuật và sức mạnh quân sự va chạm trong chiến tranh chiến lược thời gian thực. Dẫn dắt đội quân kỳ ảo của bạn đến chiến thắng thông qua tài năng chiến thuật và ưu thế phép thuật.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 10 64-bit',
-        processor: 'Intel Core i5-4460 or AMD FX-8350',
-        memory: '8 GB RAM'
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-6600K or AMD Ryzen 5 1600",
+        memory: "8 GB RAM"
       },
       recommended: {
-        os: 'Windows 10/11 64-bit',
-        processor: 'Intel Core i7-8700 or AMD Ryzen 5 3600',
-        memory: '16 GB RAM'
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-8700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
       }
     }
   },
   {
     id: 9,
-    title: 'Color War',
-    imageUrl: '/assets/Color War.jpg',
-    description: 'Paint your way to victory in this vibrant multiplayer battle arena',
-    platform: 'PC',
+    title: "League of Monsters: Command. Conquer. Survive",
+    imageUrl: "/assets/League of Monsters_ Command. Conquer. Survive.jpg",
+    description: "Lead your monster army to victory in this tactical battle arena game",
+    platform: "PC",
     translations: {
       en: {
-        title: 'Color War',
-        description: 'Paint your way to victory in this vibrant multiplayer battle arena',
-        story: `<p>Color War is an exciting multiplayer game where players use paint as their weapon. Cover the arena in your team's colors while avoiding enemy paint attacks in this colorful twist on traditional battle games.</p>`
+        title: "League of Monsters: Command. Conquer. Survive",
+        description: "Lead your monster army to victory in this tactical battle arena game",
+        story: `<p>In League of Monsters, command fearsome creatures in intense tactical battles. Each monster brings unique abilities and strategies to the battlefield.</p>`
       },
       de: {
-        title: 'Farbenkrieg',
-        description: 'Male deinen Weg zum Sieg in dieser lebendigen Mehrspieler-Kampfarena',
-        story: `<p>Farbenkrieg ist ein aufregendes Mehrspielerspiel, in dem Spieler Farbe als ihre Waffe nutzen. Bedecke die Arena in den Farben deines Teams, während du feindlichen Farbangriffen ausweichst, in dieser farbenfrohen Wendung traditioneller Kampfspiele.</p>`
+        title: "Liga der Monster: Befehligen. Erobern. Überleben",
+        description: "Führe deine Monster-Armee in diesem taktischen Arena-Kampfspiel zum Sieg",
+        story: `<p>In Liga der Monster befehligst du furchterregende Kreaturen in intensiven taktischen Schlachten. Jedes Monster bringt einzigartige Fähigkeiten und Strategien auf das Schlachtfeld.</p>`
       },
       fr: {
-        title: 'Guerre des Couleurs',
-        description: 'Peignez votre chemin vers la victoire dans cette arène de bataille multijoueur vibrante',
-        story: `<p>Guerre des Couleurs est un jeu multijoueur passionnant où les joueurs utilisent la peinture comme arme. Couvrez l'arène des couleurs de votre équipe tout en évitant les attaques de peinture ennemies dans cette version colorée des jeux de bataille traditionnels.</p>`
+        title: "Ligue des Monstres : Commander. Conquérir. Survivre",
+        description: "Menez votre armée de monstres à la victoire dans ce jeu d'arène tactique",
+        story: `<p>Dans Ligue des Monstres, commandez des créatures redoutables dans des batailles tactiques intenses. Chaque monstre apporte des capacités et des stratégies uniques sur le champ de bataille.</p>`
       },
       ru: {
-        title: 'Война Красок',
-        description: 'Проложите путь к победе красками в этой яркой многопользовательской боевой арене',
-        story: `<p>Война Красок - это захватывающая многопользовательская игра, где игроки используют краску как оружие. Покрывайте арену цветами своей команды, уклоняясь от вражеских атак краской, в этой красочной версии традиционных боевых игр.</p>`
+        title: "Лига Монстров: Командуй. Завоёвывай. Выживай",
+        description: "Веди свою армию монстров к победе в этой тактической боевой арене",
+        story: `<p>В Лиге Монстров командуй грозными существами в интенсивных тактических сражениях. Каждый монстр привносит уникальные способности и стратегии на поле боя.</p>`
       },
       zh: {
-        title: '色彩战争',
-        description: '在这个充满活力的多人战斗竞技场中用绘画赢得胜利',
-        story: `<p>色彩战争是一款刺激的多人游戏，玩家使用颜料作为武器。在这个为传统战斗游戏带来色彩转折的游戏中，用你队伍的颜色覆盖竞技场，同时避开敌人的颜料攻击。</p>`
+        title: "怪物联盟：指挥·征服·生存",
+        description: "在这款战术竞技场游戏中带领你的怪物军团走向胜利",
+        story: `<p>在怪物联盟中，指挥可怕的生物进行激烈的战术战斗。每个怪物都为战场带来独特的能力和策略。</p>`
       },
       ar: {
-        title: 'حرب الألوان',
-        description: 'ارسم طريقك نحو النصر في ساحة معركة متعددة اللاعبين نابضة بالحياة',
-        story: `<p>حرب الألوان هي لعبة متعددة اللاعبين مثيرة حيث يستخدم اللاعبون الطلاء كسلاحهم. غطِ الساحة بألوان فريقك مع تجنب هجمات الطلاء العدوة في هذا التحول الملون من ألعاب القتال التقليدية.</p>`
+        title: "دوري الوحوش: قيادة. غزو. بقاء",
+        description: "قُد جيش الوحوش إلى النصر في هذه اللعبة التكتيكية في ساحة المعركة",
+        story: `<p>في دوري الوحوش، قُد المخلوقات المخيفة في معارك تكتيكية مكثفة. كل وحش يجلب قدرات واستراتيجيات فريدة إلى ساحة المعركة.</p>`
       },
       vi: {
-        title: 'Chiến Tranh Sắc Màu',
-        description: 'Vẽ con đường chiến thắng trong đấu trường nhiều người chơi sôi động này',
-        story: `<p>Chiến Tranh Sắc Màu là một trò chơi nhiều người chơi thú vị, nơi người chơi sử dụng sơn làm vũ khí. Phủ đấu trường bằng màu sắc của đội bạn trong khi tránh các đòn tấn công sơn của đối thủ trong phiên bản đầy màu sắc này của các trò chơi chiến đấu truyền thống.</p>`
+        title: "Liên Minh Quái Vật: Chỉ Huy. Chinh Phục. Sinh Tồn",
+        description: "Dẫn dắt đội quân quái vật của bạn đến chiến thắng trong trò chơi đấu trường chiến thuật này",
+        story: `<p>Trong Liên Minh Quái Vật, chỉ huy những sinh vật đáng sợ trong các trận chiến chiến thuật gay cấn. Mỗi quái vật mang đến những khả năng và chiến thuật độc đáo trên chiến trường.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 7/8/10',
-        processor: 'Intel Core i3-3220 or AMD FX-4350',
-        memory: '4 GB RAM'
+        os: "Windows 7/8/10 64-bit",
+        processor: "Intel Core i3-6100 or AMD FX-6300",
+        memory: "6 GB RAM"
       },
       recommended: {
-        os: 'Windows 10',
-        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1600',
-        memory: '8 GB RAM'
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-8400 or AMD Ryzen 5 2600",
+        memory: "8 GB RAM"
       }
     }
   },
   {
     id: 10,
-    title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
-    imageUrl: '/assets/Dragon Ball Duel_ A New Era of Dragon Ball Combat Awaits.jpg',
-    description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles and strategic gameplay',
-    platform: 'PC',
+    title: "Little Cat Fishing: Pull, Compete, and Conquer!",
+    imageUrl: "/assets/Little Cat Fishing_ Pull, Compete, and Conquer!.jpg",
+    description: "Join cute cats in an adorable fishing competition where skill meets strategy",
+    platform: "Mobile",
     translations: {
       en: {
-        title: 'Dragon Ball Duel: A New Era of Dragon Ball Combat Awaits',
-        description: 'Experience the next evolution of Dragon Ball combat with intense real-time battles and strategic gameplay',
-        story: `<p>Dragon Ball Duel revolutionizes the fighting game genre by combining classic Dragon Ball action with innovative stream-integrated mechanics. Players can power up their favorite characters through viewer support and unleash devastating combinations in epic battles.</p>`
+        title: "Little Cat Fishing: Pull, Compete, and Conquer!",
+        description: "Join cute cats in an adorable fishing competition where skill meets strategy",
+        story: `<p>Dive into the charming world of Little Cat Fishing, where adorable feline friends compete in strategic fishing challenges. Master different fishing techniques and collect rare catches!</p>`
       },
       de: {
-        title: 'Dragon Ball Duell: Eine neue Ära des Dragon Ball Kampfes erwartet dich',
-        description: 'Erlebe die nächste Evolution des Dragon Ball Kampfes mit intensiven Echtzeit-Schlachten und strategischem Gameplay',
-        story: `<p>Dragon Ball Duell revolutioniert das Fighting-Game-Genre durch die Kombination klassischer Dragon Ball Action mit innovativen Stream-integrierten Mechaniken. Spieler können ihre Lieblingscharaktere durch Zuschauer-Unterstützung verstärken und verheerende Kombinationen in epischen Kämpfen entfesseln.</p>`
+        title: "Kleine Katzen Angeln: Ziehen, Wetteifern und Erobern!",
+        description: "Schließe dich niedlichen Katzen in einem entzückenden Angelwettbewerb an, wo Geschick auf Strategie trifft",
+        story: `<p>Tauche ein in die bezaubernde Welt von Kleine Katzen Angeln, wo entzückende Katzenfreunde in strategischen Angelherausforderungen wetteifern. Beherrsche verschiedene Angeltechniken und sammle seltene Fänge!</p>`
       },
       fr: {
-        title: 'Dragon Ball Duel : Une Nouvelle Ère de Combat Dragon Ball Vous Attend',
-        description: 'Découvrez la prochaine évolution du combat Dragon Ball avec des batailles intenses en temps réel et un gameplay stratégique',
-        story: `<p>Dragon Ball Duel révolutionne le genre du jeu de combat en combinant l'action classique de Dragon Ball avec des mécaniques innovantes intégrées au streaming. Les joueurs peuvent renforcer leurs personnages préférés grâce au soutien des spectateurs et déchaîner des combinaisons dévastatrices dans des batailles épiques.</p>`
+        title: "Petits Chats Pêcheurs : Tirer, Rivaliser et Conquérir !",
+        description: "Rejoignez des chats mignons dans une adorable compétition de pêche où l'habileté rencontre la stratégie",
+        story: `<p>Plongez dans le monde charmant des Petits Chats Pêcheurs, où d'adorables amis félins s'affrontent dans des défis de pêche stratégiques. Maîtrisez différentes techniques de pêche et collectez des prises rares !</p>`
       },
       ru: {
-        title: 'Dragon Ball Дуэль: Новая Эра Сражений Dragon Ball Ждёт',
-        description: 'Испытайте следующую эволюцию сражений Dragon Ball с интенсивными битвами в реальном времени и стратегическим геймплеем',
-        story: `<p>Dragon Ball Дуэль революционизирует жанр файтингов, сочетая классическое действие Dragon Ball с инновационными механиками, интегрированными в стрим. Игроки могут усиливать своих любимых персонажей благодаря поддержке зрителей и выпускать разрушительные комбинации в эпических битвах.</p>`
+        title: "Котята на Рыбалке: Тяни, Соревнуйся и Побеждай!",
+        description: "Присоединяйтесь к милым котятам в очаровательном рыболовном соревновании, где мастерство встречается со стратегией",
+        story: `<p>Погрузитесь в очаровательный мир Котят на Рыбалке, где милые пушистые друзья соревнуются в стратегических рыболовных испытаниях. Освойте различные техники рыбалки и соберите редкие уловы!</p>`
       },
       zh: {
-        title: '龙珠对决：龙珠战斗的新纪元来临',
-        description: '体验龙珠战斗的下一次进化，享受激烈的实时战斗和策略性的游戏玩法',
-        story: `<p>龙珠对决通过将经典的龙珠动作与创新的流媒体集成机制相结合，革新了格斗游戏类型。玩家可以通过观众的支持来强化他们喜爱的角色，在史诗般的战斗中释放毁灭性的连击。</p>`
+        title: "小猫钓鱼：拉竿、竞技、制胜！",
+        description: "在这个技巧与策略并重的可爱钓鱼比赛中与萌猫一起参与",
+        story: `<p>潜入小猫钓鱼的迷人世界，可爱的猫咪朋友们在战略性钓鱼挑战中展开竞争。掌握不同的钓鱼技巧，收集稀有渔获！</p>`
       },
       ar: {
-        title: 'دراغون بول ديول: حقبة جديدة من قتال دراغون بول في انتظارك',
-        description: 'اختبر التطور التالي لقتال دراغون بول مع معارك مكثفة في الوقت الحقيقي وأسلوب لعب استراتيجي',
-        story: `<p>دراغون بول ديول يحدث ثورة في نوع ألعاب القتال من خلال الجمع بين عمل دراغون بول الكلاسيكي وآليات مبتكرة متكاملة مع البث. يمكن للاعبين تقوية شخصياتهم المفضلة من خلال دعم المشاهدين وإطلاق مجموعات مدمرة في معارك ملحمية.</p>`
+        title: "صيد القطط الصغيرة: اسحب، نافس، وانتصر!",
+        description: "انضم إلى القطط اللطيفة في منافسة صيد السمك الجذابة حيث تلتقي المهارة بالاستراتيجية",
+        story: `<p>اغمر نفسك في عالم صيد القطط الصغيرة الساحر، حيث يتنافس الأصدقاء القطط اللطفاء في تحديات الصيد الاستراتيجية. أتقن تقنيات الصيد المختلفة واجمع الصيد النادر!</p>`
       },
       vi: {
-        title: 'Dragon Ball Đối Đầu: Kỷ Nguyên Mới của Chiến Đấu Dragon Ball Đang Chờ Đợi',
-        description: 'Trải nghiệm sự tiến hóa tiếp theo của Dragon Ball với các trận chiến căng thẳng theo thời gian thực và lối chơi chiến thuật',
-        story: `<p>Dragon Ball Đối Đầu cách mạng hóa thể loại game đối kháng bằng cách kết hợp hành động Dragon Ball cổ điển với cơ chế tích hợp stream sáng tạo. Người chơi có thể tăng sức mạnh cho các nhân vật yêu thích thông qua sự hỗ trợ của người xem và tung ra những combo hủy diệt trong các trận chiến hoành tráng.</p>`
+        title: "Mèo Con Câu Cá: Kéo, Thi Đấu và Chinh Phục!",
+        description: "Tham gia cùng những chú mèo dễ thương trong cuộc thi câu cá đáng yêu nơi kỹ năng gặp chiến thuật",
+        story: `<p>Đắm mình trong thế giới quyến rũ của Mèo Con Câu Cá, nơi những người bạn mèo đáng yêu cạnh tranh trong các thử thách câu cá chiến lược. Làm chủ các kỹ thuật câu cá khác nhau và thu thập những mẻ câu hiếm!</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 10 64-bit',
-        processor: 'Intel Core i5-4460 or AMD FX-8350',
-        memory: '8 GB RAM'
+        os: "Android 5.0 or iOS 11.0",
+        processor: "1.5 GHz Quad-core",
+        memory: "2 GB RAM"
       },
       recommended: {
-        os: 'Windows 10/11 64-bit',
-        processor: 'Intel Core i7-8700 or AMD Ryzen 5 3600',
-        memory: '16 GB RAM'
+        os: "Android 8.0 or iOS 13.0",
+        processor: "2.0 GHz Octa-core",
+        memory: "4 GB RAM"
       }
     }
   },
   {
     id: 11,
-    title: 'Elves Battle: Command the Chaos of Your TikTok Live',
-    imageUrl: '/assets/Elves Battle_ Command the Chaos of Your TikTok Live.jpg',
-    description: 'Lead your elven forces to victory in this interactive streaming battle game',
-    platform: 'PC',
+    title: "Mars Colliding with Earth 2: Stream. Battle. Conquer Worlds",
+    imageUrl: "/assets/Mars Colliding with Earth 2_ Stream. Battle. Conquer Worlds.jpg",
+    description: "Lead your faction in an interplanetary war where Earth and Mars collide",
+    platform: "PC",
     translations: {
       en: {
-        title: 'Elves Battle: Command the Chaos of Your TikTok Live',
-        description: 'Lead your elven forces to victory in this interactive streaming battle game',
-        story: `<p>Elves Battle transforms your TikTok live stream into an epic battlefield where viewers can summon magical creatures, cast spells, and influence the outcome of mystical conflicts in real-time.</p>`
+        title: "Mars Colliding with Earth 2: Stream. Battle. Conquer Worlds",
+        description: "Lead your faction in an interplanetary war where Earth and Mars collide",
+        story: `<p>In this epic sequel, command your forces in a war that spans two planets. Use advanced technology and strategic warfare to determine the fate of both worlds.</p>`
       },
       de: {
-        title: 'Elfenschlacht: Beherrsche das Chaos deines TikTok Live',
-        description: 'Führe deine Elfenstreitkräfte in diesem interaktiven Streaming-Kampfspiel zum Sieg',
-        story: `<p>Elfenschlacht verwandelt deinen TikTok-Livestream in ein episches Schlachtfeld, wo Zuschauer magische Kreaturen beschwören, Zauber wirken und den Ausgang mystischer Konflikte in Echtzeit beeinflussen können.</p>`
+        title: "Mars kollidiert mit der Erde 2: Streamen. Kämpfen. Welten erobern",
+        description: "Führe deine Fraktion in einem interplanetaren Krieg, in dem Erde und Mars aufeinanderprallen",
+        story: `<p>In dieser epischen Fortsetzung befehligst du deine Streitkräfte in einem Krieg, der sich über zwei Planeten erstreckt. Nutze fortschrittliche Technologie und strategische Kriegsführung, um das Schicksal beider Welten zu bestimmen.</p>`
       },
       fr: {
-        title: 'Bataille des Elfes : Maîtrisez le Chaos de Votre TikTok Live',
-        description: 'Menez vos forces elfiques à la victoire dans ce jeu de bataille en streaming interactif',
-        story: `<p>Bataille des Elfes transforme votre stream TikTok en direct en un champ de bataille épique où les spectateurs peuvent invoquer des créatures magiques, lancer des sorts et influencer l'issue des conflits mystiques en temps réel.</p>`
+        title: "Mars entre en collision avec la Terre 2 : Stream. Combat. Conquête des Mondes",
+        description: "Dirigez votre faction dans une guerre interplanétaire où la Terre et Mars s'affrontent",
+        story: `<p>Dans cette suite épique, commandez vos forces dans une guerre qui s'étend sur deux planètes. Utilisez la technologie avancée et la guerre stratégique pour déterminer le destin des deux mondes.</p>`
       },
       ru: {
-        title: 'Битва Эльфов: Управляй Хаосом Твоего TikTok Live',
-        description: 'Веди свои эльфийские войска к победе в этой интерактивной стриминговой боевой игре',
-        story: `<p>Битва Эльфов превращает твою прямую трансляцию в TikTok в эпическое поле битвы, где зрители могут призывать магических существ, творить заклинания и влиять на исход мистических конфликтов в реальном времени.</p>`
+        title: "Столкновение Марса с Землей 2: Стрим. Битва. Завоевание Миров",
+        description: "Возглавьте свою фракцию в межпланетной войне, где сталкиваются Земля и Марс",
+        story: `<p>В этом эпическом продолжении командуйте своими силами в войне, охватывающей две планеты. Используйте передовые технологии и стратегическую войну, чтобы определить судьбу обоих миров.</p>`
       },
       zh: {
-        title: '精灵战争：掌控你的TikTok直播混战',
-        description: '在这款互动式流媒体战斗游戏中带领你的精灵部队走向胜利',
-        story: `<p>精灵战争将你的TikTok直播转变为一个史诗般的战场，观众可以召唤魔法生物，施放法术，并实时影响神秘冲突的结果。</p>`
+        title: "火星撞地球2：直播·战斗·征服世界",
+        description: "在地球与火星碰撞的星际战争中领导你的阵营",
+        story: `<p>在这部史诗续作中，指挥你的部队参与跨越两个星球的战争。运用先进技术和战略战争来决定两个世界的命运。</p>`
       },
       ar: {
-        title: 'معركة الجن: تحكم في فوضى بث TikTok المباشر',
-        description: 'قد قواتك من الجن إلى النصر في هذه اللعبة القتالية التفاعلية عبر البث المباشر',
-        story: `<p>معركة الجن تحول بثك المباشر على TikTok إلى ساحة معركة ملحمية حيث يمكن للمشاهدين استدعاء المخلوقات السحرية، وإلقاء التعاويذ، والتأثير على نتائج الصراعات الغامضة في الوقت الفعلي.</p>`
+        title: "اصطدام المريخ بالأرض 2: بث. معركة. غزو العوالم",
+        description: "قُد فصيلتك في حرب بين الكواكب حيث تصطدم الأرض والمريخ",
+        story: `<p>في هذا الجزء الملحمي، قُد قواتك في حرب تمتد عبر كوكبين. استخدم التكنولوجيا المتقدمة والحرب الاستراتيجية لتحديد مصير العالمين.</p>`
       },
       vi: {
-        title: 'Trận Chiến Tiên Tộc: Chỉ Huy Hỗn Loạn Trên TikTok Live Của Bạn',
-        description: 'Dẫn dắt lực lượng tiên tộc của bạn đến chiến thắng trong trò chơi chiến đấu phát trực tiếp tương tác này',
-        story: `<p>Trận Chiến Tiên Tộc biến luồng TikTok trực tiếp của bạn thành chiến trường hoành tráng, nơi người xem có thể triệu hồi sinh vật ma thuật, thi triển phép thuật và ảnh hưởng đến kết quả của các cuộc xung đột huyền bí theo thời gian thực.</p>`
+        title: "Sao Hỏa Va Chạm Trái Đất 2: Stream. Chiến Đấu. Chinh Phục Thế Giới",
+        description: "Lãnh đạo phe phái của bạn trong cuộc chiến liên hành tinh nơi Trái Đất và Sao Hỏa va chạm",
+        story: `<p>Trong phần tiếp theo hoành tráng này, chỉ huy lực lượng của bạn trong cuộc chiến trải dài hai hành tinh. Sử dụng công nghệ tiên tiến và chiến tranh chiến lược để quyết định số phận của cả hai thế giới.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 10 64-bit',
-        processor: 'Intel Core i5-6500 or AMD Ryzen 3 1300X',
-        memory: '8 GB RAM'
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i5-8400 or AMD Ryzen 5 2600",
+        memory: "12 GB RAM"
       },
       recommended: {
-        os: 'Windows 10/11 64-bit',
-        processor: 'Intel Core i7-8700K or AMD Ryzen 5 3600X',
-        memory: '16 GB RAM'
+        os: "Windows 10/11 64-bit",
+        processor: "Intel Core i7-9700K or AMD Ryzen 7 3700X",
+        memory: "16 GB RAM"
       }
     }
   },
   {
     id: 12,
-    title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
-    imageUrl: '/assets/Farm Field_ Grow Big. Harvest More. Build Your Legacy.jpg',
-    description: 'Create and manage your dream farm in this relaxing yet engaging farming simulation',
-    platform: 'PC',
+    title: "Martial Duel II: The King's Invasion",
+    imageUrl: "/assets/Martial Duel II_ The King_s Invasion.jpg",
+    description: "Master ancient martial arts in this intense fighting game sequel",
+    platform: "PC",
     translations: {
       en: {
-        title: 'Farm Field: Grow Big. Harvest More. Build Your Legacy.',
-        description: 'Create and manage your dream farm in this relaxing yet engaging farming simulation',
-        story: `<p>Farm Field is a peaceful farming simulation where players can build and expand their agricultural empire. Plant crops, raise livestock, and interact with a vibrant community of farmers and traders.</p>`
+        title: "Martial Duel II: The King's Invasion",
+        description: "Master ancient martial arts in this intense fighting game sequel",
+        story: `<p>Return to the world of martial arts mastery in this epic sequel. Face new challenges as you defend your realm against the invading King's forces using traditional combat techniques.</p>`
       },
       de: {
-        title: 'Bauernhof: Wachse. Ernte Mehr. Baue Dein Vermächtnis.',
-        description: 'Erschaffe und verwalte deinen Traumbauernhof in dieser entspannenden aber fesselnden Farming-Simulation',
-        story: `<p>Bauernhof ist eine friedliche Farming-Simulation, in der Spieler ihr landwirtschaftliches Imperium aufbauen und erweitern können. Pflanze Feldfrüchte an, züchte Vieh und interagiere mit einer lebendigen Gemeinschaft von Bauern und Händlern.</p>`
+        title: "Kampfkunst-Duell II: Die Invasion des Königs",
+        description: "Meistere alte Kampfkünste in dieser intensiven Kampfspiel-Fortsetzung",
+        story: `<p>Kehre zurück in die Welt der Kampfkunst-Meisterschaft in dieser epischen Fortsetzung. Stelle dich neuen Herausforderungen, während du dein Reich mit traditionellen Kampftechniken gegen die eindringenden Streitkräfte des Königs verteidigst.</p>`
       },
       fr: {
-        title: 'Champ Agricole : Grandissez. Récoltez Plus. Bâtissez Votre Héritage.',
-        description: 'Créez et gérez votre ferme de rêve dans cette simulation agricole relaxante mais captivante',
-        story: `<p>Champ Agricole est une simulation agricole paisible où les joueurs peuvent construire et étendre leur empire agricole. Plantez des cultures, élevez du bétail et interagissez avec une communauté dynamique d'agriculteurs et de commerçants.</p>`
+        title: "Duel Martial II : L'Invasion du Roi",
+        description: "Maîtrisez les arts martiaux anciens dans cette suite intense de jeu de combat",
+        story: `<p>Retournez dans le monde de la maîtrise des arts martiaux dans cette suite épique. Affrontez de nouveaux défis en défendant votre royaume contre les forces envahissantes du Roi en utilisant des techniques de combat traditionnelles.</p>`
       },
       ru: {
-        title: 'Фермерское Поле: Расти. Собирай Больше. Создавай Наследие.',
-        description: 'Создайте и управляйте фермой своей мечты в этой расслабляющей, но увлекательной фермерской симуляции',
-        story: `<p>Фермерское Поле - это мирная фермерская симуляция, где игроки могут построить и расширить свою сельскохозяйственную империю. Выращивайте культуры, разводите скот и взаимодействуйте с живым сообществом фермеров и торговцев.</p>`
+        title: "Боевая Дуэль II: Вторжение Короля",
+        description: "Овладейте древними боевыми искусствами в этом напряженном продолжении файтинга",
+        story: `<p>Вернитесь в мир мастерства боевых искусств в этом эпическом продолжении. Встречайте новые вызовы, защищая свое царство от вторгающихся сил Короля, используя традиционные техники боя.</p>`
       },
       zh: {
-        title: '农场天地：成长、收获、建立传奇',
-        description: '在这款轻松但引人入胜的农场模拟游戏中创建和管理你梦想中的农场',
-        story: `<p>农场天地是一款平和的农场模拟游戏，玩家可以建立和扩展他们的农业帝国。种植农作物，饲养牲畜，与充满活力的农民和商人社区互动。</p>`
+        title: "武术对决II：王者入侵",
+        description: "在这款激烈的格斗游戏续作中掌握古代武术",
+        story: `<p>在这部史诗续作中重返武术大师的世界。使用传统战斗技巧面对新的挑战，抵御入侵的王者军队。</p>`
       },
       ar: {
-        title: 'حقل المزرعة: انمُ. احصد أكثر. ابنِ إرثك.',
-        description: 'أنشئ وأدر مزرعة أحلامك في هذه المحاكاة الزراعية المريحة والممتعة',
-        story: `<p>حقل المزرعة هو محاكاة زراعية هادئة حيث يمكن للاعبين بناء وتوسيع إمبراطوريتهم الزراعية. ازرع المحاصيل، وربِّ الماشية، وتفاعل مع مجتمع نابض بالحياة من المزارعين والتجار.</p>`
+        title: "المبارزة القتالية 2: غزو الملك",
+        description: "أتقن فنون القتال القديمة في هذه النسخة المكثفة من لعبة القتال",
+        story: `<p>عُد إلى عالم إتقان فنون القتال في هذا الجزء الملحمي. واجه تحديات جديدة أثناء دفاعك عن مملكتك ضد قوات الملك الغازية باستخدام تقنيات القتال التقليدية.</p>`
       },
       vi: {
-        title: 'Đồng Ruộng: Phát Triển. Thu Hoạch Nhiều Hơn. Xây Dựng Di Sản.',
-        description: 'Tạo và quản lý trang trại trong mơ của bạn trong trò chơi mô phỏng nông trại thư giãn nhưng hấp dẫn này',
-        story: `<p>Đồng Ruộng là một trò chơi mô phỏng nông trại yên bình nơi người chơi có thể xây dựng và mở rộng đế chế nông nghiệp của họ. Trồng cây, nuôi gia súc và tương tác với cộng đồng nông dân và thương nhân sôi động.</p>`
+        title: "Quyết Đấu Võ Thuật II: Cuộc Xâm Lược của Nhà Vua",
+        description: "Làm chủ võ thuật cổ xưa trong phần tiếp theo của trò chơi đối kháng gay cấn này",
+        story: `<p>Trở lại thế giới của bậc thầy võ thuật trong phần tiếp theo hoành tráng này. Đối mặt với những thách thức mới khi bạn bảo vệ vương quốc của mình chống lại lực lượng xâm lược của Nhà Vua bằng các kỹ thuật chiến đấu truyền thống.</p>`
       }
     },
     systemRequirements: {
       minimum: {
-        os: 'Windows 7/8/10',
-        processor: 'Intel Core i3-2100 or AMD FX-4300',
-        memory: '4 GB RAM'
+        os: "Windows 7/8/10 64-bit",
+        processor: "Intel Core i5-4460 or AMD FX-6300",
+        memory: "8 GB RAM"
       },
       recommended: {
-        os: 'Windows 10',
-        processor: 'Intel Core i5-4590 or AMD Ryzen 3 1200',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 13,
-    title: 'Firepower Clash: Real-Time Faction Battle Game',
-    imageUrl: '/assets/Firepower Clash_ Real-Time Faction Battle Game.jpg',
-    description: 'Command your forces in intense real-time battles where every decision counts',
-    platform: 'PC',
-    translations: {
-      en: {
-        title: 'Firepower Clash: Real-Time Faction Battle Game',
-        description: 'Command your forces in intense real-time battles where every decision counts',
-        story: `<p>Firepower Clash puts you in command of elite military forces in a high-stakes battle arena. Coordinate with your team, deploy strategic assets, and dominate the battlefield in this intense real-time combat experience.</p>`
-      },
-      de: {
-        title: 'Feuerkraft Konflikt: Echtzeit-Fraktionsschlacht',
-        
-        description: 'Befehlige deine Streitkräfte in intensiven Echtzeit-Schlachten, in denen jede Entscheidung zählt',
-        story: `<p>Feuerkraft Konflikt stellt dich an die Spitze von Elite-Militäreinheiten in einer Kampfarena mit hohem Einsatz. Koordiniere mit deinem Team, setze strategische Ressourcen ein und dominiere das Schlachtfeld in diesem intensiven Echtzeit-Kampferlebnis.</p>`
-      },
-      fr: {
-        title: 'Conflit de Puissance de Feu : Jeu de Bataille de Faction en Temps Réel',
-        description: 'Commandez vos forces dans des batailles intenses en temps réel où chaque décision compte',
-        story: `<p>Conflit de Puissance de Feu vous met aux commandes de forces militaires d'élite dans une arène de bataille à haut enjeu. Coordonnez-vous avec votre équipe, déployez des atouts stratégiques et dominez le champ de bataille dans cette intense expérience de combat en temps réel.</p>`
-      },
-      ru: {
-        title: 'Столкновение Огневой Мощи: Фракционная Битва в Реальном Времени',
-        description: 'Командуйте своими силами в интенсивных сражениях в реальном времени, где каждое решение имеет значение',
-        story: `<p>Столкновение Огневой Мощи ставит вас во главе элитных военных сил на арене боевых действий с высокими ставками. Координируйте действия с командой, развертывайте стратегические активы и доминируйте на поле боя в этом интенсивном боевом опыте в реальном времени.</p>`
-      },
-      zh: {
-        title: '火力冲突：实时派系战斗游戏',
-        description: '在激烈的实时战斗中指挥你的部队，每个决定都至关重要',
-        story: `<p>火力冲突让你指挥精英军事力量在高风险的战斗竞技场中作战。在这个激烈的实时战斗体验中，与你的团队协调，部署战略资产，主宰战场。</p>`
-      },
-      ar: {
-        title: 'صراع القوة النارية: لعبة معارك الفصائل في الوقت الحقيقي',
-        description: 'قُد قواتك في معارك مكثفة في الوقت الحقيقي حيث كل قرار مهم',
-        story: `<p>صراع القوة النارية يضعك في قيادة القوات العسكرية النخبة في ساحة معركة عالية المخاطر. نسق مع فريقك، انشر الأصول الاستراتيجية، وسيطر على ساحة المعركة في هذه التجربة القتالية المكثفة في الوقت الحقيقي.</p>`
-      },
-      vi: {
-        title: 'Đụng Độ Hỏa Lực: Trò Chơi Chiến Đấu Phe Phái Thời Gian Thực',
-        description: 'Chỉ huy lực lượng của bạn trong các trận chiến căng thẳng thời gian thực, nơi mọi quyết định đều quan trọng',
-        story: `<p>Đụng Độ Hỏa Lực đặt bạn vào vị trí chỉ huy các lực lượng quân sự tinh nhuệ trong đấu trường chiến đấu căng thẳng. Phối hợp với đội của bạn, triển khai các tài sản chiến lược và thống trị chiến trường trong trải nghiệm chiến đấu thời gian thực căng thẳng này.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 10 64-bit',
-        processor: 'Intel Core i5-6600K or AMD Ryzen 5 1600',
-        memory: '8 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10/11 64-bit',
-        processor: 'Intel Core i7-9700K or AMD Ryzen 7 3700X',
-        memory: '16 GB RAM'
-      }
-    }
-  },
-  {
-    id: 14,
-    title: 'Honor of Kings: Command Legends. Conquer the Arena.',
-    imageUrl: '/assets/Honor of Kings_ Command Legends. Conquer the Arena.jpg',
-    description: 'Lead legendary heroes in epic battles where strategy meets skill',
-    platform: 'Mobile',
-    translations: {
-      en: {
-        title: 'Honor of Kings: Command Legends. Conquer the Arena.',
-        description: 'Lead legendary heroes in epic battles where strategy meets skill',
-        story: `<p>Honor of Kings brings the classic MOBA experience to mobile with a unique twist. Command legendary heroes, coordinate with teammates, and dominate the battlefield in this fast-paced strategic combat game.</p>`
-      },
-      de: {
-        title: 'Ehre der Könige: Befehlige Legenden. Erobere die Arena.',
-        description: 'Führe legendäre Helden in epischen Schlachten, wo Strategie auf Können trifft',
-        story: `<p>Ehre der Könige bringt das klassische MOBA-Erlebnis mit einer einzigartigen Wendung auf Mobile. Befehlige legendäre Helden, koordiniere mit Teamkollegen und dominiere das Schlachtfeld in diesem schnellen strategischen Kampfspiel.</p>`
-      },
-      fr: {
-        title: 'Honneur des Rois : Commandez les Légendes. Conquérez l\'Arène.',
-        description: 'Dirigez des héros légendaires dans des batailles épiques où stratégie et compétence se rencontrent',
-        story: `<p>Honneur des Rois apporte l'expérience MOBA classique sur mobile avec une touche unique. Commandez des héros légendaires, coordonnez-vous avec vos coéquipiers et dominez le champ de bataille dans ce jeu de combat stratégique rapide.</p>`
-      },
-      ru: {
-        title: 'Честь Королей: Командуй Легендами. Покори Арену.',
-        description: 'Веди легендарных героев в эпических битвах, где стратегия встречается с мастерством',
-        story: `<p>Честь Королей привносит классический опыт MOBA на мобильные устройства с уникальным поворотом. Командуй легендарными героями, координируй действия с товарищами по команде и доминируй на поле боя в этой быстрой стратегической боевой игре.</p>`
-      },
-      zh: {
-        title: '王者荣耀：指挥传奇。征服竞技场。',
-        description: '在战略与技巧相遇的史诗战斗中领导传奇英雄',
-        story: `<p>王者荣耀以独特的方式将经典MOBA体验带到移动设备。在这款快节奏的战略战斗游戏中指挥传奇英雄，与队友协调，主宰战场。</p>`
-      },
-      ar: {
-        title: 'شرف الملوك: قيادة الأساطير. احتلال الساحة.',
-        description: 'قد الأبطال الأسطوريين في معارك ملحمية حيث تلتقي الاستراتيجية بالمهارة',
-        story: `<p>شرف الملوك يجلب تجربة موبا الكلاسيكية إلى الهاتف المحمول مع لمسة فريدة. قد الأبطال الأسطوريين، نسق مع زملائك في الفريق، وسيطر على ساحة المعركة في هذه اللعبة القتالية الاستراتيجية سريعة الوتيرة.</p>`
-      },
-      vi: {
-        title: 'Vinh Quang Đế Vương: Chỉ Huy Huyền Thoại. Chinh Phục Đấu Trường.',
-        description: 'Lãnh đạo các anh hùng huyền thoại trong những trận chiến hoành tráng nơi chiến lược gặp kỹ năng',
-        story: `<p>Vinh Quang Đế Vương mang trải nghiệm MOBA cổ điển lên di động với một twist độc đáo. Chỉ huy các anh hùng huyền thoại, phối hợp với đồng đội và thống trị chiến trường trong trò chơi chiến đấu chiến thuật nhịp độ nhanh này.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Android 5.0 or iOS 11.0',
-        processor: 'Quad-core 1.2 GHz',
-        memory: '2 GB RAM'
-      },
-      recommended: {
-        os: 'Android 8.0 or iOS 13.0',
-        processor: 'Octa-core 2.0 GHz',
-        memory: '4 GB RAM'
-      }
-    }
-  },
-  {
-    id: 15,
-    title: 'Island Rush: Livestream Tower Defense Chaos',
-    imageUrl: '/assets/Island Rush_ Livestream Tower Defense Chaos.jpg',
-    description: 'Defend your island paradise in this chaotic tower defense game where viewers control the waves',
-    platform: 'PC',
-    translations: {
-      en: {
-        title: 'Island Rush: Livestream Tower Defense Chaos',
-        description: 'Defend your island paradise in this chaotic tower defense game where viewers control the waves',
-        story: `<p>Island Rush revolutionizes tower defense by putting viewers in control of the enemy waves. Build your defenses and adapt to the chaos as your audience sends increasingly challenging waves of attackers.</p>`
-      },
-      de: {
-        title: 'Inselansturm: Livestream Turmverteidigung Chaos',
-        description: 'Verteidige dein Inselparadies in diesem chaotischen Turmverteidigungsspiel, in dem Zuschauer die Wellen kontrollieren',
-        story: `<p>Inselansturm revolutioniert Turmverteidigung, indem es den Zuschauern die Kontrolle über die Angriffswellen gibt. Baue deine Verteidigung auf und passe dich dem Chaos an, während dein Publikum zunehmend herausfordernde Angriffswellen sendet.</p>`
-      },
-      fr: {
-        title: 'Ruée vers l\'Île : Chaos de Défense de Tours en Direct',
-        description: 'Défendez votre paradis insulaire dans ce jeu chaotique de défense de tours où les spectateurs contrôlent les vagues',
-        story: `<p>Ruée vers l'Île révolutionne la défense de tours en donnant aux spectateurs le contrôle des vagues ennemies. Construisez vos défenses et adaptez-vous au chaos pendant que votre public envoie des vagues d'attaquants de plus en plus difficiles.</p>`
-      },
-      ru: {
-        title: 'Островной Натиск: Хаос Башенной Обороны в Прямом Эфире',
-        description: 'Защищайте свой райский остров в этой хаотичной игре в жанре tower defense, где зрители управляют волнами',
-        story: `<p>Островной Натиск революционизирует башенную оборону, передавая зрителям контроль над волнами противников. Стройте свою защиту и приспосабливайтесь к хаосу, пока ваша аудитория посылает всё более сложные волны атакующих.</p>`
-      },
-      zh: {
-        title: '岛屿冲锋：直播塔防混战',
-        description: '在这款混乱的塔防游戏中保卫你的岛屿天堂，观众控制进攻波次',
-        story: `<p>岛屿冲锋通过让观众控制敌人波次革新了塔防游戏。建立你的防御并适应混乱，因为你的观众会发送越来越具有挑战性的攻击者波次。</p>`
-      },
-      ar: {
-        title: 'اندفاع الجزيرة: فوضى دفاع الأبراج المباشر',
-        description: 'دافع عن جنتك الجزيرية في هذه اللعبة الفوضوية للدفاع عن الأبراج حيث يتحكم المشاهدون في الموجات',
-        story: `<p>اندفاع الجزيرة يحدث ثورة في دفاع الأبراج من خلال وضع المشاهدين في التحكم بموجات العدو. ابنِ دفاعاتك وتكيف مع الفوضى بينما يرسل جمهورك موجات متزايدة التحدي من المهاجمين.</p>`
-      },
-      vi: {
-        title: 'Đột Kích Đảo: Hỗn Loạn Phòng Thủ Tháp Trực Tiếp',
-        description: 'Bảo vệ thiên đường đảo của bạn trong trò chơi phòng thủ tháp hỗn loạn này, nơi người xem kiểm soát các đợt tấn công',
-        story: `<p>Đột Kích Đảo cách mạng hóa thể loại phòng thủ tháp bằng cách để người xem kiểm soát các đợt tấn công của kẻ thù. Xây dựng phòng thủ của bạn và thích ứng với hỗn loạn khi khán giả gửi các đợt tấn công ngày càng thách thức.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 7/8/10',
-        processor: 'Intel Core i3-3220 or AMD FX-4350',
-        memory: '4 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10',
-        processor: 'Intel Core i5-6600 or AMD Ryzen 5 1600',
-        memory: '8 GB RAM'
-      }
-    }
-  },
-  {
-    id: 16,
-    title: 'Jianghu Duel: The Battle for the Maiden and the Land',
-    imageUrl: '/assets/Jianghu Duel_ The Battle for the Maiden and the Land.jpg',
-    description: 'Experience ancient Chinese martial arts in this intense PvP combat game',
-    platform: 'PC',
-    translations: {
-      en: {
-        title: 'Jianghu Duel: The Battle for the Maiden and the Land',
-        description: 'Experience ancient Chinese martial arts in this intense PvP combat game',
-        story: `<p>Jianghu Duel immerses players in a world of ancient Chinese martial arts, where skilled warriors compete for honor and glory. Master various fighting styles, execute powerful combos, and become a legend in the martial arts world.</p>`
-      },
-      de: {
-        title: 'Jianghu Duell: Der Kampf um die Jungfrau und das Land',
-        description: 'Erlebe alte chinesische Kampfkunst in diesem intensiven PvP-Kampfspiel',
-        story: `<p>Jianghu Duell taucht die Spieler in eine Welt der alten chinesischen Kampfkunst ein, wo geschickte Krieger um Ehre und Ruhm kämpfen. Meistere verschiedene Kampfstile, führe mächtige Kombos aus und werde eine Legende in der Welt der Kampfkünste.</p>`
-      },
-      fr: {
-        title: 'Duel du Jianghu : La Bataille pour la Demoiselle et la Terre',
-        description: 'Découvrez les arts martiaux chinois anciens dans ce jeu de combat PvP intense',
-        story: `<p>Duel du Jianghu plonge les joueurs dans un monde d'arts martiaux chinois anciens, où des guerriers habiles s'affrontent pour l'honneur et la gloire. Maîtrisez différents styles de combat, exécutez des combos puissants et devenez une légende dans le monde des arts martiaux.</p>`
-      },
-      ru: {
-        title: 'Дуэль Цзянху: Битва за Деву и Землю',
-        description: 'Испытайте древнее китайское боевое искусство в этой напряженной PvP боевой игре',
-        story: `<p>Дуэль Цзянху погружает игроков в мир древних китайских боевых искусств, где умелые воины соревнуются за честь и славу. Освойте различные стили боя, выполняйте мощные комбо и станьте легендой в мире боевых искусств.</p>`
-      },
-      zh: {
-        title: '江湖决斗：少女与土地之战',
-        description: '在这款激烈的PvP格斗游戏中体验中国古代武术',
-        story: `<p>江湖决斗将玩家沉浸在中国古代武术的世界中，熟练的武士为荣誉和荣耀而战。掌握各种战斗风格，执行强大的连击，成为武术世界的传奇。</p>`
-      },
-      ar: {
-        title: 'مبارزة جيانغهو: معركة العذراء والأرض',
-        description: 'اختبر فنون القتال الصينية القديمة في هذه اللعبة القتالية PvP المكثفة',
-        story: `<p>مبارزة جيانغهو تغمر اللاعبين في عالم فنون القتال الصينية القديمة، حيث يتنافس المحاربون المهرة من أجل الشرف والمجد. أتقن أساليب القتال المختلفة، نفذ مجموعات قوية، وأصبح أسطورة في عالم فنون القتال.</p>`
-      },
-      vi: {
-        title: 'Quyết Đấu Giang Hồ: Trận Chiến Vì Giai Nhân và Giang Sơn',
-        description: 'Trải nghiệm võ thuật Trung Hoa cổ đại trong trò chơi chiến đấu PvP căng thẳng này',
-        story: `<p>Quyết Đấu Giang Hồ đưa người chơi vào thế giới võ thuật Trung Hoa cổ đại, nơi các chiến binh thiện nghệ tranh đấu vì danh dự và vinh quang. Làm chủ các phong cách chiến đấu khác nhau, thực hiện các combo mạnh mẽ và trở thành huyền thoại trong thế giới võ thuật.</p>`
-      }
-    },
-    systemRequirements: {
-      minimum: {
-        os: 'Windows 10 64-bit',
-        processor: 'Intel Core i5-4460 or AMD FX-6300',
-        memory: '8 GB RAM'
-      },
-      recommended: {
-        os: 'Windows 10/11 64-bit',
-        processor: 'Intel Core i7-7700K or AMD Ryzen 5 2600X',
-        memory: '16 GB RAM'
+        os: "Windows 10 64-bit",
+        processor: "Intel Core i7-7700 or AMD Ryzen 5 1600",
+        memory: "16 GB RAM"
       }
     }
   }
