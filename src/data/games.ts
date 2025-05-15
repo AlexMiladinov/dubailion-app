@@ -616,5 +616,117 @@ export const games: Game[] = [
         memory: '4 GB RAM'
       }
     }
+  },
+  {
+    id: 12,
+    title: 'Firepower Clash',
+    imageUrl: '/assets/Firepower Clash_ Real-Time Faction Battle Game.jpg',
+    description: 'Command powerful armies in intense real-time faction warfare',
+    platform: 'PC',
+    translations: {
+      en: {
+        title: 'Firepower Clash',
+        description: 'Command powerful armies in intense real-time faction warfare',
+        story: `<p>Firepower Clash throws you into the heart of epic battles where strategy meets raw power. Lead your faction to victory through tactical decisions and masterful unit control.</p>`
+      },
+      de: {
+        title: 'Feuerkraft Konflikt',
+        description: 'Befehlige mächtige Armeen in intensiven Echtzeit-Fraktionskämpfen',
+        story: `<p>Feuerkraft Konflikt wirft dich mitten in epische Schlachten, wo Strategie auf pure Kraft trifft. Führe deine Fraktion durch taktische Entscheidungen und meisterhafte Einheitenkontrolle zum Sieg.</p>`
+      },
+      fr: {
+        title: 'Conflit de Puissance de Feu',
+        description: 'Commandez des armées puissantes dans une guerre de factions intense en temps réel',
+        story: `<p>Conflit de Puissance de Feu vous plonge au cœur de batailles épiques où la stratégie rencontre la puissance brute. Menez votre faction à la victoire grâce à des décisions tactiques et un contrôle magistral des unités.</p>`
+      },
+      ru: {
+        title: 'Столкновение Огневой Мощи',
+        description: 'Командуйте могущественными армиями в интенсивных сражениях фракций в реальном времени',
+        story: `<p>Столкновение Огневой Мощи бросает вас в эпицентр эпических сражений, где стратегия встречается с чистой силой. Ведите свою фракцию к победе через тактические решения и мастерское управление отрядами.</p>`
+      },
+      zh: {
+        title: '火力冲突',
+        description: '在激烈的实时阵营战争中指挥强大军队',
+        story: `<p>火力冲突将你投入史诗般的战斗中心，战略与原始力量在此相遇。通过战术决策和精湛的单位控制带领你的阵营走向胜利。</p>`
+      },
+      ar: {
+        title: 'صراع القوة النارية',
+        description: 'قيادة الجيوش القوية في حرب الفصائل المكثفة في الوقت الفعلي',
+        story: `<p>صراع القوة النارية يلقي بك في قلب المعارك الملحمية حيث تلتقي الاستراتيجية بالقوة الخام. قد فصيلتك إلى النصر من خلال القرارات التكتيكية والتحكم المتقن بالوحدات.</p>`
+      },
+      vi: {
+        title: 'Đụng Độ Hỏa Lực',
+        description: 'Chỉ huy những đội quân hùng mạnh trong chiến tranh phe phái thời gian thực căng thẳng',
+        story: `<p>Đụng Độ Hỏa Lực ném bạn vào trung tâm của những trận chiến hoành tráng nơi chiến thuật gặp gỡ sức mạnh thuần túy. Dẫn dắt phe phái của bạn đến chiến thắng thông qua các quyết định chiến thuật và kiểm soát đơn vị điêu luyện.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Windows 10 64-bit',
+        processor: 'Intel Core i5-4460 or AMD FX-8350',
+        memory: '8 GB RAM'
+      },
+      recommended: {
+        os: 'Windows 10/11 64-bit',
+        processor: 'Intel Core i7-8700K or AMD Ryzen 7 2700X',
+        memory: '16 GB RAM'
+      }
+    }
+  },
+  {
+    id: 13,
+    title: 'Honor of Kings',
+    imageUrl: '/assets/Honor of Kings_ Command Legends. Conquer the Arena.jpg',
+    description: 'Lead legendary heroes in epic 5v5 arena battles',
+    platform: 'Mobile',
+    translations: {
+      en: {
+        title: 'Honor of Kings',
+        description: 'Lead legendary heroes in epic 5v5 arena battles',
+        story: `<p>Honor of Kings brings together the greatest heroes from history and mythology in intense 5v5 MOBA combat. Master unique abilities, forge powerful alliances, and dominate the battlefield.</p>`
+      },
+      de: {
+        title: 'Ehre der Könige',
+        description: 'Führe legendäre Helden in epischen 5v5 Arena-Kämpfen',
+        story: `<p>Ehre der Könige vereint die größten Helden aus Geschichte und Mythologie in intensiven 5v5 MOBA-Kämpfen. Meistere einzigartige Fähigkeiten, schmiede mächtige Allianzen und dominiere das Schlachtfeld.</p>`
+      },
+      fr: {
+        title: 'Honneur des Rois',
+        description: 'Dirigez des héros légendaires dans des batailles d\'arène épiques en 5v5',
+        story: `<p>Honneur des Rois rassemble les plus grands héros de l'histoire et de la mythologie dans des combats MOBA intenses en 5v5. Maîtrisez des capacités uniques, forgez des alliances puissantes et dominez le champ de bataille.</p>`
+      },
+      ru: {
+        title: 'Честь Королей',
+        description: 'Возглавьте легендарных героев в эпических сражениях 5на5 на арене',
+        story: `<p>Честь Королей объединяет величайших героев истории и мифологии в интенсивных 5на5 MOBA сражениях. Освойте уникальные способности, создайте мощные альянсы и доминируйте на поле боя.</p>`
+      },
+      zh: {
+        title: '王者荣耀',
+        description: '在史诗级5v5竞技场战斗中率领传奇英雄',
+        story: `<p>王者荣耀将历史和神话中最伟大的英雄汇聚在激烈的5v5 MOBA战斗中。掌握独特技能，建立强大联盟，主宰战场。</p>`
+      },
+      ar: {
+        title: 'شرف الملوك',
+        description: 'قيادة الأبطال الأسطوريين في معارك الساحة الملحمية 5 ضد 5',
+        story: `<p>شرف الملوك يجمع أعظم الأبطال من التاريخ والأساطير في قتال MOBA مكثف 5 ضد 5. أتقن القدرات الفريدة، وشكل التحالفات القوية، وسيطر على ساحة المعركة.</p>`
+      },
+      vi: {
+        title: 'Vinh Quang Đế Vương',
+        description: 'Lãnh đạo những anh hùng huyền thoại trong những trận chiến đấu trường 5v5 hoành tráng',
+        story: `<p>Vinh Quang Đế Vương tập hợp những anh hùng vĩ đại nhất từ lịch sử và thần thoại trong các trận chiến MOBA 5v5 căng thẳng. Làm chủ các kỹ năng độc đáo, tạo dựng liên minh mạnh mẽ và thống trị chiến trường.</p>`
+      }
+    },
+    systemRequirements: {
+      minimum: {
+        os: 'Android 5.1 or iOS 11.0',
+        processor: 'Snapdragon 450 or equivalent',
+        memory: '2 GB RAM'
+      },
+      recommended: {
+        os: 'Android 8.0 or iOS 13.0',
+        processor: 'Snapdragon 720G or equivalent',
+        memory: '4 GB RAM'
+      }
+    }
   }
 ];
